@@ -3839,6 +3839,9 @@ section.article ul li:before {
   }
 }
 @media (max-width: 1399px) {
+  .help_card {
+    flex: 0 0 357px;
+  }
   .pricing_plan {
     flex: 0 0 260px;
     padding: 24px 18px;
@@ -3885,6 +3888,12 @@ section.article ul li:before {
 }
 
 @media (max-width: 1199px) {
+  section.article ul li {
+    font-size: 15px;
+  }
+  .help_card {
+    flex: 0 0 390px;
+}
   .pricing_plan {
     flex: 0 0 380px;
     padding: 24px;
@@ -3956,6 +3965,9 @@ section.article ul li:before {
   }
 }
 @media (max-width: 992px){
+  .help_card {
+    flex: 0 0 400px;
+}
   .pricing_plan {
     flex: 0 0 330px;
     padding: 24px;
@@ -4099,6 +4111,9 @@ section.article ul li:before {
   }
 }
 @media (max-width : 768px) {
+  .help-title {
+    font-size: 28px;
+  }
   .form-switch .active,
   .form-switch .deactive {
     font-size: 20px;
@@ -4208,6 +4223,16 @@ section.article ul li:before {
 
 
 @media (max-width: 576px) {
+  .help_card {
+    padding-left: 0;
+    flex: 0 0 300px;
+  }
+  .help_card_title {
+    text-align: center;
+  }
+  .help-title {
+    font-size: 28px;
+  }
   .plan-box {
     padding: 0 40px;
   }

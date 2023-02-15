@@ -67,7 +67,7 @@ items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
-const accordionItem = document.querySelectorAll('.accordion-item');
+const accordionItem = document.querySelectorAll('.faq .accordion-item');
 accordionItemHeaders.forEach(accordionItemHeader => {
    accordionItemHeader.addEventListener("click", event => {
     

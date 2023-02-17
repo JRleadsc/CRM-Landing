@@ -873,7 +873,73 @@
     </div>
   </div>
  </section> 
- <section class="grid grid-cols-1 pt-[80px] pb-[136px] xs:py-[50px] text-center">
+ <section class="jr_vid">
+  <div class="container">
+      <div class="row">
+       <div class="video_section">
+        <div class="content">
+
+         <div>
+          <h3 class="text-sm-start text-center">
+            معرفی لینک جینیس
+            </h3>
+            <p class="text-sm-start text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و              
+            </p>
+         </div>
+         <div class="d-lg-block d-none">
+          <a href="">
+           <button class="btn-outline">
+             بیشتر بخوانید
+           </button>
+          </a>
+          </div>
+        </div>
+        <div class="relative col_vido" id="videoMainElement45">
+            <video  class="w-100"   id="vid"
+            poster="./images/poster2.png">
+              <source src="./video/iranserver-vid.MP4" type="video/mp4">
+              <source src="./video/iranserver-vid.MP4" type="video/ogg">
+            </video>
+            <div class="isr_content_29_col_play"  id="toggle" >
+              <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.167" height="82.113" viewBox="0 0 71.167 82.113">
+                    <defs>
+                      <filter id="Path" x="0" y="0" width="71.167" height="82.113" filterUnits="userSpaceOnUse">
+                        <feOffset dy="3" input="SourceAlpha"/>
+                        <feGaussianBlur stdDeviation="3" result="blur"/>
+                        <feFlood flood-color="#201979"/>
+                        <feComposite operator="in" in2="blur"/>
+                        <feComposite in="SourceGraphic"/>
+                      </filter>
+                    </defs>
+                    <g id="play_fill" data-name="play fill" transform="translate(9 6)">
+                      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path)">
+                        <path id="Path-2" data-name="Path" d="M0,2.752v58.61A2.75,2.75,0,0,0,4.191,63.7L51.858,34.4a2.746,2.746,0,0,0,0-4.68L4.191.412A2.75,2.75,0,0,0,0,2.752Z" transform="translate(9 6)" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+              </span>
+          </div>
+        </div>
+       </div>
+          
+      </div>
+      <div class="row d-lg-none d-block pt-4">
+        <div class="col-12">
+          <div class="d-flex justify-center">
+            <a href="">
+             <button class="btn-outline">
+               بیشتر بخوانید
+             </button>
+            </a>
+            </div>
+        </div>
+      </div>
+  </div>
+
+</section>
+ <section class="grid grid-cols-1 pt-[80px] pb-[136px] xs:py-[50px] text-center bg-white">
   <div class="pb-[53px]">
     <div class="flex justify-center">
       <span>
@@ -1130,5 +1196,60 @@
 <script src="./js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/script.js"></script>
+<script>
+
+
+  document.getElementById("toggle").style.zIndex = "2";
+  document.getElementById("vid").style.zIndex = "-1";
+  var video = document.getElementById("vid");
+  video.load();
+  // video.autoplay=true;
+  
+  video.onended  = function() {
+  
+      //reset from start
+      //console.log('video ended');
+  
+      video.CurrentTime = 0;
+      video.muted=true;
+      video.load();
+   document.getElementById("toggle").style.opacity = "1";
+   document.getElementById("vid").style.zIndex = "-1";
+  };
+  // Get the button
+  
+  
+  // Pause and play the video, and change the button text
+  function myFunction() {
+      if (video.paused) {
+          video.play();
+          document.getElementById("toggle").style.opacity = "0";
+          document.getElementById("vid").style.zIndex = "0";
+          // document.getElementById("toggle").style.zIndex = "-1";
+      }    
+       else{
+             
+            document.getElementById("toggle").style.opacity = "1";
+             video.CurrentTime = 0;
+             video.load();
+             document.getElementById("vid").style.zIndex = "0";
+            //  document.getElementById("toggle").style.zIndex = "-1";
+       }
+   
+  
+  }
+  $('#videoMainElement45').on('click touch touchstart',function(e){
+      console.log('clicked');
+      e.preventDefault();
+      myFunction();
+  });
+  if($(window).width() < '576' ) {
+      console.log('576 ');
+      video.controls = true;
+      video.autoplay=false;
+      video.muted=false;
+  }
+  
+  </script>
 </body>
 </html>

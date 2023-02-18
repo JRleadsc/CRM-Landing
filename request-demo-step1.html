@@ -15,7 +15,7 @@
   <div class="bg-white relative">
       <section class="z-30 relative">
         
-        <header class="relative h-[80px]">
+        <header class="relative h-[80px] flex items-center">
           <div class="container">
            <div class="row">
             <div class="col-12">
@@ -565,7 +565,7 @@
                         پشتیبانی : ۴۴۳۱۲۲
                     </div>
                     <div class="mt-2 text-sm font-semibold text-gray-900 bg-gray-200 ml-[12px]">
-                        <button class="h-[44px] bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">
+                        <button class="btn-header btn-header h-[44px] bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">
           
                             درخواست دمو
                         </button>
@@ -632,38 +632,63 @@
     </div>
     <div class="col-xl-6 col-lg-6 flex justify-end">
       
-      <div class="form-start">
+      <div class="form-start flex flex-col justify-between">
+      <div>
         <div class="text-[24px] text-[#2C2D2E] font-bold">
-          رایگان شروع کنید 
-        </div>
-        <form action="" class="pt-[38px] ">
-          <div class="">
-            <label for="phone" class="form-label">
-              شماره همراه
+          <h2>
+           رایگان شروع کنید 
+          </h2>
+          <h2 class="d-none">
+           تاییدیه ایمیل
+          </h2>
+         </div>
+ 
+         <form action="" class="d-none pt-[38px] ">
+           <div class="">
+             <label for="phone" class="form-label">
+               شماره همراه
+               <span>*</span>
+             </label>
+             <input type="text" class="form-control" id="phone" placeholder="+98 --- --- ---">
+           </div>
+           <div class="">
+             <label for="email" class="form-label">
+              ایمیل
               <span>*</span>
-            </label>
-            <input type="text" class="form-control" id="phone" placeholder="+98 --- --- ---">
+             </label>
+             <input type="email" class="form-control" id="email" placeholder="Sample@gmail.com">
+           </div>
+           <div class="">
+             <label for="company" class="form-label">
+            نام شرکت
+            <span>*</span>
+             </label>
+             <input type="text" class="form-control" id="company" placeholder="نام شرکت خود را وارد کنید">
+           </div>
+           
+         </form>
+         <div class="content-confirm text-base text-[#6D728E] lh-lg pt-[38px]">
+           <p>
+             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+           </p>
+           <p>
+             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+           </p>
+         </div>
+      </div>
+        <div class="pt-[34px]">
+          <button class="btn-md pink-btn">
+            ارسال درخواست
+          </button>
+          <div>
+            <p class="text-[18px] text-[#2C2D2E] pt-4">
+              آیا ایمیل را دریافت نکرده اید ؟ 
+              <a href="" class="primary">
+                ارسال مجدد
+              </a>
+            </p>
           </div>
-          <div class="">
-            <label for="email" class="form-label">
-             ایمیل
-             <span>*</span>
-            </label>
-            <input type="email" class="form-control" id="email" placeholder="Sample@gmail.com">
-          </div>
-          <div class="">
-            <label for="company" class="form-label">
-           نام شرکت
-           <span>*</span>
-            </label>
-            <input type="text" class="form-control" id="company" placeholder="نام شرکت خود را وارد کنید">
-          </div>
-          <div class="pt-[34px]">
-            <button class="btn-md pink-btn">
-              ارسال درخواست
-            </button>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </div>
@@ -672,7 +697,7 @@
       <div class="mw-100 relative py-5 my-5">
       <img src="./images/picdemo.png" alt="image" class="w-100 rounded-[40px]">
         <div class="req-desc-box">
-          <div class="req-box">
+          <div class="req-box d-md-bloc d-none">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و 
           </div>
           <div class="req-contact">

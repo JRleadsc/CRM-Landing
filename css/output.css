@@ -888,7 +888,9 @@ html {
 .menu > :where(li:focus) > :where(ul) {
   display: flex;
 }
-
+.primary {
+  color: #40AAE2;
+}
 .progress {
   position: relative;
   width: 100%;
@@ -3020,12 +3022,14 @@ ul li.nav-item:not(:last-child) {
 }
 .form-start {
   width: 500px;
+  min-height: 560px;
   padding: 40px 50px;
   background: #fff;
   border-radius: 40px;
   margin-top: 10px;
   box-shadow: 6px 19px 47px 4px rgb(69 80 122 / 8%);
 }
+
 .form-start span {
   color: #E14CAB;
   padding-right: 10px;
@@ -3111,7 +3115,7 @@ ul li.nav-item:not(:last-child) {
   height: 4px;
 }
 .internal-pages .navbar-collapse {
-  top: 80px;
+  top: 70px;
 }
 .main-account {
   margin-bottom: 134px;
@@ -4008,6 +4012,10 @@ section.article ul li:before,
 }
 
 @media (min-width: 1200px) and (max-width : 1399px) {
+  .dropdown-toggle .arrow-item {
+    position: absolute;
+    left: -4px;
+}
   button.owl-prev {
     right: -45px;
   }
@@ -4133,9 +4141,9 @@ section.article ul li:before,
   }
 }
 @media (max-width: 992px){
-  .navbar {
+  /* .navbar {
     padding-top: 20px;
-  }
+  } */
   .video_section {
     flex-direction: column;
     row-gap: 50px;
@@ -4295,6 +4303,9 @@ section.article ul li:before,
   }
 }
 @media (max-width : 768px) {
+  .req-desc-box {
+    top: calc(50% - 49px);
+  }
   .help-title {
     font-size: 28px;
   }

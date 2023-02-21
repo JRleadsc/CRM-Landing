@@ -3443,7 +3443,7 @@ ul li.nav-item:not(:last-child) {
   justify-content: center;
 }
 .last-blog {
-  padding: 79px 0 100px;
+  padding: 79px 0 87px;
 }
 .last-blog .title-heading {
   padding-bottom: 70px;
@@ -4056,6 +4056,43 @@ section.article ul li:before,
   text-decoration: none;
   background-color: transparent;
 }
+.pagination {
+  display: flex;
+  padding-right: 0;
+  list-style: none;
+  align-items: center;
+  padding-right: 27px;
+}
+.page-link {
+  padding: 8px 15px;
+}
+.page-link {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  color: #2C2D2E;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #43AEE6;
+  background-color: transparent;
+  border-color: transparent;
+}
+.page-link:hover {
+  z-index: 2;
+  color: #43AEE6;
+  background-color: transparent;
+  border-color: transparent;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+
 
 /* responsive */
 @media (max-width: 1439px) {

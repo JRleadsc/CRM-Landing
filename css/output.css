@@ -4369,6 +4369,9 @@ section.contact-us-form .container {
   }
 }
 @media (max-width: 992px){
+  .contact-details p {
+    font-size: 16px;
+  }
   /* .navbar {
     padding-top: 20px;
   } */
@@ -4646,6 +4649,13 @@ section.contact-us-form .container {
 
 
 @media (max-width: 576px) {
+  .text-\[40px\] {
+    font-size: 32px !important;
+}
+  section.contact-us-form .container {
+    border-radius: 0;
+    padding: 50px 32px;
+}
   .btn-header {
     width: 106px;
     height: 40px;

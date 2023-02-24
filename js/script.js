@@ -43,28 +43,28 @@ $('.owl-carousel-videos').owlCarousel({
     }
 })
 
-const items = document.querySelectorAll('.accordion-button');
-const accrodionItems = document.getElementsByClassName('accordion-item');
+// const items = document.querySelectorAll('.accordion-button');
+// const accrodionItems = document.getElementsByClassName('accordion-item');
 
 
-function toggleAccordion() {
-    // const accrodionItems = document.getElementsByClassName('accordion-item');
-  const itemToggle = this.getAttribute('aria-expanded');
+// function toggleAccordion() {
+//     // const accrodionItems = document.getElementsByClassName('accordion-item');
+//   const itemToggle = this.getAttribute('aria-expanded');
 
-  for (i = 0; i < items.length; i++) {
-    items[i].setAttribute('aria-expanded', 'false');
+//   for (i = 0; i < items.length; i++) {
+//     items[i].setAttribute('aria-expanded', 'false');
   
-  }
+//   }
 
-  if (itemToggle == 'false') {
-    this.setAttribute('aria-expanded', 'true');
-    console.log ('tue')
-    // accrodionItems.style.borderRadius = "40px";
-    document.getElementsByClassName('accordion-item').style.borderRadius = "50px";
-  }
-}
+//   if (itemToggle == 'false') {
+//     this.setAttribute('aria-expanded', 'true');
+//     console.log ('tue')
+//     // accrodionItems.style.borderRadius = "40px";
+//     document.getElementsByClassName('accordion-item').style.borderRadius = "50px";
+//   }
+// }
 
-items.forEach((item) => item.addEventListener('click', toggleAccordion));
+// items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
 // const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");

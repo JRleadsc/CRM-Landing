@@ -67,35 +67,35 @@ function toggleAccordion() {
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
-const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
-const accordionItem = document.querySelectorAll('.faq .accordion-item');
-accordionItemHeaders.forEach(accordionItemHeader => {
-   accordionItemHeader.addEventListener("click", event => {
+// const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+// const accordionItem = document.querySelectorAll('.faq .accordion-item');
+// accordionItemHeaders.forEach(accordionItemHeader => {
+//    accordionItemHeader.addEventListener("click", event => {
 
-     accordionItemHeader.classList.toggle("active");
-     const accordionItemBody = accordionItemHeader.nextElementSibling;
-     if(accordionItemHeader.classList.contains("active")) {
+//      accordionItemHeader.classList.toggle("active");
+//      const accordionItemBody = accordionItemHeader.nextElementSibling;
+//      if(accordionItemHeader.classList.contains("active")) {
 
-      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
-      for (i = 0; i < accordionItem.length; i++) {
-        accordionItem[i].style.borderRadius = "24px";
-        console.log ('set')
+//       accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+//       for (i = 0; i < accordionItem.length; i++) {
+//         accordionItem[i].style.borderRadius = "24px";
+//         console.log ('set')
       
-      }
-     }
-     else {
-       accordionItemBody.style.maxHeight = 0;
-       setTimeout(() => {
-        for (i = 0; i < accordionItem.length; i++) {
-            accordionItem[i].style.borderRadius = "100px";
-            accordionItem[i].style.backgroundColor = "#"
-            console.log ('ddd')
+//       }
+//      }
+//      else {
+//        accordionItemBody.style.maxHeight = 0;
+//        setTimeout(() => {
+//         for (i = 0; i < accordionItem.length; i++) {
+//             accordionItem[i].style.borderRadius = "100px";
+//             accordionItem[i].style.backgroundColor = "#"
+//             console.log ('ddd')
           
-          };
-      }, "1000")
+//           };
+//       }, "1000")
        
-     }
+//      }
     
-   });
-});
+//    });
+// });
 

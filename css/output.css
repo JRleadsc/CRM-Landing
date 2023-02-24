@@ -85,7 +85,6 @@ abbr:where([title]) {
 /*
 Remove the default font size and weight for headings.
 */
-
 h1,
 h2,
 h3,
@@ -3237,9 +3236,11 @@ ul li.nav-item:not(:last-child) {
 }
 .faq .accordion-item {
   margin-bottom: 1rem;
-  border-radius: 100px;
   background: #473fad;
   border: 1px solid #ffffff2e;
+  color: #111;
+  transition: all 0.4s ease;
+  border-radius: 100px;
 }
 .faq .accordion-button {
   height: 92px;
@@ -3248,13 +3249,21 @@ ul li.nav-item:not(:last-child) {
 .faq .accordion-body {
   padding: 1rem 1.25rem;
   background: #fff;
+  line-height: 35px;
+  color: #B5B5C1;
+  font-size: 16px;
   border-radius: 0 0 24px 24px;
 }
 .faq .accordion-header {
   margin-bottom: 0;
-  height: 92px;
-  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  height: 100%;
   
+}
+.faq .accordion-item .accordion-button {
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
 }
 .accordion-item-header {
   color: #fff;
@@ -3312,8 +3321,8 @@ ul li.nav-item:not(:last-child) {
   background-color: #fff;
   font-size: 18px;
   font-weight: bold;
-  border-radius: 24px 24px 0 0;
   box-shadow: none;
+  height: 60px !important;
 }
 .faq .accordion-button:focus {
   z-index: 3;
@@ -3831,7 +3840,7 @@ ul li.nav-item:not(:last-child) {
   border-top: 1px solid;
   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 } */
-.faq .accordion-item:hover {
+.faq.our-client .accordion-item:hover {
   background: linear-gradient(90deg, rgba(236,78,174,1) 0%, rgba(39,77,223,1) 100%);
   transition: all 0.4s ease;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
@@ -4198,6 +4207,63 @@ section.contact-us-form .container {
 .contact-us-form {
   padding-bottom: 150px;
 }
+.bg_gradient {
+  background: linear-gradient(90deg, rgba(255,255,255,0.3113620448179272) 0%, rgba(251,218,238,0.49343487394957986) 15%, rgba(157,187,203,0.35898109243697474) 48%, rgba(157,187,203,0.16010154061624648) 100%);
+}
+.title-faq-page {
+  min-height: 153px;
+}
+.title-faq-page h2 {
+  color: #3E369D;
+  font-size: 36px;
+  font-weight: bold;
+}
+.faq-page .accordion-item {
+  background-color: #F1F2F6;
+  color: #111;
+  margin: 1rem 0;
+  transition: all 0.4s ease;
+  border: none;
+  border-radius: 40px;
+  
+}
+.faq-page .accordion-header {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.faq-page .accordion-button {
+  height: 92px;
+}
+.faq-page .accordion-button:not(.collapsed) {
+  color: #2C2D2E;
+  background-color: #fff;
+  box-shadow: none;
+  height: 60px !important;
+}
+.faq-page .accordion-body {
+  padding: 1rem 1.25rem;
+  background: #fff;
+  line-height: 35px;
+  color: #B5B5C1;
+  font-size: 16px;
+  border-radius: 0 0 24px 24px;
+}
+.faq-page .accordion-item .accordion-button {
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='20.243' height='11.621' viewBox='0 0 20.243 11.621'%3e%3cpath id='Arrow-_R' data-name='Arrow- R' d='M0,0,8,8,0,16' transform='translate(2.121 9.5) rotate(-90)' fill='none' stroke='%23e14cab' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3e%3c/svg%3e ");
+  transform: rotate(0);
+}
+
+
+
+
+
+
 
 
 /* responsive */

@@ -4455,6 +4455,18 @@ article .note {
   font-size: 1rem;
   color: #999EBF;
 }
+.sec-blue h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.sec-blue h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9A94E5;
+}
+
+
 
 /* responsive */
 @media (max-width: 1439px) {

@@ -4442,9 +4442,7 @@ article .note {
   color: #fff;
   opacity: 0.3;
 }
-.knowledge .card:hover h5 {
-  color: #484F79;
-}
+
 .heading_h {
   font-size: 36px;
   font-weight: 600;
@@ -4465,6 +4463,54 @@ article .note {
   font-weight: 400;
   color: #9A94E5;
 }
+.knowledge .card .avatar-blog {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.knowledge .card:hover .avatar-blog {
+  opacity: 1;
+}
+.knowledge .card:hover .card-title {
+  color: #484F79 !important;
+}
+.sec-blue.knowledge {
+  min-height: 800px;
+}
+.tableOfcontent {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+  left: 0;
+  z-index: 2;
+  padding-right: 10px;
+  /* height: calc(100vh - 7rem); */
+  overflow-y: auto;
+}
+.tableOfcontent strong {
+  font-size: 24px;
+  color: #3E369D;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.tableOfcontent li {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.tableOfcontent li a {
+  font-size: 1rem;
+  color: #6D728E;
+  border-radius: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 20px;
+  transition: all 0.4s ease;
+}
+.tableOfcontent li a:hover {
+  background: #b5b5c147;
+}
+
 
 
 
@@ -4545,6 +4591,12 @@ article .note {
 }
 
 @media (max-width: 1199px) {
+  article .note {
+    padding: 20px;
+  }
+  .is-helpfull {
+    width: 100%;
+  }
   .card-steps {
     flex: 0 0 300px;
 }
@@ -4654,7 +4706,11 @@ article .note {
 
   }
 }
-@media (max-width: 992px){
+@media (max-width: 991px){
+  .tableOfcontent strong,
+  .tableOfcontent li a {
+    padding-right: 15px;
+  }
   .card-start {
     column-gap: 32px;
     flex-wrap: wrap;

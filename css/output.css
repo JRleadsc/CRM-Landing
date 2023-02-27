@@ -2330,7 +2330,9 @@ ul li.nav-item:not(:last-child) {
 .rounded-\[40px\] {
   border-radius: 40px;
 }
-
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
 .rounded-t-none {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -2827,7 +2829,7 @@ ul li.nav-item:not(:last-child) {
   align-items: center;
   justify-content: center;
   border-radius: 40px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
 }
 .btn-demo-outline {
@@ -4541,6 +4543,35 @@ article .note {
   font-weight: bold;
   color: #2C2D2E;
   padding-right: 50px;
+}
+.community-btn {
+  width: 111px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  transition: all 0.4s ease;
+}
+.community-btn:hover {
+  background-color: #E14CAB;
+  color: #fff;
+}
+.box-replay {
+  background: #fff;
+  border-radius: 16px;
+  min-height: 400px;
+  padding-left: 45px;
+  padding-right: 33px;
+  padding-top: 72px;
+  padding-bottom: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 
 

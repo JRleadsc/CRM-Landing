@@ -4220,7 +4220,9 @@ section.contact-us-form .container {
   font-size: 36px;
   font-weight: bold;
 }
-.faq-page .accordion-item {
+.faq-page .accordion-item,
+.accordion-side  .accordion-item{
+  /* box-shadow :9px 11px 15px -3px rgb(0 0 0 / 16%); */
   background-color: #F1F2F6;
   color: #111;
   margin: 1rem 0;
@@ -4229,22 +4231,60 @@ section.contact-us-form .container {
   border-radius: 40px;
   
 }
-.faq-page .accordion-header {
+.faq-page .accordion-header,
+.accordion-side .accordion-header {
   margin-bottom: 0;
   display: flex;
   align-items: center;
   height: 100%;
 }
-.faq-page .accordion-button {
+.faq-page .accordion-button{
   height: 92px;
 }
-.faq-page .accordion-button:not(.collapsed) {
+.accordion-side .accordion-button {
+  height: 70px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2C2D2E;
+}
+.accordion-side .accordion-button::after{
+  transform: rotate(90deg);
+  opacity: 0.2;
+}
+.accordion-side .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='20.243' height='11.621' viewBox='0 0 20.243 11.621'%3e%3cpath id='Arrow-_R' data-name='Arrow- R' d='M0,0,8,8,0,16' transform='translate(2.121 9.5) rotate(-90)' fill='none' stroke='%23e14cab' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3e%3c/svg%3e ");
+  transform: rotate(0);
+  opacity: 1;
+}
+.faq-page .accordion-button:not(.collapsed),
+.accordion-side .accordion-button:not(.collapsed) {
   color: #2C2D2E;
   background-color: #fff;
   box-shadow: none;
   height: 60px !important;
 }
-.faq-page .accordion-body {
+
+.accordion-side .accordion-body a{
+  padding-right: 0;
+  font-size: 14px;
+  color: #706F7C;
+  position: relative;
+  padding-right: 15px;
+}
+.accordion-side .accordion-body a:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  top: 8px;
+  border: solid #3E369D;
+  right: 0;
+}
+.faq-page .accordion-body,
+.accordion-side .accordion-body
+ {
   padding: 1rem 1.25rem;
   background: #fff;
   line-height: 35px;
@@ -4252,7 +4292,12 @@ section.contact-us-form .container {
   font-size: 16px;
   border-radius: 0 0 24px 24px;
 }
-.faq-page .accordion-item .accordion-button {
+.accordion-side .accordion-body,
+.accordion-side .accordion-button:not(.collapsed)  {
+  background: #f1f2f6;
+}
+.faq-page .accordion-item .accordion-button,
+.accordion-side .accordion-item .accordion-button  {
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
 }

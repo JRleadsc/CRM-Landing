@@ -4573,7 +4573,12 @@ article .note {
 .cursor-pointer {
   cursor: pointer;
 }
-
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 

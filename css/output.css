@@ -4251,9 +4251,14 @@ section.contact-us-form .container {
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
 }
-.accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='20.243' height='11.621' viewBox='0 0 20.243 11.621'%3e%3cpath id='Arrow-_R' data-name='Arrow- R' d='M0,0,8,8,0,16' transform='translate(2.121 9.5) rotate(-90)' fill='none' stroke='%23e14cab' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3e%3c/svg%3e ");
+.conversation .accordion-button::after {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'%3E%3Cg id='Group_31873' data-name='Group 31873' transform='translate(0 0)'%3E%3Cg id='Rectangle_7937' data-name='Rectangle 7937' transform='translate(0 0)' fill='none' stroke='%23707070' stroke-width='1'%3E%3Crect width='26' height='26' rx='13' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='25' height='25' rx='12.5' fill='none'/%3E%3C/g%3E%3Cg id='multiply-cancel-svgrepo-com' transform='translate(5.001 5)'%3E%3Cg id='Group_48018' data-name='Group 48018' transform='translate(2 2)'%3E%3Cpath id='Path_122797' data-name='Path 122797' d='M7.11,8,2.184,3.073a.629.629,0,0,1,.89-.89L8,7.11l4.926-4.926a.629.629,0,1,1,.89.89L8.889,8l4.926,4.926a.629.629,0,1,1-.89.89L8,8.889,3.073,13.816a.629.629,0,1,1-.89-.89Z' transform='translate(-2 -2)' fill='%23706f7c'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  /* background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg id='Group_48024' data-name='Group 48024' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='34' height='34' viewBox='0 0 34 34'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='1.027' y1='-0.526' x2='-0.29' y2='1' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23ec4eae'/%3E%3Cstop offset='1' stop-color='%23274ddf'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Group_31873' data-name='Group 31873'%3E%3Crect id='Rectangle_7937' data-name='Rectangle 7937' width='34' height='34' rx='17' fill='url(%23linear-gradient)'/%3E%3C/g%3E%3Cg id='next-svgrepo-com_1_' data-name='next-svgrepo-com (1)' transform='translate(8.707 10.931)'%3E%3Cg id='Group_48022' data-name='Group 48022' transform='translate(0 0)'%3E%3Cg id='Group_48021' data-name='Group 48021'%3E%3Cpath id='Path_122798' data-name='Path 122798' d='M17.724,96.046a.65.65,0,0,1-.623.674H2.107l3.928,4.25a.712.712,0,0,1,0,.949.589.589,0,0,1-.88,0L.174,96.52a.74.74,0,0,1,0-.953l4.985-5.4a.589.589,0,0,1,.88,0,.715.715,0,0,1,0,.953l-3.924,4.25H17.1A.641.641,0,0,1,17.724,96.046Z' transform='translate(0 -89.975)' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A"); */
   transform: rotate(0);
+}
+.conversation .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg id='Group_48024' data-name='Group 48024' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='34' height='34' viewBox='0 0 34 34'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='1.027' y1='-0.526' x2='-0.29' y2='1' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23ec4eae'/%3E%3Cstop offset='1' stop-color='%23274ddf'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Group_31873' data-name='Group 31873'%3E%3Crect id='Rectangle_7937' data-name='Rectangle 7937' width='34' height='34' rx='17' fill='url(%23linear-gradient)'/%3E%3C/g%3E%3Cg id='next-svgrepo-com_1_' data-name='next-svgrepo-com (1)' transform='translate(8.707 10.931)'%3E%3Cg id='Group_48022' data-name='Group 48022' transform='translate(0 0)'%3E%3Cg id='Group_48021' data-name='Group 48021'%3E%3Cpath id='Path_122798' data-name='Path 122798' d='M17.724,96.046a.65.65,0,0,1-.623.674H2.107l3.928,4.25a.712.712,0,0,1,0,.949.589.589,0,0,1-.88,0L.174,96.52a.74.74,0,0,1,0-.953l4.985-5.4a.589.589,0,0,1,.88,0,.715.715,0,0,1,0,.953l-3.924,4.25H17.1A.641.641,0,0,1,17.724,96.046Z' transform='translate(0 -89.975)' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  /* background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'%3E%3Cg id='Group_31873' data-name='Group 31873' transform='translate(0 0)'%3E%3Cg id='Rectangle_7937' data-name='Rectangle 7937' transform='translate(0 0)' fill='none' stroke='%23707070' stroke-width='1'%3E%3Crect width='26' height='26' rx='13' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='25' height='25' rx='12.5' fill='none'/%3E%3C/g%3E%3Cg id='multiply-cancel-svgrepo-com' transform='translate(5.001 5)'%3E%3Cg id='Group_48018' data-name='Group 48018' transform='translate(2 2)'%3E%3Cpath id='Path_122797' data-name='Path 122797' d='M7.11,8,2.184,3.073a.629.629,0,0,1,.89-.89L8,7.11l4.926-4.926a.629.629,0,1,1,.89.89L8.889,8l4.926,4.926a.629.629,0,1,1-.89.89L8,8.889,3.073,13.816a.629.629,0,1,1-.89-.89Z' transform='translate(-2 -2)' fill='%23706f7c'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A"); */
 }
 .whats-news h1 {
   font-size: 3rem;
@@ -4510,6 +4515,33 @@ article .note {
 .tableOfcontent li a:hover {
   background: #b5b5c147;
 }
+.community-cards {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.card-item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 6px 19px 47px 4px rgb(69 80 122 / 8%);
+}
+.card-item h2 {
+  padding-bottom: 9px;
+  font-size: 17px;
+  color: #2C2D2E;
+}
+.card-item p {
+  line-height: 36px;
+  font-size: 16px;
+  color: #999EBF;
+}
+.accordion-body a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2C2D2E;
+  padding-right: 50px;
+}
 
 
 
@@ -4591,6 +4623,13 @@ article .note {
 }
 
 @media (max-width: 1199px) {
+  .comunity-card {
+    flex: 0 0 380px;
+  }
+  .community-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+}
   article .note {
     padding: 20px;
   }
@@ -4707,6 +4746,9 @@ article .note {
   }
 }
 @media (max-width: 991px){
+  .comunity-card {
+    flex: 0 0 300px;
+}
   .tableOfcontent strong,
   .tableOfcontent li a {
     padding-right: 15px;
@@ -4885,6 +4927,18 @@ article .note {
   }
 }
 @media (max-width : 768px) {
+  .comunity-card {
+    flex: 0 0 240px;
+}
+.card-item {
+  padding: 34px 16px;
+}
+.card-item p {
+  font-size: 14px;
+}
+.card-item h2 {
+  font-size: 16px;
+}
   .text-\[51px\] {
     font-size: 38px;
 }
@@ -5009,6 +5063,18 @@ article .note {
 
 
 @media (max-width: 576px) {
+  .card-item {
+    padding: 40px 32px;
+}
+.comunity-card {
+  flex: 0 0 350px;
+}
+.card-item p {
+  font-size: 16px;
+}
+.card-item h2 {
+  font-size: 17px;
+}
   .text-\[40px\] {
     font-size: 32px !important;
 }

@@ -3882,7 +3882,7 @@ section.article ul li:before,
 }
 
 .knowledege-base {
-  column-gap: 80px;
+  column-gap: 30px;
   padding-bottom: 116px;
 }
 .side-right {
@@ -4639,6 +4639,21 @@ article .note {
   border-radius: 100px;
   font-weight: bold;
 }
+.documantion .sub-content h2 {
+  font-size: 36px;
+  color: #3E369D;
+  padding-top: 1rem;
+}
+.documantion .sub-content p,
+.documantion .sub-content ul li {
+  font-size: 16px;
+  color: #999EBF;
+  font-weight: 500;
+  line-height: 40px;
+}
+.documantion .sub-content ul li {
+  margin-bottom: 0;
+}
 
 
 
@@ -4719,6 +4734,12 @@ article .note {
 }
 
 @media (max-width: 1199px) {
+  .side-right {
+    flex: 0 0 auto;
+}
+  .knowledege-base {
+    column-gap: 0;
+  }
   .comunity-card {
     flex: 0 0 380px;
   }
@@ -4842,6 +4863,10 @@ article .note {
   }
 }
 @media (max-width: 991px){
+  .side-right {
+    flex: 0 0 auto;
+    margin-bottom: 40px;
+}
   .comunity-card {
     flex: 0 0 300px;
 }

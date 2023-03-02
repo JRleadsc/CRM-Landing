@@ -4322,6 +4322,7 @@ section.contact-us-form .container {
   padding: 40px;
   border-radius: 16px;
   transition: all  0.4s ease;
+  cursor: pointer;
 }
 .news-list li:hover {
   background: #fff;
@@ -4912,16 +4913,16 @@ article .note {
   }
 }
 @media (max-width: 991px){
+  .news-list li {
+    gap: 1rem;
+    padding: 32px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
   .scroll-custom::-webkit-scrollbar {
     height: 5px;
 }
-  .news-list ul{
-    display: flex;
-    margin-bottom: 40px;
-  }
-  .news-list ul li {
-    flex: 0 0 270px;
-  }
   .side-right {
     flex: 0 0 auto;
     margin-bottom: 40px;

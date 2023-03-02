@@ -4654,6 +4654,9 @@ article .note {
 .documantion .sub-content ul li {
   margin-bottom: 0;
 }
+a:hover {
+  color: inherit;
+}
 
 
 

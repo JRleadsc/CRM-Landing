@@ -4337,19 +4337,19 @@ section.contact-us-form .container {
   color: #706F7C;
 }
 .date-news p {
-  font-size: 24px;
+  font-size: 22px;
   color: #2C2D2E;
   padding-top: 2px;
 }
 .title-news h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #484F79;
   padding-bottom: 8px;
 }
 .title-news p,
 .details-content p {
-  font-size: 18px;
+  font-size: 16px;
   color: #999EBF;
   line-height: 35px;
 }
@@ -4360,10 +4360,12 @@ section.contact-us-form .container {
   padding: 40px;
   border-radius: 16px;
   background-color: #fff;
+  max-height: 913px;
+  overflow: auto;
 }
 .details-content h2 {
   color: #484F79;
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: bold;
   padding: 45px 0;
   text-align: center;
@@ -4654,6 +4656,38 @@ article .note {
 .documantion .sub-content ul li {
   margin-bottom: 0;
 }
+.news-list {
+  max-height: 913px;
+  overflow: auto;
+}
+.scroll-custom::-webkit-scrollbar-track
+{
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  border-radius: 10px;
+  background-color: #f3f3f3bd;
+}
+.scroll-custom::-webkit-scrollbar
+{
+  display: block;
+  width: 8px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}
+.scroll-custom::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+  background-color: #ccc;
+}
+.ltr {
+  direction: ltr;
+}
+.rtl {
+  direction: rtl;
+}
+.poster-content img {
+  margin: 0 auto;
+}
 
 
 
@@ -4734,6 +4768,21 @@ article .note {
 }
 
 @media (max-width: 1199px) {
+  .news-list li {
+    gap: 5px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .poster-news {
+    flex: 0 0 128px;
+    align-items: center;
+    display: flex;
+}
+.title-news {
+  text-align: center;
+}
   .side-right {
     flex: 0 0 auto;
 }
@@ -4863,6 +4912,16 @@ article .note {
   }
 }
 @media (max-width: 991px){
+  .scroll-custom::-webkit-scrollbar {
+    height: 5px;
+}
+  .news-list ul{
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .news-list ul li {
+    flex: 0 0 270px;
+  }
   .side-right {
     flex: 0 0 auto;
     margin-bottom: 40px;

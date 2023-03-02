@@ -4670,6 +4670,9 @@ a:hover {
 .req-contact:hover svg  path {
   stroke: #2C2D2E;
 }
+.title-head {
+  line-height: 85px;
+}
 
 
 /* responsive */

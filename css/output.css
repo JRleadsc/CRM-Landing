@@ -4654,7 +4654,19 @@ article .note {
 .documantion .sub-content ul li {
   margin-bottom: 0;
 }
-
+.req-contact:hover {
+  background-color: #fff;
+  transition: all 0.4s;
+}
+.req-contact:hover .contact p {
+  color: #2C2D2E;
+}
+.req-contact:hover .contact span {
+  color: #40AAE2;  
+}
+.req-contact:hover svg  path {
+  stroke: #2C2D2E;
+}
 
 
 /* responsive */

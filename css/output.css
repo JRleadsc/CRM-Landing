@@ -4143,9 +4143,10 @@ section.article ul li:before,
   color: #484F79;
 }
 .about-title-2 {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: bold;
   color: #3E369D;
+  line-height: 50px;
 }
 .about .video_section .col_vido {
   flex: 0 0 600px;

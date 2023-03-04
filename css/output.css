@@ -3469,6 +3469,9 @@ ul li.nav-item:not(:last-child) {
 }
 .image-blog img {
   border-radius: 2rem;
+ 
+}
+.item .image-blog img {
   height: 280px;
 }
 /* .tile-blog p {
@@ -4079,8 +4082,7 @@ section.article ul li:before,
 }
 .page-link {
   padding: 8px 15px;
-}
-.page-link {
+  cursor: pointer;
   font-size: 18px;
   font-weight: 400;
   position: relative;

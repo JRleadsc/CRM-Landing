@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('#linkgenius').owlCarousel({
     center: true,
     rtl:true,
     loop:true,
@@ -14,6 +14,36 @@ $('.owl-carousel').owlCarousel({
         },
 
         1000:{
+            items:2
+        },
+        1440 : {
+            items:3
+        }
+
+    }
+})
+$('#owl-carousel-flipster').owlCarousel({
+   margin:10 ,
+    center: true,
+    rtl:true,
+    loop:true,
+    dots:false,
+    nav:false,
+    autoWidth:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        768: {
+            items:1
+        },
+        991:{
+            items:2
+        },
+
+        1200:{
             items:3
         },
         1440 : {
@@ -23,25 +53,33 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-$('.owl-carousel-videos').owlCarousel({
-    
+$('#owl-carousel-video').owlCarousel({
+    margin:30 ,
+    center: true,
     rtl:true,
-    items:1,
-    merge:true,
     loop:true,
-    margin:10,
-    video:true,
-    lazyLoad:true,
-    center:true,
+    dots:false,
+    nav:false,
+    autoWidth:true,
+    autoplay:true,
+    autoplayTimeout:2000,
     responsive:{
-        480:{
+        0:{
+            items:1
+        },
+        768: {
             items:2
         },
-        600:{
+        1000:{
+            items:3
+        },
+        1440 : {
             items:4
         }
+
     }
 })
+
 
 // const items = document.querySelectorAll('.accordion-button');
 // const accrodionItems = document.getElementsByClassName('accordion-item');

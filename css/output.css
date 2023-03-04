@@ -4750,6 +4750,14 @@ a:hover {
   width: 100%;
   bottom: -27px;
 }
+.flipster-slider {
+  top: 20px;
+  left: -160px;
+}
+.flipster__item img {
+  height: 462px;
+  border-radius: 1.5rem;
+}
 
 /* responsive */
 @media (max-width: 1439px) {

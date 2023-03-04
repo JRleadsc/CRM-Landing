@@ -10,6 +10,7 @@
   <title>LinkGenius</title>
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/jquery.flipster.min.css">
 </head>
 <body class="font-iran min-h-screen bg-body text-neutral">
   
@@ -855,35 +856,50 @@
     <h3 class="">شرح ویژگی ها و قابلیت ها</h3>
   </div>
   <div class="flex items-center flex-wrap ">
-    <div>
-      <div class="h-[114px] bth-slider text-white pr-[47px] w-[324px] rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
-        <p >
-          همه چیز را پیدا کنید 
-        </p>
-        <p>
-        تماس، مشتری و مکالمه
-       </p>
-      </div>
-      <div class="h-[114px] bth-slider text-white pr-[47px] w-[324px] rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
-        <p >
-          همه چیز را پیدا کنید 
-        </p>
-        <p>
-        تماس، مشتری و مکالمه
-       </p>
-      </div>
-      <div class="h-[114px] bth-slider text-white pr-[47px] w-[324px] rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
-        <p >
-          همه چیز را پیدا کنید 
-        </p>
-        <p>
-        تماس، مشتری و مکالمه
-       </p>
+   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="relative w-100 pt-4">
+         <div>
+          <div onclick="myFlipster.flipster('jump', 2);" class="h-[114px] bth-slider text-white pr-[47px] w-50 rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
+            <p >
+              همه چیز را پیدا کنید 
+            </p>
+            <p>
+            تماس، مشتری و مکالمه
+           </p>
+          </div>
+          <div onclick="myFlipster.flipster('jump', 1);" class="h-[114px] bth-slider text-white pr-[47px] w-50 rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
+            <p >
+              همه چیز را پیدا کنید 
+            </p>
+            <p>
+            تماس، مشتری و مکالمه
+           </p>
+          </div>
+          <div onclick="myFlipster.flipster('jump', 0);" class="h-[114px] bth-slider text-white pr-[47px] w-50 rounded-full flex flex-col items-start text-base mb-3 justify-center gap-4">
+            <p >
+              همه چیز را پیدا کنید 
+            </p>
+            <p>
+            تماس، مشتری و مکالمه
+           </p>
+          </div>
+         </div>
+         <div class="flipster-slider absolute"> 
+          <div class="my-flipster">
+            <ul >
+              <li><img src="./images/img1.JPG" /></li>
+              <li><img src="./images/img2.JPG" /></li>
+              <li><img src="./images/img3.JPG" /></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        
       </div>
     </div>
-    <div>
-    
-    </div>
+   </div>
   </div>
  </section> 
  <section class="jr_vid">
@@ -1209,6 +1225,7 @@
 <script src="./js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/script.js"></script>
+<script src="./js/jquery.flipster.min.js"></script>
 <script>
 
 
@@ -1263,6 +1280,26 @@
       video.muted=false;
   }
   
+  </script>
+  <script>
+    // DOCS:
+    // https://github.com/drien/jquery-flipster
+     let myFlipster = $('.my-flipster').flipster({
+         start: 'center',
+        itemContainer: 'ul',
+        itemSelector: 'li',
+        style:'flat',
+        // style: 'carousel',
+        //style:'coverflow',
+        // start: 'center',
+        fadeIn: 400,
+        // spacing: -0.25,
+        // loop: false,
+        //spacing: -0.5,
+        touch: true,
+        nav: false,
+        buttons: false
+      });
   </script>
 </body>
 </html>

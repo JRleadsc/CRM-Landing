@@ -4790,7 +4790,7 @@ a:hover {
 .internal-pages .border-header {
   top: 80px;
 }
-.header_section > section {
+.header-overlay + section {
   margin-top: 80px;
 }
 .navbar-toggler {

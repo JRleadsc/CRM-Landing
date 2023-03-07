@@ -605,6 +605,12 @@ html {
     max-width: 960px;
 }
 }
+@media (min-width: 1200px)
+{
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+}
 
  
 /*
@@ -2828,8 +2834,8 @@ ul li.nav-item:not(:last-child) {
 }
 .btn-demo-fill,
 .btn-demo-outline {
-  /* width: 148px; */
-  padding: 0 40px;
+  width: 148px;
+  /* padding: 0 40px; */
   height: 50px;
   display: flex;
   align-items: center;
@@ -2862,7 +2868,7 @@ ul li.nav-item:not(:last-child) {
 .navbar ul li.nav-item{
   position: relative;
   padding-bottom: 0;
-  margin-left: 32px;
+  margin-left: 30px;
 }
 .navbar-nav {
   padding-right: 25px;
@@ -4819,6 +4825,153 @@ a:hover {
   z-index: 1100;
   display: none;
 }
+.create-box {
+  width: 773px;
+  margin: 0 auto;
+  padding-bottom: 280px;
+}
+.create-post-box {
+  width: 100%;
+  background: #fff;
+  border-radius: 40px;
+  padding: 56px 60px 90px;
+ 
+}
+.create-post-box input[type='text'] {
+  border-radius: 40px;
+  background: #F7F7F8;
+  border: none;
+  height: 56px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #B5B5C1;
+  padding: 0 20px;
+}
+.create-post-box input[type=checkbox] {
+  position: relative;
+	border: 2px solid #E14CAB;
+	border-radius: 4px;
+	background: none;
+	cursor: pointer;
+	line-height: 0; 
+	margin: 0 .6em 0 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 20px;
+	width: 20px;
+	-webkit-appearance: none;
+  opacity: .5;
+}
+
+.create-post-box input[type=checkbox]:hover {
+  opacity: 1;
+}
+
+.create-post-box input[type=checkbox]:checked {
+  background-color: #E14CAB;
+  opacity: 1;
+}
+
+.create-post-box input[type=checkbox]:before {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 4px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+.create-post-box input::placeholder {
+  color: #B5B5C1;
+}
+.create-post-box textarea {
+  padding: 20px;
+  border-radius: 16px;
+  background: #F7F7F8;
+  border: none;
+  margin-top: 12px;
+  color: #B5B5C1;
+}
+/*select box*/
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 37%;
+  left: 24px;
+  width: 15px;
+  height: 15px;
+  /* border: 6px solid transparent;
+  border-color: #CCCCCC transparent transparent transparent; */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #cccc transparent;
+  top: 30%;
+}
+
+/*style the items (options), including the selected item:*/
+.select-selected {
+  color: #B5B5C1;
+  padding: 8px 20px;
+  cursor: pointer;
+  height: 56px;
+  border-radius: 40px;
+  user-select: none;
+  background-color: #F7F7F8;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  overflow: auto;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  max-height: 225px;
+  border: 1px solid #F9F9F9;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 8px 0;
+  box-shadow: 0px 0px 10px 0px #5455580d;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div {
+  padding: 10px 16px;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: #F9F9F9;
+}
 
 
 /* responsive */
@@ -4880,7 +5033,7 @@ a:hover {
     left: -45px;
   }
   .navbar ul li.nav-item{
-    margin-left: 19px;
+    margin-left: 24px;
   }
   .navbar-collapse {
     margin-right: 10px;
@@ -5070,6 +5223,9 @@ a:hover {
   }
 }
 @media (max-width: 991px){
+  .create-box {
+    width: auto;
+  }
 
   .btn-header {
     width: 106px;
@@ -5466,6 +5622,18 @@ a:hover {
 
 
 @media (max-width: 576px) {
+  .create-box {
+    padding-bottom: 100px;
+  }
+  .text-\[18px\] {
+    font-size: 16px;
+}
+.guide-post ul {
+  font-size: 14px;
+}
+  .create-post-box {
+    padding: 56px 30px 90px;
+  }
   .navbar-collapse ,
   .internal-pages .navbar .dropdown-menu{
     width: 100%;

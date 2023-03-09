@@ -5051,8 +5051,11 @@ a:hover {
 }
 
 @media (max-width: 1199px) {
-  .heading {
-    padding: 20px 0;
+  .heading_h {
+    padding-top: 16px;
+  }
+  .heading_p {
+    padding: 0 20px 20px;
 }
   .news-list li {
     gap: 5px;
@@ -5223,6 +5226,9 @@ a:hover {
   }
 }
 @media (max-width: 991px){
+  .carousel-control-next, .carousel-control-prev {
+    display: none;
+  }
   .create-box {
     width: auto;
   }
@@ -5622,6 +5628,30 @@ a:hover {
 
 
 @media (max-width: 576px) {
+  .is-helpfull {
+    padding: 10px 16px 10px 16px;
+
+  }
+  .heading_h {
+    line-height: 60px;
+  }
+  .title-head {
+    line-height: 60px;
+}
+  .box-replay {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .conversation .accordion-button {
+    font-size: 16px;
+    padding: 0 26px;
+  }
+  .item .image-blog img {
+    height: auto;
+  }
+  .owl-carousel .owl-item img {
+    width: auto !important;
+  }
   .create-box {
     padding-bottom: 100px;
   }

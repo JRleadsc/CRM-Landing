@@ -42,7 +42,7 @@
                   <ul class="menu-footer list-none">
                     <li>
                       <a href="./faq.html">
-                        سوالت متداول
+                        سوالات متداول
                       </a>
                     </li>
                     <li>

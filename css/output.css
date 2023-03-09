@@ -2844,6 +2844,17 @@ ul li.nav-item:not(:last-child) {
   font-size: 20px;
   font-weight: 300;
 }
+.add-community {
+  width: 254px;
+  /* padding: 0 40px; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
 .btn-demo-outline {
   border: 1px solid #ECECEE ;
 }

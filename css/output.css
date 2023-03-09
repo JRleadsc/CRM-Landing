@@ -3065,13 +3065,14 @@ ul li.nav-item:not(:last-child) {
 }
 .form-start {
   width: 500px;
-  height: 560px;
+  min-height: 560px;
   padding: 40px 50px;
   background: #fff;
   border-radius: 40px;
   margin-top: 10px;
   box-shadow: 6px 19px 47px 4px rgb(69 80 122 / 8%);
 }
+
 
 .form-start span {
   color: #E14CAB;
@@ -3222,7 +3223,7 @@ ul li.nav-item:not(:last-child) {
   margin-top: 10px ;
   box-shadow : none;
   padding : 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 .create-account .form-start button {
@@ -3258,6 +3259,7 @@ ul li.nav-item:not(:last-child) {
 .Possibilities p {
   font-size: 15px;
   color: #999EBF;
+  text-align: justify;
 }
 .processes {
   padding-top: 40px;
@@ -4539,6 +4541,7 @@ article .note {
 .heading_p {
   font-size: 1rem;
   color: #999EBF;
+  /* text-align: justify; */
 }
 .sec-blue h2 {
   font-size: 24px;
@@ -5639,6 +5642,13 @@ a:hover {
 
 
 @media (max-width: 576px) {
+  .pricing {
+    padding-bottom: 90px;
+  }
+  .pricing-content {
+    padding: 0 14px;
+    text-align: justify;
+}
   .is-helpfull {
     padding: 10px 16px 10px 16px;
 

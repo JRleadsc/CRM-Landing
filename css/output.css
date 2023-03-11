@@ -4972,6 +4972,13 @@ a:hover {
 .select-items div:hover, .same-as-selected {
   background-color: #F9F9F9;
 }
+.carousel-main .owl-carousel.owl-rtl .owl-item {
+  display: flex;
+  justify-content: center;
+}
+#linkgenius .item {
+  flex: 0 0 380px;
+}
 
 
 /* responsive */
@@ -5051,6 +5058,9 @@ a:hover {
 }
 
 @media (max-width: 1199px) {
+  #linkgenius .item {
+    flex: 0 0 288px;
+}
   .heading {
     padding: 20px 0;
 }
@@ -5223,6 +5233,12 @@ a:hover {
   }
 }
 @media (max-width: 991px){
+  .carousel-main .owl-theme .owl-nav {
+    display: none;
+  }
+  #linkgenius .item {
+    flex: 0 0 350px;
+}
   .create-box {
     width: auto;
   }

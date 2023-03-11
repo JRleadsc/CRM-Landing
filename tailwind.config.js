@@ -2,7 +2,20 @@
 module.exports = {
   blocklist: [
     'container',
-    'container-fluid'
+    'container-fluid',
+    'row',
+    'col-12',
+    'navbar',
+    'navbar-expand-lg',
+    'd-none',
+    'd-xxl-block',
+    'd-block',
+    'd-xxl-none',
+    'nav-item',
+    'dropdown',
+    'dropdown-menu',
+    'dropdown-item',
+    'collapse'
   ],
   theme: {
     extend: {

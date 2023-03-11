@@ -4,17 +4,19 @@ $('#linkgenius').owlCarousel({
     loop:true,
     dots:false,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
     navText:["<img src='./images/arrow-r.svg' />","<img src='./images/arrow-l.svg' />"],
     responsive:{
         0:{
             items:1
         },
-        991:{
-            items:1
+        768:{
+            items:2
         },
 
         1000:{
-            items:2
+            items:3
         },
         1440 : {
             items:3

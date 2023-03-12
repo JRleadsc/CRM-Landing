@@ -12,6 +12,7 @@ module.exports = {
     'd-block',
     'd-xxl-none',
     'nav-item',
+    'd-xl-none ','d-block ',
     'dropdown',
     'dropdown-menu',
     'dropdown-item',

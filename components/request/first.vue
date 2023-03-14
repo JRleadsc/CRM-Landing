@@ -13,14 +13,14 @@
             شماره همراه
             <span>*</span>
           </label>
-          <input id="phone" type="text" class="form-control" placeholder="+98 --- --- ---">
+          <input id="phone" type="text" class="form-control ltr" placeholder="0915_______">
         </div>
         <div class="">
           <label for="email" class="form-label">
             ایمیل
             <span>*</span>
           </label>
-          <input id="email" type="email" class="form-control" placeholder="Sample@gmail.com">
+          <input id="email" type="email" class="form-control ltr" placeholder="Sample@gmail.com">
         </div>
         <div class="">
           <label for="company" class="form-label">
@@ -30,7 +30,7 @@
           <input id="company" type="text" class="form-control" placeholder="نام شرکت خود را وارد کنید">
         </div>
         <div class="pt-[34px]">
-          <NuxtLink to="/request-demo-step-2">
+          <NuxtLink to="/auth/step-1">
             <button class="btn-md pink-btn">
               ارسال درخواست
             </button>
@@ -46,5 +46,6 @@ const formData = ref(null)
 
 const submitHandler = () => {
   console.log(formData.value)
+  useRouter().push('/auth/step-1')
 }
 </script>

@@ -32,6 +32,11 @@ export default defineNuxtConfig({
     '~/assets/css/owl.theme.default.min.css',
     '~/assets/css/fontiran.css'
   ],
+  runtimeConfig: {
+    public: {
+      apiUrl: process.env.API_URL
+    }
+  },
   experimental: {
     writeEarlyHints: false
   },

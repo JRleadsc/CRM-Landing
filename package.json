@@ -18,6 +18,7 @@
     "nuxt": "^3.2.3"
   },
   "dependencies": {
-    "@cloudgeek/vue3-video-player": "^0.3.10"
+    "@cloudgeek/vue3-video-player": "^0.3.10",
+    "@splidejs/vue-splide": "^0.6.12"
   }
 }

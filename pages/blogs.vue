@@ -243,88 +243,90 @@
         </h3>
       </div>
 
-      <Splide :options="options" class="mb-20">
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic4.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+      <div class="mb-16">
+        <Splide :options="options">
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic4.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic3.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic3.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic2.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic2.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic1.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic1.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic4.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic4.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic2.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic2.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic1.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic1.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="item relative">
-            <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-              <img src="/images/pic4.png" alt="image-blog">
-            </a>
-            <div class="absolute play-video">
-              <img src="/images/play-video.png" alt="play-video">
+          </SplideSlide>
+          <SplideSlide>
+            <div class="item relative">
+              <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+                <img src="/images/pic4.png" alt="image-blog">
+              </a>
+              <div class="absolute play-video">
+                <img src="/images/play-video.png" alt="play-video">
+              </div>
             </div>
-          </div>
-        </SplideSlide>
-      </Splide>
+          </SplideSlide>
+        </Splide>
+      </div>
       <div class="all-vid">
         <a href="">
           <button class="white-btn text-[18px] font-bold text-[#2C2D2E]">

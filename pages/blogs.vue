@@ -243,64 +243,88 @@
         </h3>
       </div>
 
-      <div id="owl-carousel-video" class="owl-carousel owl-theme">
-        <div class="item relative">
-          <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic3.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+      <Splide :options="options" class="mb-20">
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic4.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic2.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic3.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic1.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic2.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic4.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic1.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic2.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic4.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic1.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic2.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-        <div class="item relative">
-          <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
-            <img src="/images/pic4.png" alt="image-blog">
-          </a>
-          <div class="absolute play-video">
-            <img src="/images/play-video.png" alt="play-video">
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic1.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
           </div>
-        </div>
-      </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div class="item relative">
+            <a class="image-blog flex justify-center " href="https://www.youtube.com/watch?v=JpxsRwnRwCQ">
+              <img src="/images/pic4.png" alt="image-blog">
+            </a>
+            <div class="absolute play-video">
+              <img src="/images/play-video.png" alt="play-video">
+            </div>
+          </div>
+        </SplideSlide>
+      </Splide>
       <div class="all-vid">
         <a href="">
           <button class="white-btn text-[18px] font-bold text-[#2C2D2E]">
@@ -484,3 +508,22 @@
     </section>
   </div>
 </template>
+
+<script setup>
+import { Splide, SplideSlide } from '@splidejs/vue-splide'
+import '@splidejs/vue-splide/css'
+
+const options = ref({
+  direction: 'rtl',
+  arrows: false,
+  pagination: false,
+  type: 'loop',
+  autoplay: true,
+  interval: 2000,
+  gap: 32,
+  padding: '5rem',
+  focus: 'center',
+  perPage: 4,
+  autoWidth: true
+})
+</script>

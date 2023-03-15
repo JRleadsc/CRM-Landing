@@ -14,8 +14,7 @@
 <script setup lang="ts">
 useHead({
   script: [
-    { src: '/js/bootstrap.min.js', body: true },
-    { src: '/js/owl.carousel.min.js', body: true }
+    { src: '/js/bootstrap.min.js', body: true }
   ]
 })
 </script>

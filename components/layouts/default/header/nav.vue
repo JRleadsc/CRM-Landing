@@ -222,9 +222,9 @@
           <span>EN</span>
         </div>
         <div class="d-none d-xl-block">
-          <a class=" text-sm font-semibold text-[#2C2D2E]" href="/login">
+          <NuxtLink to="/login" class=" text-sm font-semibold text-[#2C2D2E]">
             ورود
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>

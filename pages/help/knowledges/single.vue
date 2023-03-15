@@ -99,7 +99,7 @@
                 در پانل سمت راست، اطلاعات کارت اعتباری خود را وارد کنید. برای اینکه به مدیران اجازه دهید از این روش پرداخت در آینده استفاده کنند، گزینه Allow all admins to use this payment را انتخاب کنید.
               </p>
               <div class="pt-5 mt-5 mb-4">
-                <img src="/images/Setting - Company - General.png" alt="setting-image">
+                <img src="/images/Setting-Company-General.png" alt="setting-image">
               </div>
               <h2 id="edit-bill">
                 مخاطبین صورتحساب خود را ویرایش کنید

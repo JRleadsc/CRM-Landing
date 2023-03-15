@@ -41,19 +41,19 @@
                   </h3>
                   <ul class="menu-footer list-none">
                     <li>
-                      <a href="./faq.html">
+                      <NuxtLink to="./faq">
                         سوالات متداول
-                      </a>
+                      </NuxtLink>
                     </li>
                     <li>
-                      <a href="./contact-us.html">
+                      <NuxtLink to="./contact">
                         تماس با ما
-                      </a>
+                      </NuxtLink>
                     </li>
                     <li>
-                      <a href="./about-us.html">
+                      <NuxtLink to="/about">
                         درباره ما
-                      </a>
+                      </NuxtLink>
                     </li>
                   </ul>
                 </div>
@@ -63,19 +63,19 @@
                   </h3>
                   <ul class="menu-footer list-none">
                     <li>
-                      <a href="./features.html">
+                      <NuxtLink to="./features">
                         ویژگی‌ها
-                      </a>
+                      </NuxtLink>
                     </li>
                     <li>
-                      <a href="./our-client.html">
+                      <NuxtLink to="/client">
                         مشتریان ما
-                      </a>
+                      </NuxtLink>
                     </li>
                     <li>
-                      <a href="./prices.html">
+                      <NuxtLink to="/price">
                         قیمت‌ها
-                      </a>
+                      </NuxtLink>
                     </li>
                   </ul>
                 </div>

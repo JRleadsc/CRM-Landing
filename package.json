@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@cloudgeek/vue3-video-player": "^0.3.10",
+    "@persian-tools/persian-tools": "^3.4.1",
     "@splidejs/vue-splide": "^0.6.12"
   }
 }

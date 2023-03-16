@@ -136,7 +136,7 @@
             <ul class="dropdown-menu absolute shadow-lg border-0" aria-labelledby="navbarDropdown">
               <span class="triangle" />
               <li>
-                <NuxtLink to="/blogs" class="dropdown-item">
+                <NuxtLink to="/blog" class="dropdown-item">
                   <div>
                     <SvgFeatures />
                   </div>

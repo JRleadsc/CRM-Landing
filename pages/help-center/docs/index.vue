@@ -40,12 +40,12 @@
               </h2>
             </div>
             <div class="cms-btn">
-              <NuxtLink to="/help/docs/single">
+              <NuxtLink to="/help-center/docs/single">
                 <button class="pink-btn">
                   CMS decoumation
                 </button>
               </NuxtLink>
-              <NuxtLink to="/help/docs/single">
+              <NuxtLink to="/help-center/docs/single">
                 <button class="pink-btn">
                   CMS decoumation
                 </button>

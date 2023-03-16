@@ -24,7 +24,7 @@
             <div class="w-full">
               <FormKit
                 type="text"
-                name="mobile"
+                name="name"
                 label="نام و نام خانوادگی *"
                 label-class="form-label"
                 input-class="form-control"
@@ -72,9 +72,15 @@
             <div v-if="loading" class="btn-md pink-btn">
               <SvgLoading class="h-8 w-auto text-white" />
             </div>
-            <FormKit v-else type="submit" input-class="btn-md pink-btn">
-              <span class="text-white">ارسال پیام</span>
-            </FormKit>
+            <div v-else class="flex gap-4 items-center">
+              <FormKit type="submit" input-class="btn-md pink-btn">
+                <span class="text-white">ارسال پیام</span>
+              </FormKit>
+
+              <div v-show="success" class="py-1 px-4 bg-green-200 border-1 border-green-900/30 rounded-full">
+                پیام ارسال شد. در صورت نیاز با شما تماس می‌گیریم
+              </div>
+            </div>
           </div>
         </Formkit>
       </div>
@@ -83,16 +89,19 @@
 </template>
 
 <script setup>
-const formData = ref({
-  mobile: ''
-})
+const formData = ref([])
 const loading = ref(false)
+const success = ref(false)
 
 const submitHandler = () => {
   loading.value = true
   apiRequest('post', sendRequestContact(), formData.value)
-    .then((res) => {
-      console.log(res)
+    .then(() => {
+      success.value = true
+      formData.value = []
+      setTimeout(() => {
+        success.value = false
+      }, 4000)
     })
     .catch((e) => {
       console.error(e)

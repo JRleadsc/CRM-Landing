@@ -189,7 +189,7 @@
             </div>
             <div class="absolute border_help_card z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] w-full mx-auto" />
           </NuxtLink>
-          <NuxtLink to="/help/knowledge" class="relative flex help_card ps-0">
+          <NuxtLink to="/help/developer-docs" class="relative flex help_card ps-0">
             <div class="help_card z-20">
               <div class="pt-3 d-sm-block d-none">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119.828" height="109.717" viewBox="0 0 119.828 109.717">

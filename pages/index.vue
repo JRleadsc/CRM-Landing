@@ -81,7 +81,7 @@
             <ClientOnly>
               <div class="player-container">
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
-                <vue3-video-player class="rounded-3xl" src="/video/iranserver-vid.MP4" cover="/images/poster2.png" />
+                <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" />
               </div>
             </ClientOnly>
 
@@ -213,12 +213,12 @@
         </h3>
       </div>
       <div class="flex flex-col justify-center items-center">
-        <a href="./features.html">
+        <NuxtLink to="/features">
           <button class="btn-text font-bold min-w-[348px] h-[64px] bg-[#EC4EAE] rounded-full flex items-center justify-center text-[20px] text-white transition-all mb-[10px]">
-            لیست کامل ویژگی ها را ببینید
+            لیست کامل ویژگی‌ها را ببینید
           </button>
-        </a>
-        <a href="./contact-us.html">
+        </NuxtLink>
+        <NuxtLink to="/contact">
           <button class="btn-text font-bold min-w-[348px] h-[64px] rounded-full flex items-center justify-center text-[20px] text-[#2C2D2E] transition-all border border-solid border-[#263d4a33]">
             <span class="pl-4">
               <svg
@@ -246,7 +246,7 @@
             </span>
             با بخش فروش تماس بگیرید
           </button>
-        </a>
+        </NuxtLink>
       </div>
     </section>
   </div>

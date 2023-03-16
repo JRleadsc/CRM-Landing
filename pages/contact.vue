@@ -1,3 +1,6 @@
+
+import { ContactRequest } from '~~/.nuxt/components';
+
 <template>
   <div class="mt-20">
     <div class="header-overlay" />
@@ -153,59 +156,6 @@
       </div>
     </section>
 
-    <section class="contact-us-form">
-      <div class="container relative">
-        <div class="row">
-          <div class="col-12">
-            <div class="">
-              <h3 class="font-bold text-[24px] text-[#484F79]">
-                اکنون به ما پیام دهید
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="form-start w-100 shadow-none pt-3 px-0 h-auto">
-          <form action="">
-            <div class="row">
-              <div class="col-md-6 col-12">
-                <div class="">
-                  <label for="name" class="form-label">
-                    نام و نام خانوادگی
-                    <span>*</span>
-                  </label>
-                  <input id="name" type="text" class="form-control" placeholder="نام شما">
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="">
-                  <label for="email" class="form-label">
-                    ایمیل
-                    <span>*</span>
-                  </label>
-                  <input id="email" type="text" class="form-control" placeholder="نام خانوادگی شما">
-                </div>
-              </div>
-            </div>
-          </form>
-
-          <div class="">
-            <label for="text" class="form-label">
-              متن نظر
-              <span>*</span>
-            </label>
-            <textarea id="text" class="form-control" rows="8" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="pt-2">
-              <button class="btn-md pink-btn">
-                ارسال نظر
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <ContactRequest />
   </div>
 </template>

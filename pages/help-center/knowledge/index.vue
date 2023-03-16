@@ -13,7 +13,12 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    بخش آموزش
+                    <NuxtLink to="/help-center">
+                      بخش آموزش
+                    </NuxtLink>
+                  </li>
+                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
+                    بخش آموزش مقدماتی
                   </li>
                 </ol>
               </nav>
@@ -45,445 +50,451 @@
           <div class="col-md-10 col-12 mx-auto">
             <div class="row">
               <div class="col-lg-4 col-sm-6 col-12">
-                <div class="text-center mb-4 pb-2">
-                  <div class="flex justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
-                      <defs>
-                        <filter
-                          id="Rectangle_7948"
-                          x="35.167"
-                          y="21.02"
-                          width="103.075"
-                          height="104.23"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Ellipse_16"
-                          x="5.967"
-                          y="0"
-                          width="106.177"
-                          height="106.015"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-2" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-2" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Path_77755"
-                          x="0"
-                          y="39.594"
-                          width="75.342"
-                          height="75.288"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-3" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-3" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                      </defs>
-                      <g id="Icon" transform="translate(-647.757 -1019.75)">
-                        <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
-                        <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
-                          <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
-                            <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
-                              <g
-                                id="Rectangle_7948-2"
-                                data-name="Rectangle 7948"
-                                transform="translate(56.17 39.02)"
-                                fill="none"
-                                stroke="#40aae2"
-                                stroke-width="6"
-                              >
-                                <rect width="49.075" height="50.23" rx="19" stroke="none" />
-                                <rect
-                                  x="3"
-                                  y="3"
-                                  width="43.075"
-                                  height="44.23"
-                                  rx="16"
+                <NuxtLink to="/help-center/knowledge/category">
+                  <div class="text-center mb-4 pb-2">
+                    <div class="flex justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
+                        <defs>
+                          <filter
+                            id="Rectangle_7948"
+                            x="35.167"
+                            y="21.02"
+                            width="103.075"
+                            height="104.23"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Ellipse_16"
+                            x="5.967"
+                            y="0"
+                            width="106.177"
+                            height="106.015"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-2" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-2" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Path_77755"
+                            x="0"
+                            y="39.594"
+                            width="75.342"
+                            height="75.288"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-3" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-3" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                        </defs>
+                        <g id="Icon" transform="translate(-647.757 -1019.75)">
+                          <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
+                          <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
+                            <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
+                              <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
+                                <g
+                                  id="Rectangle_7948-2"
+                                  data-name="Rectangle 7948"
+                                  transform="translate(56.17 39.02)"
                                   fill="none"
+                                  stroke="#40aae2"
+                                  stroke-width="6"
+                                >
+                                  <rect width="49.075" height="50.23" rx="19" stroke="none" />
+                                  <rect
+                                    x="3"
+                                    y="3"
+                                    width="43.075"
+                                    height="44.23"
+                                    rx="16"
+                                    fill="none"
+                                  />
+                                </g>
+                              </g>
+                              <path
+                                id="Path_77753"
+                                data-name="Path 77753"
+                                d="M-20205.23-15632.558h16.914"
+                                transform="translate(20221.463 15649.785)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                              <path
+                                id="Path_77754"
+                                data-name="Path 77754"
+                                d="M-20205.23-15632.558h8.457"
+                                transform="translate(20221.463 15664.145)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                            </g>
+                            <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
+                                <ellipse
+                                  id="Ellipse_16-2"
+                                  data-name="Ellipse 16"
+                                  cx="21.089"
+                                  cy="20.999"
+                                  rx="21.089"
+                                  ry="20.999"
+                                  transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
                                 />
                               </g>
-                            </g>
-                            <path
-                              id="Path_77753"
-                              data-name="Path 77753"
-                              d="M-20205.23-15632.558h16.914"
-                              transform="translate(20221.463 15649.785)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                            <path
-                              id="Path_77754"
-                              data-name="Path 77754"
-                              d="M-20205.23-15632.558h8.457"
-                              transform="translate(20221.463 15664.145)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                          </g>
-                          <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
-                              <ellipse
-                                id="Ellipse_16-2"
-                                data-name="Ellipse 16"
-                                cx="21.089"
-                                cy="20.999"
-                                rx="21.089"
-                                ry="20.999"
-                                transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
-                                fill="none"
-                                stroke="#ec4eae"
-                                stroke-linecap="round"
-                                stroke-width="6"
-                              />
-                            </g>
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                                <path
+                                  id="Path_77755-2"
+                                  data-name="Path 77755"
+                                  d="M12.857,0,0,12.8"
+                                  transform="translate(25.24 61.84)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
+                                />
+                              </g>
                               <path
-                                id="Path_77755-2"
-                                data-name="Path 77755"
-                                d="M12.857,0,0,12.8"
-                                transform="translate(25.24 61.84)"
+                                id="Path_77756"
+                                data-name="Path 77756"
+                                d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
+                                transform="translate(16.082 14.217) rotate(-9)"
                                 fill="none"
-                                stroke="#ec4eae"
+                                stroke="#e64cab"
                                 stroke-linecap="round"
                                 stroke-width="6"
+                                style="mix-blend-mode: multiply;isolation: isolate"
                               />
                             </g>
-                            <path
-                              id="Path_77756"
-                              data-name="Path 77756"
-                              d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
-                              transform="translate(16.082 14.217) rotate(-9)"
-                              fill="none"
-                              stroke="#e64cab"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                              style="mix-blend-mode: multiply;isolation: isolate"
-                            />
                           </g>
                         </g>
-                      </g>
-                    </svg>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-[#3E369D] font-bold text-[24px]">
+                        Get start
+                      </h2>
+                      <p class="text-[#999EBF] text-base">
+                        Description of these features and
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 class="text-[#3E369D] font-bold text-[24px]">
-                      Get start
-                    </h2>
-                    <p class="text-[#999EBF] text-base">
-                      Description of these features and
-                    </p>
-                  </div>
-                </div>
+                </NuxtLink>
               </div>
               <div class="col-lg-4 col-sm-6 col-12">
-                <div class="text-center mb-4 pb-2">
-                  <div class="flex justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
-                      <defs>
-                        <filter
-                          id="Rectangle_7948"
-                          x="35.167"
-                          y="21.02"
-                          width="103.075"
-                          height="104.23"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Ellipse_16"
-                          x="5.967"
-                          y="0"
-                          width="106.177"
-                          height="106.015"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-2" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-2" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Path_77755"
-                          x="0"
-                          y="39.594"
-                          width="75.342"
-                          height="75.288"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-3" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-3" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                      </defs>
-                      <g id="Icon" transform="translate(-647.757 -1019.75)">
-                        <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
-                        <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
-                          <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
-                            <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
-                              <g
-                                id="Rectangle_7948-2"
-                                data-name="Rectangle 7948"
-                                transform="translate(56.17 39.02)"
-                                fill="none"
-                                stroke="#40aae2"
-                                stroke-width="6"
-                              >
-                                <rect width="49.075" height="50.23" rx="19" stroke="none" />
-                                <rect
-                                  x="3"
-                                  y="3"
-                                  width="43.075"
-                                  height="44.23"
-                                  rx="16"
+                <NuxtLink to="/help-center/knowledge/single">
+                  <div class="text-center mb-4 pb-2">
+                    <div class="flex justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
+                        <defs>
+                          <filter
+                            id="Rectangle_7948"
+                            x="35.167"
+                            y="21.02"
+                            width="103.075"
+                            height="104.23"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Ellipse_16"
+                            x="5.967"
+                            y="0"
+                            width="106.177"
+                            height="106.015"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-2" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-2" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Path_77755"
+                            x="0"
+                            y="39.594"
+                            width="75.342"
+                            height="75.288"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-3" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-3" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                        </defs>
+                        <g id="Icon" transform="translate(-647.757 -1019.75)">
+                          <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
+                          <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
+                            <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
+                              <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
+                                <g
+                                  id="Rectangle_7948-2"
+                                  data-name="Rectangle 7948"
+                                  transform="translate(56.17 39.02)"
                                   fill="none"
+                                  stroke="#40aae2"
+                                  stroke-width="6"
+                                >
+                                  <rect width="49.075" height="50.23" rx="19" stroke="none" />
+                                  <rect
+                                    x="3"
+                                    y="3"
+                                    width="43.075"
+                                    height="44.23"
+                                    rx="16"
+                                    fill="none"
+                                  />
+                                </g>
+                              </g>
+                              <path
+                                id="Path_77753"
+                                data-name="Path 77753"
+                                d="M-20205.23-15632.558h16.914"
+                                transform="translate(20221.463 15649.785)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                              <path
+                                id="Path_77754"
+                                data-name="Path 77754"
+                                d="M-20205.23-15632.558h8.457"
+                                transform="translate(20221.463 15664.145)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                            </g>
+                            <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
+                                <ellipse
+                                  id="Ellipse_16-2"
+                                  data-name="Ellipse 16"
+                                  cx="21.089"
+                                  cy="20.999"
+                                  rx="21.089"
+                                  ry="20.999"
+                                  transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
                                 />
                               </g>
-                            </g>
-                            <path
-                              id="Path_77753"
-                              data-name="Path 77753"
-                              d="M-20205.23-15632.558h16.914"
-                              transform="translate(20221.463 15649.785)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                            <path
-                              id="Path_77754"
-                              data-name="Path 77754"
-                              d="M-20205.23-15632.558h8.457"
-                              transform="translate(20221.463 15664.145)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                          </g>
-                          <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
-                              <ellipse
-                                id="Ellipse_16-2"
-                                data-name="Ellipse 16"
-                                cx="21.089"
-                                cy="20.999"
-                                rx="21.089"
-                                ry="20.999"
-                                transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
-                                fill="none"
-                                stroke="#ec4eae"
-                                stroke-linecap="round"
-                                stroke-width="6"
-                              />
-                            </g>
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                                <path
+                                  id="Path_77755-2"
+                                  data-name="Path 77755"
+                                  d="M12.857,0,0,12.8"
+                                  transform="translate(25.24 61.84)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
+                                />
+                              </g>
                               <path
-                                id="Path_77755-2"
-                                data-name="Path 77755"
-                                d="M12.857,0,0,12.8"
-                                transform="translate(25.24 61.84)"
+                                id="Path_77756"
+                                data-name="Path 77756"
+                                d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
+                                transform="translate(16.082 14.217) rotate(-9)"
                                 fill="none"
-                                stroke="#ec4eae"
+                                stroke="#e64cab"
                                 stroke-linecap="round"
                                 stroke-width="6"
+                                style="mix-blend-mode: multiply;isolation: isolate"
                               />
                             </g>
-                            <path
-                              id="Path_77756"
-                              data-name="Path 77756"
-                              d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
-                              transform="translate(16.082 14.217) rotate(-9)"
-                              fill="none"
-                              stroke="#e64cab"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                              style="mix-blend-mode: multiply;isolation: isolate"
-                            />
                           </g>
                         </g>
-                      </g>
-                    </svg>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-[#3E369D] font-bold text-[24px]">
+                        Account and setup
+                      </h2>
+                      <p class="text-[#999EBF] text-base">
+                        Description of these features and
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 class="text-[#3E369D] font-bold text-[24px]">
-                      Account and setup
-                    </h2>
-                    <p class="text-[#999EBF] text-base">
-                      Description of these features and
-                    </p>
-                  </div>
-                </div>
+                </NuxtLink>
               </div>
               <div class="col-lg-4 col-sm-6 col-12">
-                <div class="text-center mb-4 pb-2">
-                  <div class="flex justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
-                      <defs>
-                        <filter
-                          id="Rectangle_7948"
-                          x="35.167"
-                          y="21.02"
-                          width="103.075"
-                          height="104.23"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Ellipse_16"
-                          x="5.967"
-                          y="0"
-                          width="106.177"
-                          height="106.015"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-2" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-2" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                        <filter
-                          id="Path_77755"
-                          x="0"
-                          y="39.594"
-                          width="75.342"
-                          height="75.288"
-                          filterUnits="userSpaceOnUse"
-                        >
-                          <feOffset dx="6" dy="9" input="SourceAlpha" />
-                          <feGaussianBlur stdDeviation="9" result="blur-3" />
-                          <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                          <feComposite operator="in" in2="blur-3" />
-                          <feComposite in="SourceGraphic" />
-                        </filter>
-                      </defs>
-                      <g id="Icon" transform="translate(-647.757 -1019.75)">
-                        <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
-                        <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
-                          <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
-                            <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
-                              <g
-                                id="Rectangle_7948-2"
-                                data-name="Rectangle 7948"
-                                transform="translate(56.17 39.02)"
-                                fill="none"
-                                stroke="#40aae2"
-                                stroke-width="6"
-                              >
-                                <rect width="49.075" height="50.23" rx="19" stroke="none" />
-                                <rect
-                                  x="3"
-                                  y="3"
-                                  width="43.075"
-                                  height="44.23"
-                                  rx="16"
+                <NuxtLink to="/help-center/knowledge/single-2">
+                  <div class="text-center mb-4 pb-2">
+                    <div class="flex justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.243" height="125.25" viewBox="0 0 138.243 125.25">
+                        <defs>
+                          <filter
+                            id="Rectangle_7948"
+                            x="35.167"
+                            y="21.02"
+                            width="103.075"
+                            height="104.23"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Ellipse_16"
+                            x="5.967"
+                            y="0"
+                            width="106.177"
+                            height="106.015"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-2" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-2" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Path_77755"
+                            x="0"
+                            y="39.594"
+                            width="75.342"
+                            height="75.288"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-3" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-3" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                        </defs>
+                        <g id="Icon" transform="translate(-647.757 -1019.75)">
+                          <rect id="Back" width="100" height="100" transform="translate(663 1025)" fill="rgba(255,255,255,0)" />
+                          <g id="Group_31208" data-name="Group 31208" transform="translate(-3.057 -0.773)">
+                            <g id="Group_31206" data-name="Group 31206" transform="translate(706.981 1059.543)">
+                              <g transform="matrix(1, 0, 0, 1, -56.17, -39.02)" filter="url(#Rectangle_7948)">
+                                <g
+                                  id="Rectangle_7948-2"
+                                  data-name="Rectangle 7948"
+                                  transform="translate(56.17 39.02)"
                                   fill="none"
+                                  stroke="#40aae2"
+                                  stroke-width="6"
+                                >
+                                  <rect width="49.075" height="50.23" rx="19" stroke="none" />
+                                  <rect
+                                    x="3"
+                                    y="3"
+                                    width="43.075"
+                                    height="44.23"
+                                    rx="16"
+                                    fill="none"
+                                  />
+                                </g>
+                              </g>
+                              <path
+                                id="Path_77753"
+                                data-name="Path 77753"
+                                d="M-20205.23-15632.558h16.914"
+                                transform="translate(20221.463 15649.785)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                              <path
+                                id="Path_77754"
+                                data-name="Path 77754"
+                                d="M-20205.23-15632.558h8.457"
+                                transform="translate(20221.463 15664.145)"
+                                fill="none"
+                                stroke="#40a9e1"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                            </g>
+                            <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
+                                <ellipse
+                                  id="Ellipse_16-2"
+                                  data-name="Ellipse 16"
+                                  cx="21.089"
+                                  cy="20.999"
+                                  rx="21.089"
+                                  ry="20.999"
+                                  transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
                                 />
                               </g>
-                            </g>
-                            <path
-                              id="Path_77753"
-                              data-name="Path 77753"
-                              d="M-20205.23-15632.558h16.914"
-                              transform="translate(20221.463 15649.785)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                            <path
-                              id="Path_77754"
-                              data-name="Path 77754"
-                              d="M-20205.23-15632.558h8.457"
-                              transform="translate(20221.463 15664.145)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                          </g>
-                          <g id="Group_31207" data-name="Group 31207" transform="translate(676.057 1041.773)">
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
-                              <ellipse
-                                id="Ellipse_16-2"
-                                data-name="Ellipse 16"
-                                cx="21.089"
-                                cy="20.999"
-                                rx="21.089"
-                                ry="20.999"
-                                transform="matrix(1, -0.09, 0.09, 1, 30.22, 24.93)"
-                                fill="none"
-                                stroke="#ec4eae"
-                                stroke-linecap="round"
-                                stroke-width="6"
-                              />
-                            </g>
-                            <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                              <g transform="matrix(1, 0, 0, 1, -25.24, -21.25)" filter="url(#Path_77755)">
+                                <path
+                                  id="Path_77755-2"
+                                  data-name="Path 77755"
+                                  d="M12.857,0,0,12.8"
+                                  transform="translate(25.24 61.84)"
+                                  fill="none"
+                                  stroke="#ec4eae"
+                                  stroke-linecap="round"
+                                  stroke-width="6"
+                                />
+                              </g>
                               <path
-                                id="Path_77755-2"
-                                data-name="Path 77755"
-                                d="M12.857,0,0,12.8"
-                                transform="translate(25.24 61.84)"
+                                id="Path_77756"
+                                data-name="Path 77756"
+                                d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
+                                transform="translate(16.082 14.217) rotate(-9)"
                                 fill="none"
-                                stroke="#ec4eae"
+                                stroke="#e64cab"
                                 stroke-linecap="round"
                                 stroke-width="6"
+                                style="mix-blend-mode: multiply;isolation: isolate"
                               />
                             </g>
-                            <path
-                              id="Path_77756"
-                              data-name="Path 77756"
-                              d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
-                              transform="translate(16.082 14.217) rotate(-9)"
-                              fill="none"
-                              stroke="#e64cab"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                              style="mix-blend-mode: multiply;isolation: isolate"
-                            />
                           </g>
                         </g>
-                      </g>
-                    </svg>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-[#3E369D] font-bold text-[24px]">
+                        Get start
+                      </h2>
+                      <p class="text-[#999EBF] text-base">
+                        Description of these features and
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 class="text-[#3E369D] font-bold text-[24px]">
-                      Get start
-                    </h2>
-                    <p class="text-[#999EBF] text-base">
-                      Description of these features and
-                    </p>
-                  </div>
-                </div>
+                </NuxtLink>
               </div>
               <div class="col-lg-4 col-sm-6 col-12">
                 <div class="text-center mb-4 pb-2">
@@ -1412,9 +1423,11 @@
                 </div>
               </div>
               <div class="flex justify-center">
-                <button class="btn-demo-fill pink-btn mt-3">
-                  بعدی
-                </button>
+                <NuxtLink to="/help-center/knowledge/category">
+                  <button class="btn-demo-fill pink-btn mt-3">
+                    بعدی
+                  </button>
+                </NuxtLink>
               </div>
             </div>
             <div class="card-steps">
@@ -1441,9 +1454,11 @@
                 </div>
               </div>
               <div class="flex justify-center">
-                <button class="btn-demo-fill pink-btn mt-3">
-                  بعدی
-                </button>
+                <NuxtLink to="/help-center/knowledge/single">
+                  <button class="btn-demo-fill pink-btn mt-3">
+                    بعدی
+                  </button>
+                </NuxtLink>
               </div>
             </div>
             <div class="card-steps">
@@ -1470,9 +1485,11 @@
                 </div>
               </div>
               <div class="flex justify-center">
-                <button class="btn-demo-fill pink-btn mt-3">
-                  بعدی
-                </button>
+                <NuxtLink to="/help-center/knowledge/single-2">
+                  <button class="btn-demo-fill pink-btn mt-3">
+                    بعدی
+                  </button>
+                </NuxtLink>
               </div>
             </div>
           </div>

@@ -8,19 +8,22 @@
               <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item text-sm text-[#6D728E]">
-                    <a href="./index.html">صفحه اصلی</a>
+                    <NuxtLink to="/">
+                      صفحه اصلی
+                    </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <a href="./index.html">منابع</a>
+                    <NuxtLink to="/help-center">
+                      بخش آموزش
+                    </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <a href="./help-center.html">راهنما</a>
+                    <NuxtLink to="/help-center/knowledge">
+                      بخش آموزش مقدماتی
+                    </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <a href="./knowledge-base.html">آموزش</a>
-                  </li>
-                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <a href="./knowlede-base-blog-single-1.html">بلاگ</a>
+                    single Blog - 2
                   </li>
                 </ol>
               </nav>

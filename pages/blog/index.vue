@@ -499,7 +499,7 @@
           <div class="col-12">
             <div class="btn-blog">
               <button class="btn-md pink-btn">
-                <NuxtLink to="/blog/category" title="بیشتر بخوانید">
+                <NuxtLink to="/blog/category">
                   بیشتر بخوانید
                 </NuxtLink>
               </button>

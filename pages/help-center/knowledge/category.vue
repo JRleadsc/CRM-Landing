@@ -18,7 +18,12 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    بخش آموزش مقدماتی
+                    <NuxtLink to="/help-center/knowledge">
+                      بخش آموزش مقدماتی
+                    </NuxtLink>
+                  </li>
+                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
+                    دسته بندی‌ها
                   </li>
                 </ol>
               </nav>
@@ -61,17 +66,17 @@
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                       <div class="accordion-body">
                         <div>
-                          <NuxtLink to="/help/knowledges/base">
+                          <NuxtLink to="/help-center/knowledge/base">
                             لینک ۱
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single">
+                          <NuxtLink to="/help-center/knowledge/single">
                             لینک ۲
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single-2">
+                          <NuxtLink to="/help-center/knowledge/single-2">
                             لینک ۳
                           </NuxtLink>
                         </div>
@@ -94,17 +99,17 @@
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                       <div class="accordion-body">
                         <div>
-                          <NuxtLink to="/help/knowledges/base">
+                          <NuxtLink to="/help-center/knowledge/base">
                             لینک ۱
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single">
+                          <NuxtLink to="/help-center/knowledge/single">
                             لینک ۲
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single-2">
+                          <NuxtLink to="/help-center/knowledge/single-2">
                             لینک ۳
                           </NuxtLink>
                         </div>
@@ -127,17 +132,17 @@
                     <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                       <div class="accordion-body">
                         <div>
-                          <NuxtLink to="/help/knowledges/base">
+                          <NuxtLink to="/help-center/knowledge/base">
                             لینک ۱
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single">
+                          <NuxtLink to="/help-center/knowledge/single">
                             لینک ۲
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single-2">
+                          <NuxtLink to="/help-center/knowledge/single-2">
                             لینک ۳
                           </NuxtLink>
                         </div>
@@ -160,17 +165,17 @@
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                       <div class="accordion-body">
                         <div>
-                          <NuxtLink to="/help/knowledges/base">
+                          <NuxtLink to="/help-center/knowledge/base">
                             لینک ۱
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single">
+                          <NuxtLink to="/help-center/knowledge/single">
                             لینک ۲
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single-2">
+                          <NuxtLink to="/help-center/knowledge/single-2">
                             لینک ۳
                           </NuxtLink>
                         </div>
@@ -193,17 +198,17 @@
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                       <div class="accordion-body">
                         <div>
-                          <NuxtLink to="/help/knowledges/base">
+                          <NuxtLink to="/help-center/knowledge/base">
                             لینک ۱
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single">
+                          <NuxtLink to="/help-center/knowledge/single">
                             لینک ۲
                           </NuxtLink>
                         </div>
                         <div>
-                          <NuxtLink to="/help/knowledges/single-2">
+                          <NuxtLink to="/help-center/knowledge/single-2">
                             لینک ۳
                           </NuxtLink>
                         </div>
@@ -295,7 +300,7 @@
                   با گزارش&zwnj;ها و داشبوردها در یک نگاه، اطلاعات کسب&zwnj;وکار را دریافت کنید.
                 </li>
               </ul>
-              <NuxtLink to="/help/knowledges/base">
+              <NuxtLink to="/help-center/knowledge/base">
                 <button class="btn-xs white-btn">
                   بیشتر
                 </button>
@@ -322,7 +327,7 @@
                   با گزارش&zwnj;ها و داشبوردها در یک نگاه، اطلاعات کسب&zwnj;وکار را دریافت کنید.
                 </li>
               </ul>
-              <NuxtLink to="/help/knowledges/single">
+              <NuxtLink to="/help-center/knowledge/single">
                 <button class="btn-xs white-btn">
                   بیشتر
                 </button>
@@ -349,7 +354,7 @@
                   با گزارش&zwnj;ها و داشبوردها در یک نگاه، اطلاعات کسب&zwnj;وکار را دریافت کنید.
                 </li>
               </ul>
-              <NuxtLink to="/help/knowledges/single-2">
+              <NuxtLink to="/help-center/knowledge/single-2">
                 <button class="btn-xs white-btn">
                   بیشتر
                 </button>

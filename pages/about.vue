@@ -50,7 +50,7 @@
             <ClientOnly>
               <div class="player-container">
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
-                <vue3-video-player src="/video/iranserver-vid.MP4" cover="/images/poster2.png" />
+                <vue3-video-player src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" />
               </div>
             </ClientOnly>
 

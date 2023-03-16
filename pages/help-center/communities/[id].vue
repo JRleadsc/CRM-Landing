@@ -18,7 +18,7 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <NuxtLink to="/help/communities">
+                    <NuxtLink to="/help-center/communities">
                       انجمن‌های گفتگو
                     </NuxtLink>
                   </li>

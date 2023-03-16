@@ -18,7 +18,7 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <NuxtLink to="/help/developer-docs">
+                    <NuxtLink to="/help-center/docs">
                       منابع برنامه نویسان
                     </NuxtLink>
                   </li>

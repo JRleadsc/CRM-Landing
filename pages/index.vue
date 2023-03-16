@@ -14,8 +14,8 @@
               <h2 class="text-[#3E369D] text-[22px] font-semibold title-brand">
                 برای برندهای مطرح جهانی
               </h2>
-              <NuxtLink to="/request-demo" class="flex justify-center mt-8">
-                <button class="bg-[#E14CAB] text-white rounded-full btn-demo">
+              <NuxtLink to="/request-demo" class="flex justify-center">
+                <button class=" flex items-center bg-[#E14CAB] text-white justify-center rounded-full mx-auto mt-[2rem] btn-demo">
                   درخواست دمو
                 </button>
               </NuxtLink>

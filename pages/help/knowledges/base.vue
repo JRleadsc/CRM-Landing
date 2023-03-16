@@ -13,7 +13,17 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    بخش آموزش
+                    <NuxtLink to="/help-center">
+                      بخش آموزش
+                    </NuxtLink>
+                  </li>
+                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
+                    <NuxtLink to="/help/knowledge">
+                      بخش آموزش مقدماتی
+                    </NuxtLink>
+                  </li>
+                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
+                    Base
                   </li>
                 </ol>
               </nav>

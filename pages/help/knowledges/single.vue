@@ -13,24 +13,17 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <NuxtLink to="/">
-                      منابع
-                    </NuxtLink>
-                  </li>
-                  <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
                     <NuxtLink to="/help-center">
-                      راهنما
+                      بخش آموزش
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <NuxtLink to="/help/knowledges/base">
-                      آموزش
-                    </nuxtlink>
+                    <NuxtLink to="/help/knowledge">
+                      بخش آموزش مقدماتی
+                    </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    <NuxtLink to="/help/knowlede/single">
-                      بلاگ
-                    </NuxtLink>
+                    Singel Blog
                   </li>
                 </ol>
               </nav>

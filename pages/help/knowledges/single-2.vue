@@ -23,7 +23,7 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    Singel Blog - 2
+                    single Blog - 2
                   </li>
                 </ol>
               </nav>

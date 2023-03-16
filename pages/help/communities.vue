@@ -31,7 +31,7 @@
       <div class="container">
         <div class="row gap-30 justify-center pt-5 mt-5">
           <div class="community-cards">
-            <NuxtLink to="/help/community/singel">
+            <NuxtLink to="/help/community/single">
               <div class="relative flex comunity-card">
                 <div class="card-item z-20">
                   <h2>
@@ -44,7 +44,7 @@
                 <div class="absolute border_help_card z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] w-full mx-auto" />
               </div>
             </NuxtLink>
-            <NuxtLink to="/help/community/singel">
+            <NuxtLink to="/help/community/single">
               <div class="relative flex comunity-card">
                 <div class="card-item z-20">
                   <h2>
@@ -57,7 +57,7 @@
                 <div class="absolute border_help_card z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] w-full mx-auto" />
               </div>
             </NuxtLink>
-            <NuxtLink to="/help/community/singel">
+            <NuxtLink to="/help/community/single">
               <div class="relative flex comunity-card">
                 <div class="card-item z-20">
                   <h2>
@@ -70,7 +70,7 @@
                 <div class="absolute border_help_card z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] w-full mx-auto" />
               </div>
             </NuxtLink>
-            <NuxtLink to="/help/community/singel">
+            <NuxtLink to="/help/community/single">
               <div class="relative flex comunity-card">
                 <div class="card-item z-20">
                   <h2>

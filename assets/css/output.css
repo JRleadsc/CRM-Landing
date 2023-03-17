@@ -4991,7 +4991,7 @@ header {
   display: flex;
   align-items: center;
   background-color: #fff;
-  width: 100%;
+  width: max-content;
   border-radius: 40px;
 }
 
@@ -5771,6 +5771,7 @@ header {
     border-radius: 0;
     background-color: transparent;
     align-items: flex-start;
+    width: 100%;
   }
   .newsletter input {
     border-radius: 40px;

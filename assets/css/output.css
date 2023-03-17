@@ -5658,6 +5658,13 @@ header {
 
 
 @media (max-width: 576px) {
+  .news-list li {
+    gap: 5px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
   .create-box {
     padding-bottom: 100px;
   }

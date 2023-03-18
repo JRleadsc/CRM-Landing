@@ -154,7 +154,22 @@
 										  
 										</span>
               <li>
-                <NuxtLink to="/blogs" class="dropdown-item">
+                <NuxtLink to="/help-center" class="dropdown-item">
+                  <div>
+                    <SvgFeatures />
+                  </div>
+                  <div>
+                    <p>
+                      بخش آموزش
+                    </p>
+                    <span>
+                      در اینجا مقالات آموزشی وب سایت را ببینید
+                    </span>
+                  </div>
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/blog" class="dropdown-item">
                   <div>
                     <SvgFeatures />
                   </div>
@@ -194,21 +209,6 @@
                     </p>
                     <span>
                       لیست آخرین تغییرات لینک جینیس را در اینجا ببینید
-                    </span>
-                  </div>
-                </NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/help-center" class="dropdown-item">
-                  <div>
-                    <SvgFeatures />
-                  </div>
-                  <div>
-                    <p>
-                      بخش آموزش
-                    </p>
-                    <span>
-                      در اینجا مقالات آموزشی وب سایت را ببینید
                     </span>
                   </div>
                 </NuxtLink>

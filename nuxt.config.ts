@@ -28,10 +28,13 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/bootstrap.rtl.min.css',
     '~/assets/css/output.css',
-    '~/assets/css/owl.carousel.min.css',
-    '~/assets/css/owl.theme.default.min.css',
     '~/assets/css/fontiran.css'
   ],
+  runtimeConfig: {
+    public: {
+      apiUrl: process.env.API_URL
+    }
+  },
   experimental: {
     writeEarlyHints: false
   },

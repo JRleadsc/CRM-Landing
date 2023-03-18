@@ -22,7 +22,7 @@
               <h3 class="text-[22px] sm:text-[18px] text-[#2C2D2E] pb-4 font-bold sm:pb-[16px]">
                 عضویت در خبرنامه
               </h3>
-              <div class="flex items-center bg-white w-max rounded-full">
+              <div class=" newsletter">
                 <input class="h-[50px] pr-[20px] rounded-l-none rounded-r-[40px] placeholder-[#B5B5C1]" type="text" placeholder="ایمیل خود را وارد کنید">
                 <button class="font-bold w-[131px] h-[50px] flex items-center justify-center text-sm text-[#2C2D2E] shadow-2xl bg-white rounded-full">
                   عضویت

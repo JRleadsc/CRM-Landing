@@ -32,7 +32,7 @@ import { ContactRequest } from '~~/.nuxt/components';
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class=" flex items-center">
+            <div class="heading-contact flex items-center">
               <h1 class="heading_h pe-5 me-3 ">
                 تماس با ما
               </h1>

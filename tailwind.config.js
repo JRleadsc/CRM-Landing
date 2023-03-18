@@ -15,7 +15,8 @@ module.exports = {
     'dropdown',
     'dropdown-menu',
     'dropdown-item',
-    'collapse'
+    'collapse',
+    'btn-outline'
   ],
   theme: {
     extend: {

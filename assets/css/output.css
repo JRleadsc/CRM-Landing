@@ -5044,8 +5044,13 @@ header {
     display: none;
   }
 }
-
+@media (min-width: 1200px) and (max-width : 1439px) {
+  .side-right {
+    flex: 0 0 340px;
+}
+}
 @media (min-width: 1200px) and (max-width : 1399px) {
+
   .dropdown-toggle .arrow-item {
     position: absolute;
     left: -4px;
@@ -5461,6 +5466,22 @@ header {
   }
 }
 @media (max-width : 767px) {
+  .carousel-control-prev {
+    display: none;
+}
+.carousel-control-next {
+  display: none;
+}
+  .cms-btn {
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cms-btn button {
+    width: 240px;
+    height: 71px;
+    font-size: 18px;
+}
   .back-icon {
     display: block;
   }

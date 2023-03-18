@@ -4996,6 +4996,7 @@ header {
 }
 
 
+
 /* responsive */
 @media (max-width: 1439px) {
   .carousel-control-prev {
@@ -5765,6 +5766,12 @@ header {
 }
 }
 @media (max-width : 480px) {
+  .heading-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+    gap: 10px;
+  }
   .newsletter {
     flex-direction: column;
     gap: 7px;

@@ -10,6 +10,7 @@
   "devDependencies": {
     "@cloudgeek/vue3-video-player": "^0.3.10",
     "@formkit/nuxt": "^1.0.0-beta.15",
+    "@nuxt/devtools": "^0.2.5",
     "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.4.1",

@@ -22,7 +22,7 @@
             <h1 class="heading_h">
               درخواست دمو
             </h1>
-            <p class="heading_p pb-4 lh-lg ">
+            <p class=" pb-4 lh-lg text-[#2C2D2E] font-bold">
               به صورت رایگان ۳۰ روز از لینک جینیس استفاده کنید و ببینید چقدر آسان است:
             </p>
             <ul class="request-demo relative">

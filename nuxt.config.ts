@@ -22,8 +22,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@formkit/nuxt',
-    '@nuxt/devtools',
-    '@nuxt/image-edge',
     '@nuxtjs/tailwindcss'
   ],
   css: [

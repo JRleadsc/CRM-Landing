@@ -22,8 +22,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@formkit/nuxt',
-    '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge'
+    '@nuxtjs/tailwindcss'
   ],
   css: [
     '~/assets/css/bootstrap.rtl.min.css',

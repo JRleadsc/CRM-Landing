@@ -1920,6 +1920,11 @@ button.owl-prev {
   border: 1px;
   transition: all 0.4s ease-in-out;
 }
+.bth-slider.active {
+  background: linear-gradient(13deg, #274DDF 0%, #EC4EAE 100%);
+  border: 1px;
+  transition: all 0.4s ease-in-out;
+}
 
 input:focus-visible {
   border: none;

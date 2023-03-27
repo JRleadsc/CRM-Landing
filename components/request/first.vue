@@ -86,7 +86,7 @@ const submitHandler = () => {
   apiRequest('post', sendRequestDemo(), formData.value)
     .then((res) => {
       console.log(res)
-      useRouter().push('/auth/step-1')
+      useRouter().push('/auth/verify')
     })
     .catch((e) => {
       console.error(e)

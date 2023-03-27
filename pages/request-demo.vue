@@ -52,14 +52,11 @@
       <div class="row">
         <div class="col-12">
           <div class="mw-100 relative py-5 my-5">
-            <nuxt-img
+            <img
               src="/images/picdemo.png"
-              loading="lazy"
-              quality="80"
-              format="webp"
               alt="image"
               class="w-100 rounded-[40px]"
-            />
+            >
             <div class="req-desc-box">
               <div class="req-box d-md-flex d-none">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و

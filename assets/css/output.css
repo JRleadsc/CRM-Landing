@@ -5456,13 +5456,20 @@ header {
   .title-head {
     font-size: 27px;
     padding-bottom: 32px;
+    line-height: 60px;
   }
   .title-brand {
     font-size: 20px;
   }
   .btn-demo{
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
+  .mt-\[73px\] {
+    margin-top: 48px;
+}
+.pt-\[100px\] {
+  padding-top: 0;
+}
   .brands {
     flex-direction: column;
   }

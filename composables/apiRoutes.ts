@@ -1,2 +1,2 @@
-export const sendRequestDemo = () => '/crm/demo/'
+export const sendRequestDemo = () => '/crm/request/'
 export const sendRequestContact = () => '/contact/'

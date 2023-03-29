@@ -82,7 +82,7 @@ const loading = ref(false)
 
 const submitHandler = () => {
   loading.value = true
-  formData.value.mobile = digitsFaToEn(digitsArToEn(phoneNumberNormalizer(formData.value.mobile, '0')))
+  formData.value.mobile = digitsFaToEn(digitsArToEn(phoneNumberNormalizer(formData.value.mobile, '+98')))
   apiRequest('post', sendRequestDemo(), formData.value)
     .then((res) => {
       console.log(res)

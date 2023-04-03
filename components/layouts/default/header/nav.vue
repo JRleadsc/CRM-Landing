@@ -232,7 +232,7 @@
 									</div>
 								  <div class="flex items-center pt-3">
 									<div class=" ml-[16px]  text-sm font-semibold text-gray-900  w-[44px] h-[44px] rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
-									  <span>EN</span>
+									  <span class="pt-[2px]">EN</span>
 								  </div>
 								  <div class="">
 									  <a class=" text-sm font-semibold text-[#2C2D2E] w-[62px] h-[44px] rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center" href="./login.html">

@@ -4996,9 +4996,17 @@ header {
   /* @apply flex items-center bg-white  rounded-full; */
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #ffffff85;
   width: max-content;
   border-radius: 40px;
+}
+.newsletter input {
+  background-color: #ffffff85;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 
@@ -5699,8 +5707,15 @@ header {
   }
 }
 
-
+@media (min-width: 576px) and (max-width: 640px) {
+  .menu-box-footer {
+    width: 50%;
+  }
+}
 @media (max-width: 576px) {
+  .menu-box-footer {
+    width: 100%;
+  }
   .news-list li {
     gap: 5px;
     padding: 32px;
@@ -5832,13 +5847,13 @@ header {
 .switch-btn input:checked+.slider-btn:before {
   right: 9px;
 }
-  .px-4 {
+  /* .px-4 {
     padding-right:0 !important;
     padding-left: 16px !important;
-  }
-  .sm\:w-\[73\%\] {
+  } */
+  /* .sm\:w-\[73\%\] {
     width: 60%;
-}
+} */
 .bg-section {
   background: url(../images/Pic.png) no-repeat center center;
   background-size: auto;

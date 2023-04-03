@@ -85,7 +85,7 @@ const submitHandler = () => {
   formData.value.mobile = digitsFaToEn(digitsArToEn(phoneNumberNormalizer(formData.value.mobile, '+98')))
   apiRequest('post', sendRequestDemo(), formData.value)
     .then((res) => {
-      console.log(res)
+      localStorage.setItem('emailForVerify', res.email)
       useRouter().push('/auth/verify')
     })
     .catch((e) => {

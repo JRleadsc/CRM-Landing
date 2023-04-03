@@ -1,5 +1,5 @@
 <template>
   <div class="mt-20">
-    Step-2
+    {{ useRoute().params.id }}
   </div>
 </template>

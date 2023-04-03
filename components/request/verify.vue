@@ -16,7 +16,7 @@
       message-class="text-xs -mt-4 mr-5 mb-2 text-red-500"
       validation="required"
       :validation-messages="{
-        required: 'شماره همراه را وارد کنید'
+        required: 'کد تایید را وارد کنید'
       }"
     />
 
@@ -30,11 +30,27 @@
 </template>
 
 <script setup>
+const email = ref(null)
+
+onMounted(() => {
+  email.value = localStorage.getItem('emailForVerify')
+
+  if (!email.value) {
+    useRouter().push('/request-demo')
+  }
+})
+
 const formData = ref(null)
 const loading = ref(false)
 
-const submitHandler = () => {
-  console.log(formData.value)
-  useRouter().push('/auth/signup')
+const submitHandler = async () => {
+  await apiRequest('get', sendRequestVerify(email.value, formData.value.token))
+    .then((res) => {
+      localStorage.removeItem('emailForVerify')
+      useRouter().push(`/auth/signup/${res.id}`)
+    })
+    .catch(() => {
+      // TODO: toast error
+    })
 }
 </script>

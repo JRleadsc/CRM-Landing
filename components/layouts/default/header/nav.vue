@@ -26,7 +26,7 @@
 
       <div class=" collapse navbar-collapse" id="navbarSupportedContent">
 								<div class="h-100 d-flex justify-between flex-col">
-                  <ul class="navbar-nav mb-2 mb-lg-0 me-0">
+                  <ul class="navbar-nav me-0">
           <li class="nav-item">
             <NuxtLink to="/price" class="nav-link active" aria-current="page">
               قیمت‌ها

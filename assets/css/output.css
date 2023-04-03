@@ -3613,11 +3613,13 @@ ul li.nav-item:not(:last-child) {
   color: #A6A1DD;
   font-size: 28px;
   font-weight: bold;
+  transition: all 0.4s ease;
 }
 .form-switch .active {
   color: #3E369D;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: bold;
+  transition: all 0.4s ease;
 }
 .switch-btn {
   position: relative;
@@ -3644,9 +3646,9 @@ ul li.nav-item:not(:last-child) {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e9ebef;
+  background-color: #3E369D;
   transition: .4s;
-  border: 0.125rem solid #e9ebef;
+  border: 0.125rem solid #3E369D;
 }
 .switch-btn input:checked+.slider-btn:before {
   transform: translateX(-1.25rem);
@@ -3667,7 +3669,7 @@ ul li.nav-item:not(:last-child) {
   bottom: 0.25rem;
   border: none;
   box-shadow: 0 0.1875rem 0.3125rem 0 rgb(43 49 73 / 16%);
-  background-color: #9EA8B2;
+  background-color: #fff;
   transition: .4s;
 }
 .pricing {

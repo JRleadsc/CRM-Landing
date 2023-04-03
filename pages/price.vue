@@ -46,18 +46,18 @@
           <div class="col-12">
             <div class="form-check form-switch">
               <div class="flex items-center gap-4 justify-center">
-                <div class="deactive">
+                <div :class="[activeClass?'active':'deactive']">
                   <label class="form-check-label" for="flexSwitchCheckChecked">
                     پکیج های سالانه
                   </label>
                 </div>
                 <div class="flex px-sm-2 px-0">
                   <label class="switch-btn">
-                    <input type="checkbox" checked="">
+                    <input type="checkbox" @change="switchPackage" >
                     <span class="slider-btn round" />
                   </label>
                 </div>
-                <div class="active">
+                <div :class="[activeClass?'deactive':'active']">
                   <label class="form-check-label" for="flexSwitchCheckChecked">
                     پکیج های ماهانه
                   </label>
@@ -78,7 +78,13 @@
             </div>
             <div>
               <p class="price text-[18px] font-bold pb-3">
-                ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                <template v-if="activeClass">
+                  ۲.۴۰۰.۰۰۰ تومان / سالانه
+                </template>
+                <template v-else>
+                  ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                </template>
+              
               </p>
               <button class="pink-btn rounded-full w-100">
                 انتخاب
@@ -96,7 +102,12 @@
             </div>
             <div>
               <p class="price text-[18px] font-bold pb-3">
-                ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                <template v-if="activeClass">
+                  ۲.۴۰۰.۰۰۰ تومان / سالانه
+                </template>
+                <template v-else>
+                  ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                </template>
               </p>
               <button class="pink-btn rounded-full w-100">
                 انتخاب
@@ -114,7 +125,12 @@
             </div>
             <div>
               <p class="price text-[18px] font-bold pb-3">
-                ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                <template v-if="activeClass">
+                  ۲.۴۰۰.۰۰۰ تومان / سالانه
+                </template>
+                <template v-else>
+                  ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                </template>
               </p>
               <button class="pink-btn rounded-full w-100">
                 انتخاب
@@ -132,7 +148,12 @@
             </div>
             <div>
               <p class="price text-[18px] font-bold pb-3">
-                ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                <template v-if="activeClass">
+                  ۲.۴۰۰.۰۰۰ تومان / سالانه
+                </template>
+                <template v-else>
+                  ۱.۲۰۰.۰۰۰ تومان / ماهانه
+                </template>
               </p>
               <button class="pink-btn rounded-full w-100">
                 انتخاب
@@ -153,3 +174,10 @@
     </section>
   </div>
 </template>
+<script setup>
+const switchPackage=()=>{
+  activeClass.value=!activeClass.value
+}
+const activeClass=ref(true)
+
+</script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-[100px] text-center mb-20">
+  <section class="pt-[100px] text-center pb-20">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -155,7 +155,7 @@
                     </span>
                   </div>
                   <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold ">
+                    <p class="text-base	text-[#2C2D2E] font-bold pb-[6px]">
                       گزارش دقیق و کارآمد
                     </p>
                     <p class="text-base	text-[#2C2D2E] font-bold">
@@ -163,7 +163,7 @@
                     </p>
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                     </p>
                   </div>
@@ -239,7 +239,7 @@
                     </span>
                   </div>
                   <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold ">
+                    <p class="text-base	text-[#2C2D2E] font-bold  pb-[6px]">
                       گزارش دقیق و کارآمد
                     </p>
                     <p class="text-base	text-[#2C2D2E] font-bold">
@@ -247,7 +247,7 @@
                     </p>
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                     </p>
                   </div>
@@ -393,7 +393,7 @@
                     </span>
                   </div>
                   <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold ">
+                    <p class="text-base	text-[#2C2D2E] font-bold  pb-[6px]">
                       گزارش دقیق و کارآمد
                     </p>
                     <p class="text-base	text-[#2C2D2E] font-bold">
@@ -401,7 +401,7 @@
                     </p>
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                     </p>
                   </div>
@@ -437,14 +437,16 @@ const options = ref({
 .splide__arrow {
   background: none !important;
 }
-/* .splide__arrows--rtl .splide__arrow--prev {
-  right: -2em !important;
-} */
 .splide__arrow svg {
   fill: #AEB5CF !important;
   @apply h-7 w-auto
 }
-/* .splide__arrows--rtl .splide__arrow--next {
-  left: -2em !important;
-} */
+.splide__arrows--rtl .splide__arrow--next {
+    left: -2em;
+    right: auto;
+}
+.splide__arrows--rtl .splide__arrow--prev {
+    left: auto;
+    right: -2em;
+}
 </style>

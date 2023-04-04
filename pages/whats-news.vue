@@ -13,7 +13,7 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    اخبار
+                    آخرین به روز رسانی ها
                   </li>
                 </ol>
               </nav>
@@ -22,12 +22,12 @@
         </div>
       </div>
     </section>
-    <section class="whats-news pb-5">
+    <section class="whats-news pb-5 mt-lg-0 mt-5">
       <div class="container pb-5">
-        <div class="row text-center">
+        <div class="row text-center d-lg-block d-none">
           <div class="col-12">
-            <h1 class="heading_h">
-              اخبار
+            <h1 class="heading_h text-[40px]">
+              آخرین به روز رسانی ها
             </h1>
           </div>
         </div>

@@ -658,12 +658,12 @@ html {
   }
 }  */
 @media (min-width: 1440px) {
-
+  .container,
   .internal-pages .container {
-    max-width: 1200px;
+    max-width: 1320px;
   }
-  .container {
-    max-width: 1280px;
+  .container-header {
+    max-width: 1280px !important;
   }
 }
 /* @media (min-width: 1536px) {
@@ -3152,7 +3152,7 @@ ul li.nav-item:not(:last-child) {
 .internal-pages .nav-link,
 .internal-pages .menu-toggle,
 .internal-pages .left {
-  padding-bottom: 9px;
+  /* padding-bottom: 9px; */
 }
 .internal-pages .top-menu {
   /* height: 4px; */

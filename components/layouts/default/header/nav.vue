@@ -109,7 +109,16 @@
                     </div>
                   </NuxtLink>
                 </li>
+                <li class="h-auto mb-0">
+                  <NuxtLink to="features" class="">
+                    <div class="text-[#40AAE2] text-sm font-medium pr-[72px] pt-[7px]">
+                  بیشتر بخوانید ...
+                    </div>
+                    </NuxtLink>
+                 
+                </li>
               </ul>
+              
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">

@@ -3151,7 +3151,7 @@ ul li.nav-item:not(:last-child) {
 .internal-pages .nav-link,
 .internal-pages .menu-toggle,
 .internal-pages .left {
-  padding-bottom: 9px;
+  /* padding-bottom: 9px; */
 }
 .internal-pages .top-menu {
   /* height: 4px; */
@@ -5250,7 +5250,7 @@ header {
 
 @media (min-width: 992px) {
   .sec-header {
-    padding-top: 40px !important;
+    /* padding-top: 40px !important; */
 
   }
 }

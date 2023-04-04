@@ -3272,10 +3272,10 @@ ul li.nav-item:not(:last-child) {
   border: 1px solid #ffffff2e;
   color: #111;
   transition: all 0.4s ease;
-  border-radius: 100px;
+  border-radius: 24px;
 }
 .faq .accordion-button {
-  height: 92px;
+  height: 60px;
   color: #fff;
 }
 .faq .accordion-body {
@@ -3799,17 +3799,16 @@ ul li.nav-item:not(:last-child) {
   margin-bottom: 20px;
   border-radius: 24px;
 }
+
 .conversation .accordion-button {
-  height: 86px;
-}
-.conversation .accordion-button {
-  color: #000000;
-  background-color: #fff;
-  box-shadow: none;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 24px;
-  padding: 0 50px;
+      height: 60px;
+      color: #000000;
+      background-color: #fff;
+      box-shadow: none;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 24px;
+      padding: 0 30px;
 }
 .conversation .accordion-body {
   padding: 0 50px 30px;
@@ -4550,7 +4549,7 @@ article .note {
 }
 .sec-blue h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   color: #FFFFFF;
 }
 .sec-blue h3 {
@@ -4630,7 +4629,7 @@ article .note {
   font-size: 16px;
   font-weight: bold;
   color: #2C2D2E;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
 .community-btn {
   width: 111px;

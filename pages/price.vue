@@ -174,10 +174,10 @@
     </section>
   </div>
 </template>
-<script setup>
-const switchPackage=()=>{
-  activeClass.value=!activeClass.value
-}
-const activeClass=ref(true)
 
+<script setup>
+const switchPackage = () => {
+  activeClass.value = !activeClass.value
+}
+const activeClass = ref(true)
 </script>

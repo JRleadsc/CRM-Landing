@@ -5057,6 +5057,14 @@ header {
   }
 }
 @media (min-width: 1200px) and (max-width : 1439px) {
+  .splide__arrows--rtl .splide__arrow--next {
+    left: -1em;
+    right: auto;
+}
+.splide__arrows--rtl .splide__arrow--prev {
+    left: auto;
+    right: 1em;
+}
   .side-right {
     flex: 0 0 340px;
 }
@@ -5222,6 +5230,9 @@ header {
 }
 }
 @media (max-width: 1080px) {
+  .splide__arrow svg {
+    display: none;
+  }
   .video_section {
     flex-direction: column;
     row-gap: 50px;

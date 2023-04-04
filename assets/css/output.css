@@ -5004,7 +5004,7 @@ header {
   border-radius: 40px;
 }
 .newsletter input {
-  background-color: #ffffff85;
+  background-color: #ffffff00;
 }
 footer {
   display: flex;
@@ -5853,6 +5853,7 @@ footer {
   .newsletter input {
     border-radius: 40px;
     width: 100%;
+    background-color: #fffffffc;
   }
   .form-switch .active, .form-switch .deactive {
     font-size: 16px;

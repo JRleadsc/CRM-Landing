@@ -658,6 +658,18 @@ html {
   }
 }  */
 @media (min-width: 1440px) {
+  .container,
+  .internal-pages .container {
+    max-width: 1320px;
+  }
+  .container-header {
+    max-width: 1280px !important;
+  }
+}
+@media (max-width: 1440px) {
+  .container-header {
+    max-width: 1200px !important;
+  }
   .internal-pages .container {
     max-width: 1200px;
   }

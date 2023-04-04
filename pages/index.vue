@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <section class="min-h-[780px] rounded-t-none rounded-b-[130px] ">
-      <div class="container z-20 relative px-0">
+      <div class="container z-20 relative">
         <div class="bg-white  sec-header z-20 relative">
           <LayoutsDefaultIndexHeader />
 

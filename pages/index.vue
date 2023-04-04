@@ -1,25 +1,27 @@
 <template>
   <div class="">
-    <section class="min-h-[780px] rounded-t-none rounded-b-[130px] ">
-      <div class="container z-20 relative">
+    <section class="first-section-index rounded-t-none rounded-b-[130px] ">
+      <div class="container z-20 relative px-0">
         <div class="bg-white  sec-header z-20 relative">
           <LayoutsDefaultIndexHeader />
 
-          <div class="">
-            <div class="text-center xl:px-[40px] px-[10px]">
-              <h1 class="text-[51px] text-[#2C2D2E] pt-[83px] pb-[55px] font-semibold title-head">
+          <div class="h-100">
+            <div class="text-center xl:px-[40px] px-[10px] flex flex-col items-center h-100 box-shut">
+              <h1 class=" text-[#2C2D2E]  font-semibold title-head">
                 هوشمند و جامع<br>
                 سیستم مدیریت مشتری
               </h1>
-              <h2 class="text-[#3E369D] text-[22px] font-semibold title-brand">
+              <div>
+                <h2 class="text-[#3E369D] text-[22px] font-semibold title-brand">
                 برای برندهای مطرح جهانی
               </h2>
               <NuxtLink to="/request-demo" class="flex justify-center">
-                <button class=" flex items-center bg-[#E14CAB] text-white justify-center rounded-full mx-auto mt-[2rem] btn-demo">
+                <button class=" flex items-center bg-[#E14CAB] text-white justify-center rounded-full mx-auto mt-[2rem] w-[240px] h-[64px] text-[20px] font-bold">
                   درخواست دمو
                 </button>
               </NuxtLink>
-              <div class="flex items-center justify-center mt-[73px] brands">
+              </div>
+              <div class="flex items-center justify-center brands">
                 <div class="pl-[50px]">
                   آنها که به ما <br>
                   اعتماد کردند

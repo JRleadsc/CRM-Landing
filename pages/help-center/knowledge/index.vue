@@ -1512,16 +1512,28 @@
             <div class="pt-5">
               <ul>
                 <li>
-                  ردیابی مخاطبین و مدیریت خط لوله
+                  <NuxtLink to="./help-center/knowledge/single-2">
+                    ردیابی مخاطبین و مدیریت خط لوله
+                    </NuxtLink>
+                
                 </li>
                 <li>
+                  <NuxtLink to="./help-center/knowledge/single-2">
                   هر ایمیل تعامل مشتری، تماس ها، جلسات و موارد دیگر را ردیابی کنید
+                </NuxtLink>
                 </li>
                 <li>
-                  دید کاملی از هر مشتری داشته باشید
+                  <NuxtLink to="./help-center/knowledge/single-2">
+                    دید کاملی از هر مشتری داشته باشید
+                  </NuxtLink>
+                 
+                 
                 </li>
                 <li>
-                  با گزارش‌ها و داشبوردها در یک نگاه، اطلاعات کسب‌وکار را دریافت کنید.
+                   <NuxtLink to="./help-center/knowledge/single-2">
+                    با گزارش‌ها و داشبوردها در یک نگاه، اطلاعات کسب‌وکار را دریافت کنید.
+                   </NuxtLink>
+                 
                 </li>
               </ul>
             </div>
@@ -1530,16 +1542,24 @@
             <div class="pt-sm-5">
               <ul>
                 <li>
+                  <NuxtLink to="./help-center/knowledge/single-2">
                   ردیابی مخاطبین و مدیریت خط لوله
+                  </NuxtLink>
                 </li>
                 <li>
+                    <NuxtLink to="./help-center/knowledge/single-2">
                   هر ایمیل تعامل مشتری، تماس ها، جلسات و موارد دیگر را ردیابی کنید
+                </NuxtLink>
                 </li>
                 <li>
+                  <NuxtLink to="./help-center/knowledge/single-2">
                   دید کاملی از هر مشتری داشته باشید
+                  </NuxtLink>
                 </li>
                 <li>
+                  <NuxtLink to="./help-center/knowledge/single-2">
                   با گزارش‌ها و داشبوردها در یک نگاه، اطلاعات کسب‌وکار را دریافت کنید.
+                  </NuxtLink>
                 </li>
               </ul>
             </div>

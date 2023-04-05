@@ -1,13 +1,13 @@
 <template>
   <footer class="bg-[#ECECEE]">
-    <div class="container lg:px-20">
-      <div class="row pt-[45px] pb-[41px] ">
+    <div class="container lg:px-20 h-100">
+      <div class="row h-100">
         <div class="col-md-6 col-12">
-          <div class="flex flex-col justify-between h-full px-4">
+          <div class="flex flex-col justify-between h-full px-4 pt-[24px]">
             <div>
-              <div class="pb-[30px] sm:pb-[24px]">
-                <SvgLogo class="d-xxl-block d-none w-[230px] h-auto" />
-                <span class="d-xxl-none d-block">
+              <div class="pb-[15px] ">
+                <SvgLogo class="d-sm-block d-none  w-[230px] h-auto" />
+                <span class="d-sm-none d-block">
                   <SvgLogo class="w-[157px] h-auto" />
                 </span>
               </div>
@@ -18,8 +18,8 @@
                 <p>سیستم مدیریت مشتری</p>
               </div>
             </div>
-            <div class="sm:pt-[35px]">
-              <h3 class="text-[22px] sm:text-[18px] text-[#2C2D2E] pb-4 font-bold sm:pb-[16px]">
+            <div class="">
+              <h3 class="sm:text-[22px] text-[18px] pt-md-0 pt-5 text-[#2C2D2E] font-bold pb-4">
                 عضویت در خبرنامه
               </h3>
               <div class=" newsletter">
@@ -32,9 +32,9 @@
           </div>
         </div>
         <div class="col-md-6 col-12">
-          <div class="xl:col-span-1 sm:col-span-2">
-            <div class="flex flex-col items-end sm:items-start sm:pt-[50px]">
-              <div class="flex justify-between 2xl:w-[38%] xl:w-[57%] sm:w-[73%] ">
+          <div class="xl:col-span-1 sm:col-span-2 px-4">
+            <div class="flex flex-col items-end sm:items-start pt-[30px]">
+              <div class="flex justify-between 2xl:w-[38%] xl:w-[57%] md:w-[73%] sm:w-[50%] menu-box-footer">
                 <div>
                   <h3 class="text-[28px] sm:text-[18px] font-bold text-[#2C2D2E] pb-[26px]">
                     پشتیبانی
@@ -80,7 +80,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="flex items-center gap-8 pt-[92px]">
+              <div class="flex items-center gap-8 pt-[70px]">
                 <div>
                   <a href="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">

@@ -120,6 +120,7 @@
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -140,6 +141,7 @@
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -160,6 +162,7 @@
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -180,6 +183,7 @@
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -200,6 +204,7 @@
                 <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -220,6 +225,7 @@
                 <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>
@@ -240,6 +246,7 @@
                 <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
                   <div class="accordion-body">
                     بخش هایی از رایانه شما وجود دارد که ممکن است بخواهید آنها را به اشتراک بگذارید - برای مثال برنامه های خود. موارد دیگری وجود دارد - اسناد خصوصی، پوشه‌های تصویر شخصی - که شما ندارید.
+                    <br/>
                     <a href="">بیشتر بخوانید</a>
                   </div>
                 </div>

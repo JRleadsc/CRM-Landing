@@ -22,7 +22,8 @@ export default defineNuxtConfig({
   },
   imports: {
     imports: [
-      { name: 'useStoreSignup', from: '@/stores/signup' }
+      { name: 'useStoreSignup', from: '@/stores/signup' },
+      { name: 'useToast', from: 'vue-toastification' }
     ]
   },
   modules: [

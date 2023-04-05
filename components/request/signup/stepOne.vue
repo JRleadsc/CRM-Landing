@@ -146,9 +146,9 @@
       </div>
       <div class="col-12">
         <div class="pt-[34px]">
-          <button class="btn-md pink-btn" @click="submitFormHandler">
+          <div class="cursor-pointer btn-md pink-btn" @click="submitFormHandler">
             مرحله بعد
-          </button>
+          </div>
         </div>
       </div>
     </div>
@@ -160,6 +160,7 @@ import { submitForm } from '@formkit/core'
 
 const emit = defineEmits(['changeStep'])
 
+const storeSignup = useStoreSignup()
 const passCheck = ref([])
 const formData = ref({
   password: ''
@@ -169,14 +170,23 @@ watch(() => formData.value.password, (payload) => {
   passCheck.value = passValidatorWithDeatil(payload)
 })
 
+onMounted(() => {
+  if (storeSignup.register.first_name) {
+    formData.value.first_name = storeSignup.register.first_name
+  }
+  if (storeSignup.register.last_name) {
+    formData.value.last_name = storeSignup.register.last_name
+  }
+})
+
 const submitFormHandler = () => {
   submitForm('stepOne')
 }
 
 const submitHandler = () => {
-  useStoreSignup().register.first_name = formData.value.first_name
-  useStoreSignup().register.last_name = formData.value.last_name
-  useStoreSignup().register.password = formData.value.password
+  storeSignup.register.first_name = formData.value.first_name
+  storeSignup.register.last_name = formData.value.last_name
+  storeSignup.register.password = formData.value.password
 
   emit('changeStep', 2)
 }

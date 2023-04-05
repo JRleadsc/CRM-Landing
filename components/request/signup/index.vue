@@ -81,7 +81,7 @@
         </div>
         <div class="create-account w-full">
           <RequestSignupStepOne v-if="step === 1" @change-step="changeStep" />
-          <RequestSignupStepTwo v-else-if="step === 2" @change-step="changeStep" />
+          <RequestSignupStepTwo v-else-if="step === 2" :ding="ding" @change-step="changeStep" />
           <RequestSignupStepThree v-else-if="step === 3" @change-step="changeStep" />
         </div>
       </div>
@@ -94,10 +94,20 @@
 import { submitForm } from '@formkit/core'
 
 const step = ref(1)
+const ding = ref(false)
 
 const goToStep = (id) => {
   if (step.value === 1 && id > 1) {
-    console.log(submitForm('stepOne'))
+    submitForm('stepOne')
+  } else if (step.value === 2 && id === 1) {
+    step.value = 1
+  } else if (step.value === 2 && id === 3) {
+    ding.value = true
+    setTimeout(() => {
+      ding.value = false
+    }, 250)
+  } else if (step.value === 3) {
+    step.value = id
   }
 }
 

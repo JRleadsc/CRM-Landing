@@ -1,6 +1,3 @@
-
-import { SvgArrowDown } from '~~/.nuxt/components';
-
 <template>
   <div class="form-start">
     <p class="create-account-p text-[24px] text-[#2C2D2E] font-bold">
@@ -9,14 +6,36 @@ import { SvgArrowDown } from '~~/.nuxt/components';
     <div class="row h-100 pb-5">
       <div class="col-xxl-6 col-12 flex flex-col justify-between">
         <div>
-          <form action="" class="pt-[38px] ">
-            <div class="">
-              <label for="company" class="form-label">
-                نام شرکت یا برند
-                <span>*</span>
-              </label>
-              <input id="company" type="text" class="form-control" placeholder="Name">
-            </div>
+          <FormKit
+            id="stepThree"
+            v-model="formData"
+            type="form"
+            :actions="false"
+            form-class="pt-[38px]"
+            message-class="hidden"
+            @submit="submitHandler"
+          >
+            <FormKit
+              type="text"
+              name="company_name"
+              label="نام شرکت"
+              :sections-schema="{
+                label: {
+                  children: [
+                    '$label',
+                    {
+                      $el: 'span',
+                      children: '*'
+                    }
+                  ]
+                }
+              }"
+              label-class="form-label"
+              input-class="form-control"
+              placeholder="نام شرکت"
+              message-class="form-error"
+              validation="required"
+            />
             <FormKit
               :type="dropDownForm"
               name="company_type"
@@ -38,67 +57,37 @@ import { SvgArrowDown } from '~~/.nuxt/components';
               :items="typeDrop"
               validation="required"
             />
-            <div class="">
-              <label for="company" class="form-label">
-                نوع شرکت
-                <span>*</span>
-              </label>
-              <div id="dropBox" class="dropdown flex items-center position-relative" @click="type = !type">
-                <p id="dropBoxText" class="ps-2">
-                  انتخاب نمایید
-                </p>
-                <SvgArrowDown :class="{ 'rotate-180': type }" />
-
-                <ul id="dropDownMenu" class="dropdown-menus animate__animated animate__fadeIn" :class="{ 'hidden': !type }">
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="">
-              <label for="company" class="form-label">
-                چند نفر هستید
-                <span>*</span>
-              </label>
-              <div id="dropBox" class="dropdown flex items-center position-relative" @click="type = !type">
-                <p id="dropBoxText" class="ps-2">
-                  انتخاب نمایید
-                </p>
-                <SvgArrowDown :class="{ 'rotate-180': type }" />
-
-                <ul id="dropDownMenu" class="dropdown-menus animate__animated animate__fadeIn" :class="{ 'hidden': !type }">
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                  <li class="dropdown-item flex items-center justify-between">
-                    عنوان یک آیتم
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </form>
+            <FormKit
+              :type="dropDownForm"
+              name="employee"
+              label="چند نفر هستید"
+              :sections-schema="{
+                label: {
+                  children: [
+                    '$label',
+                    {
+                      $el: 'span',
+                      children: '*'
+                    }
+                  ]
+                }
+              }"
+              label-class="form-label"
+              input-class="form-control"
+              message-class="form-error"
+              :items="employeeDrop"
+              validation="required"
+            />
+          </Formkit>
         </div>
         <div class="flex items-center pt-5" style="column-gap: 1rem;">
-          <button type="submit" class="btn-demo-fill pink-btn">
+          <div v-if="loading" class="btn-demo-outline" @click="submitFormHandler">
+            <SvgLoading />
+          </div>
+          <div v-else class="cursor-pointer btn-demo-fill pink-btn" @click="submitFormHandler">
             ثبت نهایی
-          </button>
-          <div class="cursor-pointer btn-demo-outline white-btn">
+          </div>
+          <div class="cursor-pointer btn-demo-outline white-btn" @click="emit('changeStep', 2)">
             قبلی
           </div>
         </div>
@@ -109,8 +98,15 @@ import { SvgArrowDown } from '~~/.nuxt/components';
 </template>
 
 <script setup>
+import { submitForm } from '@formkit/core'
 import { createInput } from '@formkit/vue'
 import dropDown from '@/formKitCustomInput/dropDown.vue'
+
+const emit = defineEmits(['changeStep'])
+
+const dropDownForm = createInput(dropDown, {
+  props: ['items']
+})
 
 const { data: typeData, pending: typePending } = useLazyAsyncData('get-company-type', () => apiRequest('get', getCompanyType()), {
   initialCache: false
@@ -124,7 +120,43 @@ watch(typePending, (payload) => {
   }
 })
 
-const dropDownForm = createInput(dropDown, {
-  props: ['items']
+const { data: employeeData, pending: employeePending } = useLazyAsyncData('get-employee', () => apiRequest('get', getCompanyEmployee()), {
+  initialCache: false
 })
+const employeeDrop = ref([])
+watch(employeePending, (payload) => {
+  if (!payload) {
+    employeeData.value.results.forEach((item) => {
+      employeeDrop.value.push({ title: item.name, id: item.id })
+    })
+  }
+})
+
+const storeSignup = useStoreSignup()
+const formData = ref(null)
+const loading = ref(false)
+
+const submitFormHandler = () => {
+  submitForm('stepThree')
+}
+
+const submitHandler = () => {
+  loading.value = true
+
+  storeSignup.register.company_name = formData.value.company_name
+  storeSignup.register.company_type = formData.value.company_type
+  storeSignup.register.employee = formData.value.employee
+  storeSignup.register.request = useRoute().params.id
+
+  apiRequest('post', sendSignup(), storeSignup.register)
+    .then(() => {
+      useToast().success('ثبت نام با موفقیت انجام شد')
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+    .finally(() => {
+      loading.value = false
+    })
+}
 </script>

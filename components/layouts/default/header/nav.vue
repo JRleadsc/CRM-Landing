@@ -109,7 +109,16 @@
                     </div>
                   </NuxtLink>
                 </li>
+                <li class="h-auto mb-0">
+                  <NuxtLink to="features" class="">
+                    <div class="text-[#40AAE2] text-sm font-medium pr-[72px] pt-[7px]">
+                  بیشتر بخوانید ...
+                    </div>
+                    </NuxtLink>
+                 
+                </li>
               </ul>
+              
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">
@@ -213,7 +222,7 @@
             </div>
             <div class="flex items-center pt-3">
               <div class="ml-4 text-sm font-semibold text-gray-900  w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
-                <span class="pt-0.5">EN</span>
+                <span>EN</span>
               </div>
               <div class="">
                 <a class="text-sm font-semibold text-[#2C2D2E] w-16 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center" href="/login">
@@ -235,7 +244,7 @@
           </button>
         </NuxtLink>
         <div class="d-none d-xl-flex ml-4 text-sm font-semibold text-gray-900 w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
-          <span>EN</span>
+          <span class="pt-[3px]">EN</span>
         </div>
         <div class="d-none d-xl-block">
           <a class="text-sm font-semibold text-[#2C2D2E]" href="/login">

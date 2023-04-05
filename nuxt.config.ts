@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   modules: [
     '@formkit/nuxt',
     '@vueuse/nuxt',
+    '@pinia/nuxt',
     '@nuxtjs/tailwindcss'
   ],
   css: [

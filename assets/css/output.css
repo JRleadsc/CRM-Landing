@@ -4045,13 +4045,6 @@ section.article ul li:before,
   background-color: #fff;
   border: 1px solid #ECECEE;
 }
-.tick-busines {
-  opacity: 0;
-}
-.title-busines:hover .tick-busines {
-  opacity: 1;
-  transition: all 0.4s;
-}
 
 .create-account .dropdown {
   padding: 0 27px;

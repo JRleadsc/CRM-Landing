@@ -12,7 +12,7 @@
       </div>
       <div class="form-start w-100 shadow-none pt-3 px-0 h-auto">
         <FormKit
-          id="login-form"
+          id="contact-form"
           v-model="formData"
           type="form"
           :actions="false"
@@ -61,7 +61,7 @@
             label="متن پیام *"
             rows="8"
             label-class="form-label"
-            input-class="form-control"
+            input-class="form-control py-2"
             message-class="text-xs mt-2 mr-5 mb-2 text-red-500"
             validation="required"
             :validation-messages="{
@@ -73,13 +73,12 @@
               <SvgLoading class="h-8 w-auto text-white" />
             </div>
             <div v-else class="flex gap-4 items-center">
-              <FormKit type="submit" input-class="btn-md pink-btn">
+              <div v-if="success" class="btn-md btn-success btn-outline">
+                پیام ارسال شد
+              </div>
+              <FormKit v-else type="submit" input-class="btn-md pink-btn">
                 <span class="text-white">ارسال پیام</span>
               </FormKit>
-
-              <div v-show="success" class="py-1 px-4 bg-green-200 border-1 border-green-900/30 rounded-full">
-                پیام ارسال شد. در صورت نیاز با شما تماس می‌گیریم
-              </div>
             </div>
           </div>
         </Formkit>
@@ -89,6 +88,8 @@
 </template>
 
 <script setup>
+import { reset } from '@formkit/core'
+
 const formData = ref([])
 const loading = ref(false)
 const success = ref(false)
@@ -98,10 +99,8 @@ const submitHandler = () => {
   apiRequest('post', sendRequestContact(), formData.value)
     .then(() => {
       success.value = true
-      formData.value = []
-      setTimeout(() => {
-        success.value = false
-      }, 4000)
+      reset('contact-form')
+      useToast().success('پیام شما با موفقیت ارسال شد. در صورت نیاز با شما تماس می‌گیریم')
     })
     .catch((e) => {
       console.error(e)

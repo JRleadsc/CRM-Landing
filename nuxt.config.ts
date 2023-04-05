@@ -20,6 +20,11 @@ export default defineNuxtConfig({
       ]
     }
   },
+  imports: {
+    imports: [
+      { name: 'useStoreSignup', from: '@/stores/signup' }
+    ]
+  },
   modules: [
     '@formkit/nuxt',
     '@vueuse/nuxt',

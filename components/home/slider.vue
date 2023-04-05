@@ -72,9 +72,9 @@
             </div>
           </div>
           <div class="">
-            <img v-if="slide === 1" src="/images/slide-1.jpg" class="rounded-2xl">
-            <img v-else-if="slide === 2" src="/images/slide-2.jpg" class="rounded-2xl">
-            <img v-else-if="slide === 3" src="/images/slide-3.jpg" class="rounded-2xl">
+            <img v-show="slide === 1" src="/images/slide-1.jpg" class="rounded-2xl">
+            <img v-show="slide === 2" src="/images/slide-2.jpg" class="rounded-2xl">
+            <img v-show="slide === 3" src="/images/slide-3.jpg" class="rounded-2xl">
           </div>
         </div>
       </section>

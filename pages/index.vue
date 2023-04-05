@@ -13,13 +13,13 @@
               </h1>
               <div>
                 <h2 class="text-[#3E369D] text-[22px] font-semibold title-brand">
-                برای برندهای مطرح جهانی
-              </h2>
-              <NuxtLink to="/request-demo" class="flex justify-center">
-                <button class=" flex items-center bg-[#E14CAB] text-white justify-center rounded-full mx-auto mt-[2rem] w-[240px] h-[64px] text-[20px] font-bold">
-                  درخواست دمو
-                </button>
-              </NuxtLink>
+                  برای برندهای مطرح جهانی
+                </h2>
+                <NuxtLink to="/request-demo" class="flex justify-center">
+                  <button class=" flex items-center bg-[#E14CAB] text-white justify-center rounded-full mx-auto mt-[2rem] w-[240px] h-[64px] text-[20px] font-bold">
+                    درخواست دمو
+                  </button>
+                </NuxtLink>
               </div>
               <div class="flex items-center justify-center brands">
                 <div class="pl-[50px]">

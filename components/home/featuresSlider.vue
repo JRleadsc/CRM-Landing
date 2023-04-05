@@ -429,7 +429,21 @@ const options = ref({
   gap: 32,
   focus: 'center',
   perPage: 3,
-  autoWidth: true
+  autoWidth: true,
+  breakpoints: {
+    640: {
+              perPage: 1,
+        
+            },
+            767: {
+              perPage: 2,
+          
+            },
+            1024: {
+              perPage: 3,
+             
+            },
+    }
 })
 </script>
 
@@ -442,11 +456,11 @@ const options = ref({
   @apply h-7 w-auto
 }
 .splide__arrows--rtl .splide__arrow--next {
-    left: -2em;
+    left: -11px;
     right: auto;
 }
 .splide__arrows--rtl .splide__arrow--prev {
     left: auto;
-    right: -2em;
+    right: -11px;
 }
 </style>

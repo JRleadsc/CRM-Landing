@@ -3171,16 +3171,10 @@ ul li.nav-item:not(:last-child) {
   background: #fff;
   min-height: 580px;
   border-radius: 40px;
-  padding: 40px 44px;
   box-shadow: 6px 19px 47px 4px rgb(69 80 122 / 8%);
-  
-}
-.levels {
-  padding-left: 40px;
-  border-left: 1px solid #ececee8c;
+  @apply p-4 md:p-10
 }
 .levels .step {
-  width: 300px;
   min-height: 80px;
   background: #ececee8c;
   border-radius: 100px;
@@ -3211,7 +3205,7 @@ ul li.nav-item:not(:last-child) {
   color: #fff;
 }
 .create-account {
-  padding-right: 64px;
+  @apply md:pr-16
 }
 .create-account-p {
   font-size: 18px;
@@ -5397,13 +5391,6 @@ footer {
     align-items: center;
     padding-top: 32px;
 }
-  .levels .step {
-    width: 235px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-  }
   .req-desc-box {
     left: 77px;
     top: calc(50% - 116px);
@@ -5639,18 +5626,9 @@ footer {
   font-size: 12px;
   line-height: 26px;
 }
-  .levels .step svg {
-    display: none;
-  }
   .account {
     flex-direction: column;
   }
-  .levels {
-    padding-left: 0;
-    border-left: none;
-    display: flex;
-    gap: 5px;
-}
   .bg-section {
     background: url(../images/Pic.png) no-repeat center center;
     background-size: auto;

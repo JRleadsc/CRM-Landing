@@ -152,8 +152,8 @@ const submitHandler = () => {
     .then(() => {
       useToast().success('ثبت نام با موفقیت انجام شد')
     })
-    .catch((err) => {
-      console.log(err)
+    .catch(() => {
+      useToast().error('درخواست شما معتبر نیست')
     })
     .finally(() => {
       loading.value = false

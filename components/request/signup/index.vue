@@ -1,9 +1,9 @@
 <template>
   <div class="col-12">
     <div class="main-account relative">
-      <div class="account flex w-full  z-20 relative">
-        <div class="levels">
-          <div class="step" :class="{ 'active': step === 1 }" @click="goToStep(1)">
+      <div class="account flex w-full z-20 relative">
+        <div class="levels pl-10 border-l-4 border-[#EC4EAE]/5 d-none d-md-block">
+          <div class="step w-[300px]" :class="{ 'active': step === 1 }" @click="goToStep(1)">
             <div>
               <p>
                 مرحله اول
@@ -12,23 +12,9 @@
                 حساب کاربری برای خود بسازید
               </span>
             </div>
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="11.619" height="20.242" viewBox="0 0 11.619 20.242">
-                <path
-                  id="Arrow-_R"
-                  data-name="Arrow- R"
-                  d="M-18342.2-15613.723l-8,8,8,8"
-                  transform="translate(18351.697 15615.844)"
-                  fill="none"
-                  stroke="#ececee"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </svg>
-            </div>
+            <SvgArrowRight />
           </div>
-          <div class="step" :class="{ 'active': step === 2 }" @click="goToStep(2)">
+          <div class="step w-[300px]" :class="{ 'active': step === 2 }" @click="goToStep(2)">
             <div>
               <p>
                 مرحله دوم
@@ -37,23 +23,9 @@
                 کسب و کار شما چگونه است؟
               </span>
             </div>
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="11.619" height="20.242" viewBox="0 0 11.619 20.242">
-                <path
-                  id="Arrow-_R"
-                  data-name="Arrow- R"
-                  d="M-18342.2-15613.723l-8,8,8,8"
-                  transform="translate(18351.697 15615.844)"
-                  fill="none"
-                  stroke="#ececee"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </svg>
-            </div>
+            <SvgArrowRight />
           </div>
-          <div class="step" :class="{ 'active': step === 3 }" @click="goToStep(3)">
+          <div class="step w-[300px]" :class="{ 'active': step === 3 }" @click="goToStep(3)">
             <div>
               <p>
                 مرحله سوم
@@ -62,21 +34,42 @@
                 شرکت خود را معرفی کنید
               </span>
             </div>
+            <SvgArrowRight />
+          </div>
+        </div>
+        <div class="levels w-full pb-2 mb-4 border-b-4 border-[#EC4EAE]/5 d-block d-md-none">
+          <div v-if="step === 1" class="step active" @click="goToStep(1)">
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="11.619" height="20.242" viewBox="0 0 11.619 20.242">
-                <path
-                  id="Arrow-_R"
-                  data-name="Arrow- R"
-                  d="M-18342.2-15613.723l-8,8,8,8"
-                  transform="translate(18351.697 15615.844)"
-                  fill="none"
-                  stroke="#ececee"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </svg>
+              <p>
+                مرحله اول
+              </p>
+              <span>
+                حساب کاربری برای خود بسازید
+              </span>
             </div>
+            <SvgArrowRight />
+          </div>
+          <div v-if="step === 2" class="step active" @click="goToStep(2)">
+            <div>
+              <p>
+                مرحله دوم
+              </p>
+              <span>
+                کسب و کار شما چگونه است؟
+              </span>
+            </div>
+            <SvgArrowRight />
+          </div>
+          <div v-if="step === 3" class="step active" @click="goToStep(3)">
+            <div>
+              <p>
+                مرحله سوم
+              </p>
+              <span>
+                شرکت خود را معرفی کنید
+              </span>
+            </div>
+            <SvgArrowRight />
           </div>
         </div>
         <div class="create-account w-full">

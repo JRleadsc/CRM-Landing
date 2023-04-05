@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  
+  .form-error {
+    @apply text-[9px] -mt-4 mb-3 mr-4 text-red-600
+  }
 }

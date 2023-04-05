@@ -17,11 +17,14 @@
               </ol>
             </nav>
           </div>
-          <div class="text-md-start text-center">
-            <h1 class="heading_h">
+          <div class="text-start">
+            <h1 class="d-none d-md-block text-[36px] font-bold text-[#3E369D] pb-2.5">
               نرم افزار مدیریت مشتریان خود را آماده کنید
             </h1>
-            <p class="heading_p pb-4 lh-lg ">
+            <h1 class="d-block d-md-none text-base font-bold text-[#3E369D] pb-2.5">
+              نرم افزار مدیریت مشتریان خود را آماده کنید
+            </h1>
+            <p class="heading_p pb-4 lh-lg">
               این فقط چند دقیقه طول می کشد
             </p>
           </div>

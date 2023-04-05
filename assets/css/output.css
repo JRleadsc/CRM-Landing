@@ -4067,11 +4067,16 @@ section.article ul li:before,
   align-items: center;
   color: #B5B5C1;
 }
+#dropBoxSelect {
+  display: flex;
+  align-items: center;
+  color: #2C2D2E;
+}
 .create-account .dropdown svg {
   position: absolute;
-  left: 0.875rem;
+  left: 1.2rem;
 }
-.create-account .dropdown-menu {
+.create-account .dropdown-menus {
   border: none;
   position: absolute;
   top: 60px;
@@ -4081,8 +4086,8 @@ section.article ul li:before,
   width: 100%;
   background: #fff;
   transition: all 0.3s ease-in-out 0s;
-  display: none;
   box-shadow: 0 0.125rem 1rem #9ea8b23d;
+  @apply max-h-[210px] overflow-y-auto
 }
 .create-account .dropdown-item {
   padding: 1rem 1.25rem 1.125rem;

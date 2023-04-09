@@ -4807,14 +4807,42 @@ header {
 .header-overlay + section {
   margin-top: 80px;
 }
+.navbar-toggler:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  background: white;
+  transform: rotate(44deg);
+  top: 12px;
+  left: 18px;
+  border-radius: 10px;
+}
+
+.navbar-toggler:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  background: #fff;
+  transform: rotate(136deg);
+  top: 12px;
+  left: 18px;
+  border-radius: 10px;
+}
 .navbar-toggler {
   width: 40px;
   height: 40px;
-  background: url("../images/close-menu.png") no-repeat center center;
+  background: #2e2e2e;
+  border-radius: 50%;
 
 }
 .navbar-toggler.collapsed {
   background: url("../images/menu.svg") no-repeat center center;
+}
+.navbar-toggler.collapsed:after,
+.navbar-toggler.collapsed:before {
+  display: none;
 }
 .taggle-option {
   display: none;
@@ -5288,6 +5316,10 @@ footer {
   }
 }
 @media (max-width: 991px){
+  .first-section-index,
+  .sec-header {
+    height: 680px;
+  }
   .carousel-main .owl-theme .owl-nav {
     display: none;
   }
@@ -5499,6 +5531,19 @@ footer {
   }
 }
 @media (max-width : 767px) {
+  /* .first-section-index .container {
+    padding: 0 15px !important
+  } */
+  .jr_vid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  .border-box-index {
+    bottom: -8px;
+    right: 0;
+    left: 0;
+    width: 95%;
+}
   .carousel-control-prev {
     display: none;
 }
@@ -5717,14 +5762,27 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .jr_vid {
+    padding-top: 50px;
+}
+  .first-section-index,
+  .sec-header {
+    height: 680px;
+  }
+  .border-box-index {
+    bottom: -8px;
+    right: 0;
+    left: 0;
+    width: 98%;
+}
   .splide__arrow svg {
     display: block;
   }
   .splide__arrows--rtl .splide__arrow--prev {
-    right: 30px;
+    right: 0 !important;
   }
   .splide__arrows--rtl .splide__arrow--next {
-    left: 30px;
+    left: 0 !important;
   }
   .menu-box-footer {
     width: 100%;
@@ -5828,6 +5886,12 @@ footer {
 }
 }
 @media (max-width : 480px) {
+  .border-box-index {
+    bottom: -6px;
+    right: 0;
+    left: 0;
+    width: 97%;
+}
   .heading-contact {
     flex-direction: column;
     align-items: flex-start;
@@ -6079,4 +6143,14 @@ footer {
   .sec-header{
     height: 740px;
   }
+}
+@media (max-height: 710px) {
+  .box-shut {
+    justify-content: space-around;
+    gap: 0;
+    padding-top: 0;
+}
+.sec-header {
+  height: calc(100vh - 54px);
+}
 }

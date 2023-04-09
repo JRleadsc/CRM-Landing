@@ -49,6 +49,9 @@
               </a>
               <ul class="dropdown-menu absolute shadow-lg border-0" aria-labelledby="navbarDropdown">
                 <span class="triangle" />
+                <span class="back-icon">
+                  <SvgBack />
+                  </span>
                 <li>
                   <NuxtLink to="features" class="dropdown-item">
                     <div>
@@ -143,6 +146,9 @@
               </a>
               <ul class="dropdown-menu absolute shadow-lg border-0" aria-labelledby="navbarDropdown">
                 <span class="triangle" />
+                <span class="back-icon">
+                  <SvgBack />
+                  </span>
                 <li>
                   <NuxtLink to="/help-center" class="dropdown-item">
                     <div>

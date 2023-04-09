@@ -5316,6 +5316,10 @@ footer {
   }
 }
 @media (max-width: 991px){
+  .first-section-index,
+  .sec-header {
+    height: 680px;
+  }
   .carousel-main .owl-theme .owl-nav {
     display: none;
   }
@@ -5775,10 +5779,10 @@ footer {
     display: block;
   }
   .splide__arrows--rtl .splide__arrow--prev {
-    right: 30px;
+    right: 0 !important;
   }
   .splide__arrows--rtl .splide__arrow--next {
-    left: 30px;
+    left: 0 !important;
   }
   .menu-box-footer {
     width: 100%;

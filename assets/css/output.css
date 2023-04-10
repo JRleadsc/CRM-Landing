@@ -4837,6 +4837,10 @@ header {
   border-radius: 50%;
 
 }
+.navbar-toggler.open-icon:after,
+.navbar-toggler.open-icon:before {
+  display: none;
+}
 .navbar-toggler.collapsed {
   background: url("../images/menu.svg") no-repeat center center;
 }

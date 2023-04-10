@@ -10,6 +10,8 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+		  :class="defaultIconClass"
+		   @click="changeIcon"
         >
           <span>
             <!-- <img src="/images/menu.svg" alt=""> -->
@@ -112,13 +114,11 @@
                 <li class="h-auto mb-0">
                   <NuxtLink to="features" class="">
                     <div class="text-[#40AAE2] text-sm font-medium pr-[72px] pt-[7px]">
-                  بیشتر بخوانید ...
+                      بیشتر بخوانید ...
                     </div>
-                    </NuxtLink>
-                 
+                  </NuxtLink>
                 </li>
               </ul>
-              
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">
@@ -255,3 +255,28 @@
     </div>
   </nav>
 </template>
+<script setup>
+import { useStoreResponsive } from '~/stores/responsive';
+
+// 
+const defaultIconClass = ref('open-icon')
+
+// const topMenuClass = ref('top-menu-opacity-off')
+
+const changeIcon = () => {
+  if (defaultIconClass.value === 'open-icon') {
+    defaultIconClass.value = 'close-icon'
+	document.body.style.overflow = 'hidden'
+	useStoreResponsive().isMenuOpen = true
+	
+    //topMenuClass.value = 'top-menu-opacity'
+  } else {
+    defaultIconClass.value = 'open-icon'
+    document.body.style.overflow = 'auto'
+    //topMenuClass.value = 'top-menu-opacity-off'
+	useStoreResponsive().isMenuOpen = false
+  }
+
+  // console.log('changeIcon:' + changeIcon)
+}
+</script>

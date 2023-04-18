@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <section class="first-section-index rounded-t-none rounded-b-[130px] ">
+    <section class="first-section-index rounded-t-none xs:rounded-b-[130px] rounded-b-[100px]">
       <div class="container z-20 relative px-0">
-        <div class="bg-white  sec-header z-20 relative">
+        <div class="bg-white  sec-header z-20 relative xs:rounded-b-[130px] rounded-b-[100px]">
           <LayoutsDefaultIndexHeader />
 
           <div class="h-100">
@@ -50,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="border-box-index absolute h-[7.5rem]  rounded-t-none rounded-b-[130px] z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] mx-auto" />
+        <div class="border-box-index absolute h-[7.5rem]  rounded-t-none xs:rounded-b-[130px] rounded-b-[100px] z-10 bg-gradient-to-r from-[#EC4EAE] to-[#40AAE2] mx-auto" />
       </div>
     </section>
 

@@ -4010,7 +4010,6 @@ section.article ul li:before,
 .sec-header {
   height: calc(100vh - 54px);
   padding-bottom: 100px;
-  border-radius: 0 0 130px 130px ;
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,78,174,0.21332282913165268) 30%, rgba(64,170,226,0.17130602240896353) 58%, rgba(255,255,255,1) 100%);
 }
 .border-box-index {
@@ -5886,12 +5885,7 @@ footer {
 }
 }
 @media (max-width : 480px) {
-  .border-box-index {
-    bottom: -6px;
-    right: 0;
-    left: 0;
-    width: 97%;
-}
+
   .heading-contact {
     flex-direction: column;
     align-items: flex-start;

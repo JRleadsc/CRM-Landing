@@ -22,7 +22,7 @@ export const apiRequest = async (method: string = 'get', url: string = '', data:
       //   }
       // },
       method: method.toUpperCase(),
-      baseURL: config.apiUrl,
+      baseURL: config.public.apiUrl,
       body: method.toUpperCase() !== 'GET' ? data : null,
       query: params,
       // headers: useAuth().authenticated

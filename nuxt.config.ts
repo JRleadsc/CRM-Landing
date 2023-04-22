@@ -30,7 +30,9 @@ export default defineNuxtConfig({
     '@formkit/nuxt',
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-simple-robots',
+    'nuxt-simple-sitemap'
   ],
   css: [
     '~/assets/css/bootstrap.rtl.min.css',
@@ -39,8 +41,15 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_URL
+      apiUrl: process.env.NUXT_PUBLIC_API_URL,
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL
     }
+  },
+  routeRules: {
+    '/login': { robots: 'noindex, nofollow' },
+    '/auth/**': { robots: 'noindex, nofollow' },
+    '/': { robots: 'index, follow' },
+    '/**': { robots: 'index, follow' }
   },
   experimental: {
     writeEarlyHints: false

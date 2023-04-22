@@ -1,6 +1,7 @@
 <template>
   <div class="font-iran min-h-screen bg-body text-neutral" :class="useRoute().name !== 'index' ? 'internal-pages' : ''">
     <NuxtLoadingIndicator />
+    <RobotMeta />
 
     <slot />
 

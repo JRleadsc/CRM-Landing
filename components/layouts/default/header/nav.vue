@@ -10,8 +10,8 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-		  :class="defaultIconClass"
-		   @click="changeIcon"
+          :class="defaultIconClass"
+          @click="changeIcon"
         >
           <span>
             <!-- <img src="/images/menu.svg" alt=""> -->
@@ -53,7 +53,7 @@
                 <span class="triangle" />
                 <span class="back-icon">
                   <SvgBack />
-                  </span>
+                </span>
                 <li>
                   <NuxtLink to="features" class="dropdown-item">
                     <div>
@@ -148,7 +148,7 @@
                 <span class="triangle" />
                 <span class="back-icon">
                   <SvgBack />
-                  </span>
+                </span>
                 <li>
                   <NuxtLink to="/help-center" class="dropdown-item">
                     <div>
@@ -261,10 +261,11 @@
     </div>
   </nav>
 </template>
-<script setup>
-import { useStoreResponsive } from '~/stores/responsive';
 
-// 
+<script setup>
+import { useStoreResponsive } from '~/stores/responsive'
+
+//
 const defaultIconClass = ref('open-icon')
 
 // const topMenuClass = ref('top-menu-opacity-off')
@@ -272,15 +273,15 @@ const defaultIconClass = ref('open-icon')
 const changeIcon = () => {
   if (defaultIconClass.value === 'open-icon') {
     defaultIconClass.value = 'close-icon'
-	document.body.style.overflow = 'hidden'
-	useStoreResponsive().isMenuOpen = true
-	
-    //topMenuClass.value = 'top-menu-opacity'
+    document.body.style.overflow = 'hidden'
+    useStoreResponsive().isMenuOpen = true
+
+    // topMenuClass.value = 'top-menu-opacity'
   } else {
     defaultIconClass.value = 'open-icon'
     document.body.style.overflow = 'auto'
-    //topMenuClass.value = 'top-menu-opacity-off'
-	useStoreResponsive().isMenuOpen = false
+    // topMenuClass.value = 'top-menu-opacity-off'
+    useStoreResponsive().isMenuOpen = false
   }
 
   // console.log('changeIcon:' + changeIcon)

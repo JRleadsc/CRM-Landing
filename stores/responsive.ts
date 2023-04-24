@@ -2,7 +2,7 @@ import { defineStore, acceptHMRUpdate } from 'pinia'
 
 export const useStoreResponsive = defineStore('responsive', {
   state: () => ({
-    isMenuOpen:false
+    isMenuOpen: false
   }),
   actions: {}
 })

@@ -4836,9 +4836,35 @@ header {
   border-radius: 50%;
 
 }
+.navbar-toggler.open-icon:after,
+.navbar-toggler.open-icon:before {
+  display: none;
+}
 .navbar-toggler.collapsed {
   background: url("../images/menu.svg") no-repeat center center;
 }
+
+.open-icon{
+	background: url("../images/menu.svg") no-repeat center center;
+}
+.close-icon{
+	background: url("../images/close-menu.png") no-repeat center center;
+}
+.hide-overflow{
+	overflow: hidden;
+}
+.show-overflow{
+	overflow: auto;
+}
+.top-menu-opacity{
+	opacity: 1;
+	z-index: 10000;
+}
+.top-menu-opacity-off{
+	opacity: 0;
+	z-index: 0;
+}
+
 .navbar-toggler.collapsed:after,
 .navbar-toggler.collapsed:before {
   display: none;

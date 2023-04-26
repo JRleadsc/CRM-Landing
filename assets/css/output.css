@@ -5341,10 +5341,10 @@ footer {
   }
 }
 @media (max-width: 991px){
-  .first-section-index,
+  /* .first-section-index,
   .sec-header {
     height: 680px;
-  }
+  } */
   .carousel-main .owl-theme .owl-nav {
     display: none;
   }
@@ -5790,10 +5790,10 @@ footer {
   .jr_vid {
     padding-top: 50px;
 }
-  .first-section-index,
+  /* .first-section-index,
   .sec-header {
     height: 680px;
-  }
+  } */
   .border-box-index {
     bottom: -8px;
     right: 0;

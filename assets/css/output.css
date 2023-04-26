@@ -6164,7 +6164,7 @@ footer {
     height: 740px;
   }
 }
-@media (max-height: 768px) {
+@media (max-height: 1080px) {
   .box-shut {
     justify-content: space-around;
     gap: 0;

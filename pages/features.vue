@@ -42,7 +42,7 @@
       <div class="container">
         <div class="row justify-center py-5 card-box">
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -50,21 +50,24 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت سرنخ ها ( لید ها )
                 </p>
-                <p class="text-base text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  جمع آوری سرنخ ها از طریق کانال های مختلف مانند وب سایت، اپلیکیشن و یا کمپین های
+تبلیغاتی جهت افزایش فروش مجدد و ایجاد چرخه فروش. با ایجاد سرنخ و یا همان لید می
+توانید با جذب مشتریان بالقوه همراه با تحلیل و آنالیز، خدمات و محصولات مرتبط را به
+آنان به فروش برسانید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -72,21 +75,23 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  جستجوی پیشرفته
                 </p>
-                <p class="text-base text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  در سریع ترین زمان، کلیه بخش ها و اطلاعاتی که در نرم افزار مورد نیاز دارید را به
+آسانی می توانید جستجو کنید و به آنها دست پیدا کنید. یکی از ویژگی های دیگر نرم افزار
+لینک جینیس جستجوی پیشرفته می باشد.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -94,21 +99,24 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت خدمات پس از فروش
                 </p>
-                <p class="text-base text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  کنترل و مدیریت شکایات و انتقادات مشتریان از خرید، همچنین ارائه بهتر خدمات پس از
+فروش به مخاطبین یکی از مهم ترین اقدامات جهت میزان رضایتمندی مشتریان است. با
+این ویژگی از نرم افزار لینک جینیس می توانید کلیه درخواست های مشتریان خود را ثبت
+کنید، آنها را اولویت بندی کنید و هریک را به کارشناس مربوطه ارجاع دهید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -116,21 +124,23 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  شبکه های اجتماعی
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  جهت افزایش جذب لید و یا سرنخ، می توانید از طریق شبکه های اجتماعی و تحلیل آنها به
+این اطلاعات دست پیدا کنید. کلیه شبکه های اجتماعی مشتریان و مخاطبین خود را در نرم
+افزار CRM ثبت کنید و آنها را به آسانی تحلیل کنید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -138,21 +148,24 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت تماس ها
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  با این امکان در نرم افزار لینک جینیس، برای کلیه تماس های سازمان خود برنامه ریزی
+کنید. تماس ها را رصد کنید، تحلیل کنید و برای هریک گزارش دقیق تهیه نمایید. کلیه
+تماس ها در سازمان شما با این ویژگی دریافت و ثبت خواهند شد. جهت تعاملات بیشتر با
+مشتریان از این بخش می توانید استفاده نمایید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -160,21 +173,23 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت جلسات
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  برنامه ریزی جلسات، کنترل جلسات جهت ارتباط با مشتریان و مخاطبین خود، ثبت
+اطلاعات آنها به عنوان شرکت کننده در نرم افزار CRM لینک جینیس یکی دیگر از
+ویژگی های انحصاری این نرم افزار می باشد.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -182,21 +197,25 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  برقراری ارتباط با تیم خود
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  مدیریت تیم در نرم افزار لینک جینیس جهت ارتباط دقیق تر و بهتر با پرسنل خود پیاده
+سازی شده است. در این بخش با تیم های خود سریع تر ارتباط برقرار خواهید کرد.
+کارشناسان سازمان خود را در تیم های کاری مختلف گروه بندی کنید و برای هر گروه
+وظایف مشخصی تعریف نمایید. کارشناسان را می توانید در تیم های کاری جا به جا کرده
+و برای انجام پروژه های جدید تیم های کاری اختصاصی تعریف کنید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -204,21 +223,24 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  گزارش گیری
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  تهیه گزارش دقیق یکی از مهم ترین ویژگی های یک نرم افزار CRM می باشد. شما با
+استفاده از این امکان می توانید کلیه گزارشات، تماس ها، سرنخ ها، فروش و حتی کمپین
+های تبلیغاتی خود را تهیه نمایید. این گزارشات در بخش میزان عملکرد پرسنل و تیم هم
+کارایی لازم را دارد.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -226,21 +248,25 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  برقراری ارتباط با تیم خود
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  مدیریت تیم در نرم افزار لینک جینیس جهت ارتباط دقیق تر و بهتر با پرسنل خود پیاده
+سازی شده است. در این بخش با تیم های خود سریع تر ارتباط برقرار خواهید کرد.
+کارشناسان سازمان خود را در تیم های کاری مختلف گروه بندی کنید و برای هر گروه
+وظایف مشخصی تعریف نمایید. کارشناسان را می توانید در تیم های کاری جا به جا کرده
+و برای انجام پروژه های جدید تیم های کاری اختصاصی تعریف کنید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -248,21 +274,25 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت ایمیل یا پست الکترونیکی
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  با این امکان در نرم افزار لینک جینیس، مدیریت ارسال و دریافت پیام در قالب ایمیل را با
+مشتریان خود به دست خواهید داشت. به راحتی می توانید با این امکانات به دسته گروه
+مشتریان خود ایمیل های سازمانی ارسال نمایید و آنها را مدیریت کنید. همچنین با استفاده از
+ابزارهای پیشرفته بخش مدیریت ایمیل ها می توانید به سادگی ایمیل های کاربر پسندی را به
+مشتری های خود ارسال نمایید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -270,21 +300,23 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت تمامی قراردادهای شما
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  در لینک جینیس به آسانی تمامی قراردادهای خود را مدیریت کنید، با ایجاد امضای
+الترونیکی قراردادها را منعقد و آنها را مدیریت کنید. تمامی اطلاعات مندرج در قرارداد در
+نرم افزار CRM ثبت می شود و به صورت آرشیو در دسترس خواهد بود.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
-            <div class="text-center  h-[380px] py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
               <div>
                 <span>
                   <SvgFeaturesIcon />
@@ -292,15 +324,43 @@
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold ">
-                  گزارش دقیق و کارآمد
+                  مدیریت فرصت ها ( معاملات )
                 </p>
-                <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
-                </p>
+                </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF]">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                  شناسایی فرصت ها در سیستم فروش، انتخاب مشتری هدف، مشخص نمودن زمان آن جهت
+ایجاد معامله یکی از کاربردی ترین ویژگی های یک نرم افزار CRM می باشد که به شما
+کمک می کند در یک بازه زمانی مشخص بهترین اقدام را جهت تغییر نرخ سرنخ و یا
+فروش انجام دهید.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card_feature col p-0">
+            <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
+              <div>
+                <span>
+                  <SvgFeaturesIcon />
+                </span>
+              </div>
+              <div class="pb-[27px]">
+                <p class="text-base	text-[#2C2D2E] font-bold ">
+                  مدیریت مخاطبین
+                </p>
+                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
+                  از عملکرد شما
+                </p> -->
+              </div>
+              <div class="px-[30px]">
+                <p class="text-[17px] text-[#999EBF]">
+                  جمع آوری و حفظ اطلاعات مشتریان یکی از مهم ترین اقدامات استفاده از نرم افزار CRM
+می باشد. با دریافت و ثبت اطلاعات دقیق مشتریان می توانید آنها را دسته بندی نموده و
+بسته میزان نیاز آنان محصولات و خدمات خود را به فروش برسانید. همچنین آنالیز میزان
+فروش و رضایت مندی و ایجاد روابط عمومی یکی از ویژگی های این بخش می باشد.
                 </p>
               </div>
             </div>
@@ -497,6 +557,12 @@
 .phone-icon {
     stroke: #fff;
   }
+
+</style>
+<style scoped>
+.card-box {
+  justify-content: start;
+}
 </style>
 
 

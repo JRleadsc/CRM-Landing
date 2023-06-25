@@ -19,7 +19,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
                         <defs>
@@ -173,7 +173,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.182" height="129" viewBox="0 0 140.182 129">
                         <defs>
@@ -257,7 +257,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
                         <defs>
@@ -413,7 +413,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
                         <defs>
@@ -567,7 +567,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
                         <defs>
@@ -721,7 +721,7 @@
             <SplideSlide>
               <div class="item">
                 <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div>
+                  <div class="top-img">
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
                         <defs>
@@ -932,5 +932,8 @@ const options = ref({
 .h-\[380px\] {
     height: 520px;
     /* overflow-y: scroll; */
+}
+.top-img {
+flex: 0 0 130px;
 }
 </style>

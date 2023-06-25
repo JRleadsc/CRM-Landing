@@ -4527,6 +4527,9 @@ article .note {
   color: #fff;
   opacity: 0.3;
 }
+.heading {
+  padding: 1rem 0;
+}
 
 .heading_h {
   font-size: 36px;

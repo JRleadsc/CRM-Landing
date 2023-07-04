@@ -16,7 +16,7 @@
               <SplideSlide>
                 <div class="cursor-pointer h-[87px] bth-slider text-white rounded-full flex flex-col justify-center items-center text-base mb-3 gap-2" :class="{'active': slide === 1}" @click="slide = 1">
                   <p>
-                    همه چیز را پیدا کنید
+                    مدیریت فروش 
                   </p>
                   <p>
                     تماس، مشتری و مکالمه
@@ -26,7 +26,7 @@
               <SplideSlide>
                 <div class="cursor-pointer h-[87px] bth-slider text-white rounded-full flex flex-col justify-center items-center text-base mb-3 gap-2" :class="{'active': slide === 2}" @click="slide = 2">
                   <p>
-                    همه چیز را پیدا کنید
+                    مدیریت قراردادها
                   </p>
                   <p>
                     تماس، مشتری و مکالمه
@@ -36,7 +36,7 @@
               <SplideSlide>
                 <div class="cursor-pointer h-[87px] bth-slider text-white rounded-full flex flex-col justify-center items-center text-base mb-3 gap-2" :class="{'active': slide === 3}" @click="slide = 3">
                   <p>
-                    همه چیز را پیدا کنید
+                    مدیریت تماس هوشمند
                   </p>
                   <p>
                     تماس، مشتری و مکالمه
@@ -48,7 +48,7 @@
           <div class="d-none d-lg-block">
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 1}" @click="slide = 1">
               <p>
-                همه چیز را پیدا کنید
+                مدیریت فروش 
               </p>
               <p>
                 تماس، مشتری و مکالمه
@@ -56,7 +56,7 @@
             </div>
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 2}" @click="slide = 2">
               <p>
-                همه چیز را پیدا کنید
+                مدیریت قراردادها
               </p>
               <p>
                 تماس، مشتری و مکالمه
@@ -64,7 +64,7 @@
             </div>
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 3}" @click="slide = 3">
               <p>
-                همه چیز را پیدا کنید
+                مدیریت تماس هوشمند
               </p>
               <p>
                 تماس، مشتری و مکالمه

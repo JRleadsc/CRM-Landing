@@ -155,7 +155,7 @@
 
                 </span>
                 <p>
-                  10/A, New Street View, New York City, United States Of America
+                  تهران، گاندی، نبش هشتم، ساختمان مروارید، طبقه چهارم
                 </p>
               </div>
             </div>

@@ -43,12 +43,12 @@
                   </h3>
                   <ul class="menu-footer list-none">
                     <li>
-                      <NuxtLink to="./faq">
+                      <NuxtLink to="/faq">
                         سوالات متداول
                       </NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="./contact">
+                      <NuxtLink to="/contact">
                         تماس با ما
                       </NuxtLink>
                     </li>
@@ -65,7 +65,7 @@
                   </h3>
                   <ul class="menu-footer list-none">
                     <li>
-                      <NuxtLink to="./features">
+                      <NuxtLink to="/features">
                         ویژگی‌ها
                       </NuxtLink>
                     </li>
@@ -75,8 +75,8 @@
                       </NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="/price">
-                        قیمت‌ها
+                      <NuxtLink to="/packages">
+                        پکیج‌ها
                       </NuxtLink>
                     </li>
                   </ul>
@@ -126,7 +126,7 @@
                 پشتیبانی: 05137278982
               </div>
               <div>
-                تهران, خیابان ولیعصر کوچه مهناز پلاک ۲۷
+                تهران، گاندی، نبش هشتم، ساختمان مروارید، طبقه چهارم
               </div>
             </div>
           </div>

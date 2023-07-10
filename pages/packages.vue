@@ -13,7 +13,7 @@
                     </NuxtLink>
                   </li>
                   <li class="breadcrumb-item text-sm text-[#6D728E] active" aria-current="page">
-                    قیمت‌ها
+                    پکیج‌ها
                   </li>
                 </ol>
               </nav>
@@ -29,10 +29,10 @@
           <div class="col-12">
             <div class="">
               <h1 class="heading_h">
-                قیمت ها
+                پکیج‌ها
               </h1>
               <p class="heading_p lh-lg ">
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود
+                ما مجموعهای از پکیجهای قیمتی در بازههای زمانی مختلف برای راحتی شما فراهم کردهایم. این پکیجها شامل امکانات متنوعی برای بهبود مدیریت ارتباط با مشتریان شما میباشند. با توجه به نیازهای کسب و کارتان، میتوانید یکی از پکیجهای زیر را انتخاب کنید:
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="flex px-sm-2 px-0">
                   <label class="switch-btn">
-                    <input type="checkbox" @change="switchPackage" >
+                    <input type="checkbox" @change="switchPackage">
                     <span class="slider-btn round" />
                   </label>
                 </div>
@@ -84,7 +84,6 @@
                 <template v-else>
                   ۱.۲۰۰.۰۰۰ تومان / ماهانه
                 </template>
-              
               </p>
               <button class="pink-btn rounded-full w-100">
                 انتخاب

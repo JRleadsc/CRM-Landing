@@ -29,8 +29,8 @@
         <div class="h-100 d-flex justify-between flex-col">
           <ul class="navbar-nav me-0">
             <li class="nav-item">
-              <NuxtLink to="/price" class="nav-link active" aria-current="page">
-                قیمت‌ها
+              <NuxtLink to="/packages" class="nav-link active" aria-current="page">
+                پکیج‌ها
               </NuxtLink>
             </li>
             <li class="nav-item">
@@ -133,7 +133,7 @@
                 مشتریان ما
               </NuxtLink>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 id="navbarDropdown"
                 class="flex items-center nav-link dropdown-toggle"
@@ -215,7 +215,7 @@
                   </NuxtLink>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item">
               <NuxtLink to="/about" class="nav-link">
                 درباره ما

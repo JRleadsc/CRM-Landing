@@ -33,7 +33,12 @@
                 قیمت‌ها
               </NuxtLink>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <NuxtLink to="/features" class="nav-link active" aria-current="page">
+                ویژگی‌ها
+              </NuxtLink>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a
                 id="navbarDropdown"
                 class="flex items-center nav-link dropdown-toggle"
@@ -122,7 +127,7 @@
                   </NuxtLink>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">
                 مشتریان ما
@@ -224,16 +229,16 @@
           </ul>
           <div class="flex flex-col pl-4 taggle-option">
             <div class="text-sm font-semibold text-gray-900  border-bottom pb-3">
-              پشتیبانی : ۴۴۳۱۲۲
+              پشتیبانی : 05137278982
             </div>
             <div class="flex items-center pt-3">
               <div class="ml-4 text-sm font-semibold text-gray-900  w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
                 <span>EN</span>
               </div>
               <div class="">
-                <a class="text-sm font-semibold text-[#2C2D2E] w-16 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center" href="/login">
+                <NuxtLink to="/login" class="text-sm font-semibold text-[#2C2D2E] w-16 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
                   ورود
-                </a>
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -242,7 +247,7 @@
 
       <div class="flex items-center md:flex-row left">
         <div class="text-sm font-semibold text-gray-900 ml-[22px] support">
-          پشتیبانی : ۴۴۳۱۲۲
+          پشتیبانی : 05137278982
         </div>
         <NuxtLink to="/request-demo" class="text-sm font-semibold text-gray-900 ml-3">
           <button class="btn-header h-11 bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">
@@ -253,9 +258,9 @@
           <span class="pt-[3px]">EN</span>
         </div>
         <div class="d-none d-xl-block">
-          <a class="text-sm font-semibold text-[#2C2D2E]" href="/login">
+          <NuxtLink to="/login" class="text-sm font-semibold text-[#2C2D2E]">
             ورود
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>

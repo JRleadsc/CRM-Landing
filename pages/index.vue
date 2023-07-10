@@ -67,23 +67,25 @@
                 <h2 class="text-sm-start font-bold text-[24px] text-center">
                   معرفی لینک جینیس
                 </h2>
-                <p class="text-sm-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+                <p class="text-justify">
+                  نرم افزار CRM (مدیریت ارتباط با مشتری) لینک جینیس به شرکت‌ها کمک می‌کند تا با مشتری خود ارتباط بهتری برقرار کرده و فروش‌های بیشتری داشته باشند.
+                  <br>
+                  با استفاده از این نرم افزار میتوانید اطلاعات مشتریان خود را مدیریت کنید، فرصت‌های فروش را پیگیری کنید و سرویس دهی خود را بهبود ببخشید. تیم ما با تکیه بر تجربه و تخصص خود به شما راه‌ حل‌هایی ارائه می‌دهند و به کسب و کارتان کمک می‌کنند تا بازدهی و عملکرد خود را افزایش دهید.
                 </p>
               </div>
-              <div class="d-lg-block d-none">
-                <a href="./about-us.html">
+              <div class="d-lg-block d-none mt-5">
+                <NuxtLink to="/about">
                   <button class="btn-outline">
                     بیشتر بخوانید
                   </button>
-                </a>
+                </NuxtLink>
               </div>
             </div>
 
             <ClientOnly>
               <div class="player-container">
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
-                <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" />
+                <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster.png" />
               </div>
             </ClientOnly>
 
@@ -125,11 +127,11 @@
         <div class="row d-lg-none d-block pt-4">
           <div class="col-12">
             <div class="d-flex justify-center">
-              <a href="./about-us.html">
+              <NuxtLink to="/about">
                 <button class="btn-outline">
                   بیشتر بخوانید
                 </button>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -208,7 +210,7 @@
           </span>
         </div>
         <h2 class="text-[28px] font-bold text-[#2C2D2E] py-[34px] title-section">
-          برای مشاهده همه ویژگی ها بیشتر کاوش کنید
+          برای مشاهده همه ویژگی‌ها بیشتر کاوش کنید
         </h2>
         <h3 class="text-[17px] text-[#6D728E] desc">
           چه چیزی لینک جینیس را منحصر به فرد می کند؟

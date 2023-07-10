@@ -8,7 +8,7 @@
               چرا لینک جینیس ؟
             </h2>
             <h3 class="text-sm text-[#6D728E]">
-              شرح ویژگی ها و قابلیت ها
+              شرح ویژگی‌ها و قابلیت‌ها
             </h3>
           </div>
         </div>
@@ -155,15 +155,169 @@
                     </span>
                   </div>
                   <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold pb-[6px]">
-                      مدیریت سرنخ ها ( لید ها )
+                    <p class="text-base	text-[#2C2D2E] font-bold  pb-[6px]">
+                      مدیریت جلسات
                     </p>
                     <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                       از عملکرد شما
                     </p> -->
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
+                      برنامه ریزی جلسات، کنترل جلسات جهت ارتباط با مشتریان و مخاطبین خود، ثبت اطلاعات آنها به عنوان شرکت کننده در نرم افزار CRM لینک جینیس یکی دیگر از ویژگی های انحصاری این نرم افزار می باشد.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div class="item">
+                <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
+                  <div class="top-img">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
+                        <defs>
+                          <filter
+                            id="Rectangle_7948"
+                            x="33.185"
+                            y="14.855"
+                            width="103.075"
+                            height="104.23"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Ellipse_16"
+                            x="11.286"
+                            y="0"
+                            width="104.623"
+                            height="104.454"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-2" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-2" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                          <filter
+                            id="Path_77755"
+                            x="0"
+                            y="34.22"
+                            width="78.097"
+                            height="78.051"
+                            filterUnits="userSpaceOnUse"
+                          >
+                            <feOffset dx="6" dy="9" input="SourceAlpha" />
+                            <feGaussianBlur stdDeviation="9" result="blur-3" />
+                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
+                            <feComposite operator="in" in2="blur-3" />
+                            <feComposite in="SourceGraphic" />
+                          </filter>
+                        </defs>
+                        <g id="Group_31208" data-name="Group 31208" transform="translate(-650.797 -1024.688)">
+                          <g id="Group_31206" data-name="Group 31206" transform="translate(704.981 1057.543)">
+                            <g transform="matrix(1, 0, 0, 1, -54.18, -32.85)" filter="url(#Rectangle_7948)">
+                              <g
+                                id="Rectangle_7948-2"
+                                data-name="Rectangle 7948"
+                                transform="translate(54.18 32.85)"
+                                fill="none"
+                                stroke="#40aae2"
+                                stroke-width="6"
+                              >
+                                <rect width="49.075" height="50.23" rx="19" stroke="none" />
+                                <rect
+                                  x="3"
+                                  y="3"
+                                  width="43.075"
+                                  height="44.23"
+                                  rx="16"
+                                  fill="none"
+                                />
+                              </g>
+                            </g>
+                            <path
+                              id="Path_77753"
+                              data-name="Path 77753"
+                              d="M-20205.23-15632.558h16.914"
+                              transform="translate(20221.463 15649.785)"
+                              fill="none"
+                              stroke="#40a9e1"
+                              stroke-linecap="round"
+                              stroke-width="6"
+                            />
+                            <path
+                              id="Path_77754"
+                              data-name="Path 77754"
+                              d="M-20205.23-15632.558h8.457"
+                              transform="translate(20221.463 15664.145)"
+                              fill="none"
+                              stroke="#40a9e1"
+                              stroke-linecap="round"
+                              stroke-width="6"
+                            />
+                          </g>
+                          <g id="Group_31207" data-name="Group 31207" transform="translate(684.019 1041.509) rotate(8)">
+                            <g transform="matrix(0.99, -0.14, 0.14, 0.99, -35.24, -12.03)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
+                              <ellipse
+                                id="Ellipse_16-2"
+                                data-name="Ellipse 16"
+                                cx="21.089"
+                                cy="20.999"
+                                rx="21.089"
+                                ry="20.999"
+                                transform="translate(37.64 21.15) rotate(3)"
+                                fill="none"
+                                stroke="#ec4eae"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                            </g>
+                            <g transform="matrix(0.99, -0.14, 0.14, 0.99, -35.24, -12.03)" filter="url(#Path_77755)">
+                              <path
+                                id="Path_77755-2"
+                                data-name="Path 77755"
+                                d="M12.857,0,0,12.8"
+                                transform="translate(27.57 57.01) rotate(8)"
+                                fill="none"
+                                stroke="#ec4eae"
+                                stroke-linecap="round"
+                                stroke-width="6"
+                              />
+                            </g>
+                            <path
+                              id="Path_77756"
+                              data-name="Path 77756"
+                              d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
+                              transform="translate(16.082 14.217) rotate(-9)"
+                              fill="none"
+                              stroke="#e64cab"
+                              stroke-linecap="round"
+                              stroke-width="6"
+                              style="mix-blend-mode: multiply;isolation: isolate"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </span>
+                  </div>
+                  <div class="pb-[27px]">
+                    <p class="text-base	text-[#2C2D2E] font-bold pb-[6px]">
+                      مدیریت سرنخ‌ها ( لید‌ها )
+                    </p>
+                    <!-- <p class="text-base	text-[#2C2D2E] font-bold">
+                      از عملکرد شما
+                    </p> -->
+                  </div>
+                  <div class="px-[30px]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
                       جمع آوری سرنخ ها از طریق کانال های مختلف مانند وب سایت، اپلیکیشن و یا کمپین های تبلیغاتی جهت افزایش فروش مجدد و ایجاد چرخه فروش. با ایجاد سرنخ و یا همان لید می توانید با جذب مشتریان بالقوه همراه با تحلیل و آنالیز، خدمات و محصولات مرتبط را به آنان به فروش برسانید.
                     </p>
                   </div>
@@ -239,15 +393,15 @@
                     </span>
                   </div>
                   <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold  pb-[6px]">
-                      مدیریت تمامی قراردادهای شما
+                    <p class="text-base text-[#2C2D2E] font-bold  pb-[6px]">
+                      مدیریت قراردادهای
                     </p>
-                    <!-- <p class="text-base	text-[#2C2D2E] font-bold">
+                    <!-- <p class="text-base text-[#2C2D2E] font-bold">
                       از عملکرد شما
                     </p> -->
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
                       در لینک جینیس به آسانی تمامی قراردادهای خود را مدیریت کنید، با ایجاد امضای الترونیکی قراردادها را منعقد و آنها را مدیریت کنید. تمامی اطلاعات مندرج در قرارداد در نرم افزار CRM ثبت می شود و به صورت آرشیو در دسترس خواهد بود.
                     </p>
                   </div>
@@ -401,10 +555,9 @@
                     </p> -->
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
-                      مدیریت تیم در نرم افزار لینک جینیس جهت ارتباط دقیق تر و بهتر با پرسنل خود پیاده سازی شده است. در این بخش با تیم های خود سریع تر ارتباط برقرار خواهید کرد.
-کارشناسان سازمان خود را در تیم های کاری مختلف گروه بندی کنید و برای هر گروه وظایف مشخصی تعریف نمایید. کارشناسان را می توانید در تیم های کاری جا به جا کرده و برای انجام پروژه های جدید تیم های کاری اختصاصی تعریف کنید.
-
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
+                      مدیریت تیم در نرم افزار لینک جینیس جهت ارتباط دقیق تر و بهتر با پرسنل پیاده سازی شده است و
+                      همچنین می‌توانید کارشناسان سازمان خود را در تیم های کاری مختلف گروه بندی کنید و برای هر گروه وظایف مشخصی تعریف نمایید.
                     </p>
                   </div>
                 </div>
@@ -557,162 +710,8 @@
                     </p> -->
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
-                      تهیه گزارش دقیق یکی از مهم ترین ویژگی های یک نرم افزار CRM می باشد. شما با استفاده از این امکان می توانید کلیه گزارشات، تماس ها، سرنخ ها، فروش و حتی کمپین های تبلیغاتی خود را تهیه نمایید. این گزارشات در بخش میزان عملکرد پرسنل و تیم هم کارایی لازم را دارد.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div class="item">
-                <div class="w-[380px] h-[380px] py-[3rem] flex flex-col items-center justify-start box transition-all rounded-[40px] mx-auto">
-                  <div class="top-img">
-                    <span>
-                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.26" height="119.085" viewBox="0 0 136.26 119.085">
-                        <defs>
-                          <filter
-                            id="Rectangle_7948"
-                            x="33.185"
-                            y="14.855"
-                            width="103.075"
-                            height="104.23"
-                            filterUnits="userSpaceOnUse"
-                          >
-                            <feOffset dx="6" dy="9" input="SourceAlpha" />
-                            <feGaussianBlur stdDeviation="9" result="blur" />
-                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                            <feComposite operator="in" in2="blur" />
-                            <feComposite in="SourceGraphic" />
-                          </filter>
-                          <filter
-                            id="Ellipse_16"
-                            x="11.286"
-                            y="0"
-                            width="104.623"
-                            height="104.454"
-                            filterUnits="userSpaceOnUse"
-                          >
-                            <feOffset dx="6" dy="9" input="SourceAlpha" />
-                            <feGaussianBlur stdDeviation="9" result="blur-2" />
-                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                            <feComposite operator="in" in2="blur-2" />
-                            <feComposite in="SourceGraphic" />
-                          </filter>
-                          <filter
-                            id="Path_77755"
-                            x="0"
-                            y="34.22"
-                            width="78.097"
-                            height="78.051"
-                            filterUnits="userSpaceOnUse"
-                          >
-                            <feOffset dx="6" dy="9" input="SourceAlpha" />
-                            <feGaussianBlur stdDeviation="9" result="blur-3" />
-                            <feFlood flood-color="#45507a" flood-opacity="0.078" />
-                            <feComposite operator="in" in2="blur-3" />
-                            <feComposite in="SourceGraphic" />
-                          </filter>
-                        </defs>
-                        <g id="Group_31208" data-name="Group 31208" transform="translate(-650.797 -1024.688)">
-                          <g id="Group_31206" data-name="Group 31206" transform="translate(704.981 1057.543)">
-                            <g transform="matrix(1, 0, 0, 1, -54.18, -32.85)" filter="url(#Rectangle_7948)">
-                              <g
-                                id="Rectangle_7948-2"
-                                data-name="Rectangle 7948"
-                                transform="translate(54.18 32.85)"
-                                fill="none"
-                                stroke="#40aae2"
-                                stroke-width="6"
-                              >
-                                <rect width="49.075" height="50.23" rx="19" stroke="none" />
-                                <rect
-                                  x="3"
-                                  y="3"
-                                  width="43.075"
-                                  height="44.23"
-                                  rx="16"
-                                  fill="none"
-                                />
-                              </g>
-                            </g>
-                            <path
-                              id="Path_77753"
-                              data-name="Path 77753"
-                              d="M-20205.23-15632.558h16.914"
-                              transform="translate(20221.463 15649.785)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                            <path
-                              id="Path_77754"
-                              data-name="Path 77754"
-                              d="M-20205.23-15632.558h8.457"
-                              transform="translate(20221.463 15664.145)"
-                              fill="none"
-                              stroke="#40a9e1"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                            />
-                          </g>
-                          <g id="Group_31207" data-name="Group 31207" transform="translate(684.019 1041.509) rotate(8)">
-                            <g transform="matrix(0.99, -0.14, 0.14, 0.99, -35.24, -12.03)" filter="url(#Ellipse_16)" style="mix-blend-mode: multiply;isolation: isolate">
-                              <ellipse
-                                id="Ellipse_16-2"
-                                data-name="Ellipse 16"
-                                cx="21.089"
-                                cy="20.999"
-                                rx="21.089"
-                                ry="20.999"
-                                transform="translate(37.64 21.15) rotate(3)"
-                                fill="none"
-                                stroke="#ec4eae"
-                                stroke-linecap="round"
-                                stroke-width="6"
-                              />
-                            </g>
-                            <g transform="matrix(0.99, -0.14, 0.14, 0.99, -35.24, -12.03)" filter="url(#Path_77755)">
-                              <path
-                                id="Path_77755-2"
-                                data-name="Path 77755"
-                                d="M12.857,0,0,12.8"
-                                transform="translate(27.57 57.01) rotate(8)"
-                                fill="none"
-                                stroke="#ec4eae"
-                                stroke-linecap="round"
-                                stroke-width="6"
-                              />
-                            </g>
-                            <path
-                              id="Path_77756"
-                              data-name="Path 77756"
-                              d="M0,8.167A10.618,10.618,0,0,1,10.582,0"
-                              transform="translate(16.082 14.217) rotate(-9)"
-                              fill="none"
-                              stroke="#e64cab"
-                              stroke-linecap="round"
-                              stroke-width="6"
-                              style="mix-blend-mode: multiply;isolation: isolate"
-                            />
-                          </g>
-                        </g>
-                      </svg>
-
-                    </span>
-                  </div>
-                  <div class="pb-[27px]">
-                    <p class="text-base	text-[#2C2D2E] font-bold  pb-[6px]">
-                      مدیریت جلسات
-                    </p>
-                    <!-- <p class="text-base	text-[#2C2D2E] font-bold">
-                      از عملکرد شما
-                    </p> -->
-                  </div>
-                  <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
-                      برنامه ریزی جلسات، کنترل جلسات جهت ارتباط با مشتریان و مخاطبین خود، ثبت اطلاعات آنها به عنوان شرکت کننده در نرم افزار CRM لینک جینیس یکی دیگر از ویژگی های انحصاری این نرم افزار می باشد.
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
+                      تهیه گزارش دقیق یکی از مهم ترین ویژگی‌های یک نرم افزار CRM می‌باشد. شما با استفاده از این امکان می‌توانید کلیه گزارش‌های مربوط به تماس‌ها، سرنخ‌ها، فروش و حتی کمپین‌های تبلیغاتی خود را تهیه نمایید. این گزارش‌ها در بخش میزان عملکرد پرسنل و تیم هم کارایی لازم را دارد.
                     </p>
                   </div>
                 </div>
@@ -865,7 +864,7 @@
                     </p> -->
                   </div>
                   <div class="px-[30px]">
-                    <p class="text-[17px] text-[#999EBF] leading-[30px]">
+                    <p class="text-[17px] text-[#999EBF] leading-[30px] text-justify">
                       با این امکان در نرم افزار لینک جینیس، برای کلیه تماس های سازمان خود برنامه ریزی کنید. تماس ها را رصد کنید، تحلیل کنید و برای هریک گزارش دقیق تهیه نمایید. کلیه تماس ها در سازمان شما با این ویژگی دریافت و ثبت خواهند شد. جهت تعاملات بیشتر با مشتریان از این بخش می توانید استفاده نمایید.
                     </p>
                   </div>
@@ -885,8 +884,8 @@ import '@splidejs/vue-splide/css'
 
 const options = ref({
   direction: 'rtl',
-  arrows: true,
-  pagination: false,
+  arrows: false,
+  pagination: true,
   type: 'loop',
   autoplay: true,
   interval: 6000,
@@ -896,18 +895,18 @@ const options = ref({
   autoWidth: true,
   breakpoints: {
     640: {
-              perPage: 1,
-        
-            },
-            767: {
-              perPage: 2,
-          
-            },
-            1024: {
-              perPage: 3,
-             
-            },
+      perPage: 1
+
+    },
+    767: {
+      perPage: 2
+
+    },
+    1024: {
+      perPage: 3
+
     }
+  }
 })
 </script>
 

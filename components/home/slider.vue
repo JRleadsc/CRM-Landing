@@ -16,10 +16,10 @@
               <SplideSlide>
                 <div class="cursor-pointer h-[87px] bth-slider text-white rounded-full flex flex-col justify-center items-center text-base mb-3 gap-2" :class="{'active': slide === 1}" @click="slide = 1">
                   <p>
-                    مدیریت فروش 
+                    مدیریت فروش
                   </p>
-                  <p>
-                    تماس، مشتری و مکالمه
+                  <p class="text-xs text-center">
+                    مدیریت و پیش بینی فرصت‌های فروش،<br>مدیریت محصولات و صدور فاکتور
                   </p>
                 </div>
               </SplideSlide>
@@ -28,8 +28,8 @@
                   <p>
                     مدیریت قراردادها
                   </p>
-                  <p>
-                    تماس، مشتری و مکالمه
+                  <p class="text-xs text-center">
+                    صدور انواع قراردادها، احراز هویت و امضا دیجیتال،<br>ایجاد متمم و الحاقیه
                   </p>
                 </div>
               </SplideSlide>
@@ -38,8 +38,8 @@
                   <p>
                     مدیریت تماس هوشمند
                   </p>
-                  <p>
-                    تماس، مشتری و مکالمه
+                  <p class="text-xs text-center">
+                    رصد کلیه ارتباطات تلفنی سازمان با ثبت جزئیات،<br>قابلیت اتصال به voip
                   </p>
                 </div>
               </SplideSlide>
@@ -48,26 +48,26 @@
           <div class="d-none d-lg-block">
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 1}" @click="slide = 1">
               <p>
-                مدیریت فروش 
+                مدیریت فروش
               </p>
-              <p>
-                تماس، مشتری و مکالمه
+              <p class="text-sm">
+                مدیریت و پیش بینی فرصت‌های فروش، مدیریت محصولات و صدور فاکتور
               </p>
             </div>
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 2}" @click="slide = 2">
               <p>
                 مدیریت قراردادها
               </p>
-              <p>
-                تماس، مشتری و مکالمه
+              <p class="text-sm">
+                صدور انواع قراردادها، احراز هویت و امضا دیجیتال، ایجاد متمم و الحاقیه
               </p>
             </div>
             <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 3}" @click="slide = 3">
               <p>
                 مدیریت تماس هوشمند
               </p>
-              <p>
-                تماس، مشتری و مکالمه
+              <p class="text-sm">
+                رصد کلیه ارتباطات تلفنی سازمان با ثبت جزئیات، قابلیت اتصال به voip
               </p>
             </div>
           </div>

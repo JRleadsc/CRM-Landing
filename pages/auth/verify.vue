@@ -94,9 +94,9 @@
                   <RequestVerify />
                   <p class="text-[18px] text-[#2C2D2E] pt-4">
                     آیا ایمیل را دریافت نکرده اید ؟
-                    <a href="/auth/step-2" class="primary">
+                    <NuxtLink to="/auth/step-2" class="primary">
                       ارسال مجدد
-                    </a>
+                    </NuxtLink>
                   </p>
                 </div>
               </div>

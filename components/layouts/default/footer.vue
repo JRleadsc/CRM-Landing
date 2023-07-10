@@ -11,11 +11,13 @@
                   <SvgLogo class="w-[157px] h-auto" />
                 </span>
               </div>
-              <div class="text-sm text-[#6D728E]">
+              <div class="text-lg text-[#6D728E]">
                 <p class="mb-3">
-                  هوشمند و جامع
+                  متفاوت تر مدیریت کنید
                 </p>
-                <p>سیستم مدیریت مشتری</p>
+                <p>
+                  هوشمندانه تر بفروشید!
+                </p>
               </div>
             </div>
             <div class="">
@@ -120,10 +122,10 @@
             </div>
             <div class="text-[#6D728E] text-sm pt-[25px] flex lg:flex-row sm:flex-col lg:items-center info 2xl:gap-16 xl:gap-8 lg:gap-12 sm:gap-4 justify-end">
               <div>
-                info@linkgenius.com
+                support@linkgns.com
               </div>
               <div>
-                پشتیبانی :۴۴۵۳۳
+                پشتیبانی: 05137278982
               </div>
               <div>
                 تهران, خیابان ولیعصر کوچه مهناز پلاک ۲۷
@@ -166,7 +168,7 @@
                   </svg>
                 </span>
                 <p>
-                  LinkGenius.com
+                  Linkgns.com
                 </p>
               </div>
             </div>

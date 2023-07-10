@@ -443,6 +443,6 @@
 </style>
 <style scoped>
 .card-box {
-  justify-content: start;
+  justify-content: center;
 }
 </style>

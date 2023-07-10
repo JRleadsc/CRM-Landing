@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#3E369D]">
+  <div class="home-slider-section bg-[#3E369D]">
     <div class="container">
       <section class="sec-blue min-h-[790px] pt-[79px]">
         <div class="pb-[25px] text-center">
@@ -10,8 +10,8 @@
             شرح ویژگی‌ها و قابلیت‌ها
           </h3>
         </div>
-        <div class="flex flex-col lg:flex-row lg:items-center lg:-space-x-20 lg:space-x-reverse mt-16">
-          <div class="d-lg-none mb-4">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:-space-x-20 lg:space-x-reverse mt-16 home-slider">
+          <div class="d-lg-none mb-4 show-md">
             <Splide :options="options">
               <SplideSlide>
                 <div class="cursor-pointer h-[87px] bth-slider text-white rounded-full flex flex-col justify-center items-center text-base mb-3 gap-2" :class="{'active': slide === 1}" @click="slide = 1">
@@ -45,33 +45,33 @@
               </SplideSlide>
             </Splide>
           </div>
-          <div class="d-none d-lg-block">
-            <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 1}" @click="slide = 1">
+          <div class="d-none d-lg-block show-lg">
+            <div class="cursor-pointer h-[118px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-[10px]" :class="{'active': slide === 1}" @click="slide = 1">
               <p>
                 مدیریت فروش
               </p>
-              <p class="text-sm">
+              <p class="text-[0.875rem] leading-[30px] btn-desc">
                 مدیریت و پیش بینی فرصت‌های فروش، مدیریت محصولات و صدور فاکتور
               </p>
             </div>
-            <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 2}" @click="slide = 2">
+            <div class="cursor-pointer h-[118px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-[10px]" :class="{'active': slide === 2}" @click="slide = 2">
               <p>
                 مدیریت قراردادها
               </p>
-              <p class="text-sm">
+              <p class="text-[0.875rem] leading-[30px] btn-desc">
                 صدور انواع قراردادها، احراز هویت و امضا دیجیتال، ایجاد متمم و الحاقیه
               </p>
             </div>
-            <div class="cursor-pointer h-[114px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-4" :class="{'active': slide === 3}" @click="slide = 3">
+            <div class="cursor-pointer h-[118px] bth-slider text-white pr-[47px] w-[550px] rounded-full flex flex-col justify-center items-start text-base mb-3 gap-[10px]" :class="{'active': slide === 3}" @click="slide = 3">
               <p>
                 مدیریت تماس هوشمند
               </p>
-              <p class="text-sm">
+              <p class="text-[0.875rem] leading-[30px] btn-desc">
                 رصد کلیه ارتباطات تلفنی سازمان با ثبت جزئیات، قابلیت اتصال به voip
               </p>
             </div>
           </div>
-          <div class="">
+          <div class="img-slider">
             <img v-show="slide === 1" src="/images/slide-1.jpg" class="rounded-2xl">
             <img v-show="slide === 2" src="/images/slide-2.jpg" class="rounded-2xl">
             <img v-show="slide === 3" src="/images/slide-3.jpg" class="rounded-2xl">

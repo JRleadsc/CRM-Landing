@@ -31,7 +31,7 @@
                 ویژگی‌ها
               </h1>
               <p class="heading_p lh-lg ">
-                استفاده از نرم افزار مدیریت ارتباط با مشتري براي شرکت‌ها می تواند بسیار مفید باشد. با استفاده از این نرم افزار، شرکت‌ها می توانند ارتباطات خود با مشتریانشان را بهبود ببخشند، وفاداري مشتریان را افزایش دهند و به رشد کسب و کارشان کمک کنند. در این صفحه از سایت، ویژگی هاي نرم افزار مدیریت ارتباط با مشتري را براي شما توضیح خواهیم داد.
+                استفاده از نرم افزار مدیریت ارتباط با مشتري براي شرکت‌ها می تواند بسیار مفید باشد. با استفاده از این نرم افزار، شرکت‌ها می توانند ارتباطات خود با مشتریانشان را بهبود ببخشند، وفاداري مشتریان را افزایش دهند و به رشد کسب و کارشان کمک کنند. در این صفحه از سایت، ویژگی‌هاي نرم افزار مدیریت ارتباط با مشتري را براي شما توضیح خواهیم داد.
               </p>
             </div>
           </div>
@@ -43,14 +43,12 @@
         <div class="row justify-center py-5 card-box">
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgLeads class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold">
-                  مدیریت سرنخ ها ( لید ها )
+                  مدیریت سرنخ‌ها ( لید‌ها )
                 </p>
                 <!-- <p class="text-base text-[#2C2D2E] font-bold">
                   از عملکرد شما
@@ -58,7 +56,7 @@
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  جمع آوری سرنخ ها از طریق کانال های مختلف مانند وب سایت، اپلیکیشن و یا کمپین های
+                  جمع آوری سرنخ‌ها از طریق کانال‌های مختلف مانند وب سایت، اپلیکیشن و یا کمپین‌های
                   تبلیغاتی جهت افزایش فروش مجدد و ایجاد چرخه فروش. با ایجاد سرنخ و یا همان لید می
                   توانید با جذب مشتریان بالقوه همراه با تحلیل و آنالیز، خدمات و محصولات مرتبط را به
                   آنان به فروش برسانید.
@@ -68,10 +66,8 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgSearchs class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold">
@@ -83,8 +79,8 @@
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  در سریع ترین زمان، کلیه بخش ها و اطلاعاتی که در نرم افزار مورد نیاز دارید را به
-                  آسانی می توانید جستجو کنید و به آنها دست پیدا کنید. یکی از ویژگی های دیگر نرم افزار
+                  در سریع ترین زمان، کلیه بخش‌ها و اطلاعاتی که در نرم افزار مورد نیاز دارید را به
+                  آسانی می توانید جستجو کنید و به آنها دست پیدا کنید. یکی از ویژگی‌های دیگر نرم افزار
                   لینک جینیس جستجوی پیشرفته می باشد.
                 </p>
               </div>
@@ -92,10 +88,8 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgSupports class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold">
@@ -109,7 +103,7 @@
                 <p class="text-[17px] text-[#999EBF] text-justify">
                   کنترل و مدیریت شکایات و انتقادات مشتریان از خرید، همچنین ارائه بهتر خدمات پس از
                   فروش به مخاطبین یکی از مهم ترین اقدامات جهت میزان رضایتمندی مشتریان است. با
-                  این ویژگی از نرم افزار لینک جینیس می توانید کلیه درخواست های مشتریان خود را ثبت
+                  این ویژگی از نرم افزار لینک جینیس می توانید کلیه درخواست‌های مشتریان خود را ثبت
                   کنید، آنها را اولویت بندی کنید و هریک را به کارشناس مربوطه ارجاع دهید.
                 </p>
               </div>
@@ -117,23 +111,21 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgSocials class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
-                <p class="text-base	text-[#2C2D2E] font-bold">
-                  شبکه های اجتماعی
+                <p class="text-base text-[#2C2D2E] font-bold">
+                  شبکه‌های اجتماعی
                 </p>
-                <!-- <p class="text-base	text-[#2C2D2E] font-bold">
+                <!-- <p class="text-base text-[#2C2D2E] font-bold">
                   از عملکرد شما
                 </p> -->
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  جهت افزایش جذب لید و یا سرنخ، می توانید از طریق شبکه های اجتماعی و تحلیل آنها به
-                  این اطلاعات دست پیدا کنید. کلیه شبکه های اجتماعی مشتریان و مخاطبین خود را در نرم
+                  جهت افزایش جذب لید و یا سرنخ، می توانید از طریق شبکه‌های اجتماعی و تحلیل آنها به
+                  این اطلاعات دست پیدا کنید. کلیه شبکه‌های اجتماعی مشتریان و مخاطبین خود را در نرم
                   افزار CRM ثبت کنید و آنها را به آسانی تحلیل کنید.
                 </p>
               </div>
@@ -141,14 +133,12 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgCalls class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
-                  مدیریت تماس ها
+                  مدیریت تماس‌ها
                 </p>
                 <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
@@ -156,9 +146,9 @@
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  با این امکان در نرم افزار لینک جینیس، برای کلیه تماس های سازمان خود برنامه ریزی
-                  کنید. تماس ها را رصد کنید، تحلیل کنید و برای هریک گزارش دقیق تهیه نمایید. کلیه
-                  تماس ها در سازمان شما با این ویژگی دریافت و ثبت خواهند شد. جهت تعاملات بیشتر با
+                  با این امکان در نرم افزار لینک جینیس، برای کلیه تماس‌های سازمان خود برنامه ریزی
+                  کنید. تماس‌ها را رصد کنید، تحلیل کنید و برای هریک گزارش دقیق تهیه نمایید. کلیه
+                  تماس‌ها در سازمان شما با این ویژگی دریافت و ثبت خواهند شد. جهت تعاملات بیشتر با
                   مشتریان از این بخش می توانید استفاده نمایید.
                 </p>
               </div>
@@ -166,10 +156,8 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgMeetings class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
@@ -183,17 +171,15 @@
                 <p class="text-[17px] text-[#999EBF] text-justify">
                   برنامه ریزی جلسات، کنترل جلسات جهت ارتباط با مشتریان و مخاطبین خود، ثبت
                   اطلاعات آنها به عنوان شرکت کننده در نرم افزار CRM لینک جینیس یکی دیگر از
-                  ویژگی های انحصاری این نرم افزار می باشد.
+                  ویژگی‌های انحصاری این نرم افزار می باشد.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgDashboards class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
@@ -206,17 +192,15 @@
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
                   مدیریت تیم در نرم افزار لینک جینیس جهت ارتباط دقیق تر و بهتر با پرسنل پیاده سازی شده است و
-                  همچنین می‌توانید کارشناسان سازمان خود را در تیم های کاری مختلف گروه بندی کنید و برای هر گروه وظایف مشخصی تعریف نمایید.
+                  همچنین می‌توانید کارشناسان سازمان خود را در تیم‌های کاری مختلف گروه بندی کنید و برای هر گروه وظایف مشخصی تعریف نمایید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgReports class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
@@ -228,9 +212,9 @@
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  تهیه گزارش دقیق یکی از مهم ترین ویژگی های یک نرم افزار CRM می باشد. شما با
-                  استفاده از این امکان می توانید کلیه گزارشات، تماس ها، سرنخ ها، فروش و حتی کمپین
-                  های تبلیغاتی خود را تهیه نمایید. این گزارشات در بخش میزان عملکرد پرسنل و تیم هم
+                  تهیه گزارش دقیق یکی از مهم ترین ویژگی‌های یک نرم افزار CRM می باشد. شما با
+                  استفاده از این امکان می توانید کلیه گزارشات، تماس‌ها، سرنخ‌ها، فروش و حتی کمپین
+                  ‌های تبلیغاتی خود را تهیه نمایید. این گزارشات در بخش میزان عملکرد پرسنل و تیم هم
                   کارایی لازم را دارد.
                 </p>
               </div>
@@ -238,10 +222,8 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto mb-4">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgEmails class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
@@ -255,19 +237,17 @@
                 <p class="text-[17px] text-[#999EBF] text-justify">
                   با این امکان در نرم افزار لینک جینیس، مدیریت ارسال و دریافت پیام در قالب ایمیل را با
                   مشتریان خود به دست خواهید داشت. به راحتی می توانید با این امکانات به دسته گروه
-                  مشتریان خود ایمیل های سازمانی ارسال نمایید و آنها را مدیریت کنید. همچنین با استفاده از
-                  ابزارهای پیشرفته بخش مدیریت ایمیل ها می توانید به سادگی ایمیل های کاربر پسندی را به
-                  مشتری های خود ارسال نمایید.
+                  مشتریان خود ایمیل‌های سازمانی ارسال نمایید و آنها را مدیریت کنید. همچنین با استفاده از
+                  ابزارهای پیشرفته بخش مدیریت ایمیل‌ها می توانید به سادگی ایمیل‌های کاربر پسندی را به
+                  مشتری‌های خود ارسال نمایید.
                 </p>
               </div>
             </div>
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgContracts class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
@@ -288,14 +268,12 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgOpportunities class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base	text-[#2C2D2E] font-bold">
-                  مدیریت فرصت ها ( معاملات )
+                  مدیریت فرصت‌ها ( معاملات )
                 </p>
                 <!-- <p class="text-base	text-[#2C2D2E] font-bold">
                   از عملکرد شما
@@ -303,8 +281,8 @@
               </div>
               <div class="px-[30px]">
                 <p class="text-[17px] text-[#999EBF] text-justify">
-                  شناسایی فرصت ها در سیستم فروش، انتخاب مشتری هدف، مشخص نمودن زمان آن جهت
-                  ایجاد معامله یکی از کاربردی ترین ویژگی های یک نرم افزار CRM می باشد که به شما
+                  شناسایی فرصت‌ها در سیستم فروش، انتخاب مشتری هدف، مشخص نمودن زمان آن جهت
+                  ایجاد معامله یکی از کاربردی ترین ویژگی‌های یک نرم افزار CRM می باشد که به شما
                   کمک می کند در یک بازه زمانی مشخص بهترین اقدام را جهت تغییر نرخ سرنخ و یا
                   فروش انجام دهید.
                 </p>
@@ -313,10 +291,8 @@
           </div>
           <div class="card_feature col p-0">
             <div class="text-center py-[3rem] flex flex-col items-center justify-center box transition-all rounded-[40px] mx-auto">
-              <div>
-                <span>
-                  <SvgFeaturesIcon />
-                </span>
+              <div class="mb-4">
+                <SvgContacts class="h-20 w-auto" />
               </div>
               <div class="pb-[27px]">
                 <p class="text-base text-[#2C2D2E] font-bold">
@@ -331,7 +307,7 @@
                   جمع آوری و حفظ اطلاعات مشتریان یکی از مهم ترین اقدامات استفاده از نرم افزار CRM
                   می باشد. با دریافت و ثبت اطلاعات دقیق مشتریان می توانید آنها را دسته بندی نموده و
                   بسته میزان نیاز آنان محصولات و خدمات خود را به فروش برسانید. همچنین آنالیز میزان
-                  فروش و رضایت مندی و ایجاد روابط عمومی یکی از ویژگی های این بخش می باشد.
+                  فروش و رضایت مندی و ایجاد روابط عمومی یکی از ویژگی‌های این بخش می باشد.
                 </p>
               </div>
             </div>

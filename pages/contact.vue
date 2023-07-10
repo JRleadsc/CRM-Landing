@@ -1,6 +1,4 @@
 
-import { ContactRequest } from '~~/.nuxt/components';
-
 <template>
   <div class="mt-20">
     <div class="header-overlay" />
@@ -95,7 +93,7 @@ import { ContactRequest } from '~~/.nuxt/components';
 
                 </span>
                 <p class="ltr">
-                  +88 4545 9595 2516
+                  05137278982
                 </p>
               </div>
               <div class="flex items-center contact-details">
@@ -123,7 +121,7 @@ import { ContactRequest } from '~~/.nuxt/components';
                   </svg>
                 </span>
                 <p class="ltr">
-                  emailme@mailbox.com
+                  support@linkgns.com
                 </p>
               </div>
               <div class="flex items-center contact-details">

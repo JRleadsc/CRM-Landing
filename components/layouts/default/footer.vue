@@ -3,7 +3,7 @@
     <div class="container lg:px-20 h-100">
       <div class="row h-100">
         <div class="col-md-6 col-12">
-          <div class="flex flex-col justify-between h-full px-4 pt-[24px]">
+          <div class="flex flex-col justify-between h-full px-4 pt-[24px] desc-titr">
             <div>
               <div class="pb-[15px] ">
                 <SvgLogo class="d-sm-block d-none  w-[230px] h-auto" />
@@ -11,7 +11,7 @@
                   <SvgLogo class="w-[157px] h-auto" />
                 </span>
               </div>
-              <div class="text-lg text-[#6D728E]">
+              <div class="text-lg text-[#6D728E] fs-titr">
                 <p class="mb-3">
                   متفاوت تر مدیریت کنید
                 </p>
@@ -20,7 +20,7 @@
                 </p>
               </div>
             </div>
-            <div class="">
+            <div class="part-news">
               <h3 class="sm:text-[22px] text-[18px] pt-md-0 pt-5 text-[#2C2D2E] font-bold pb-4">
                 عضویت در خبرنامه
               </h3>
@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-6 col-12">
           <div class="xl:col-span-1 sm:col-span-2 px-4">
-            <div class="flex flex-col items-end sm:items-start pt-[30px]">
+            <div class="flex flex-col align-items-md-end align-items-center pt-[30px] part-menu-footer">
               <div class="flex justify-between 2xl:w-[38%] xl:w-[57%] md:w-[73%] sm:w-[50%] menu-box-footer">
                 <div>
                   <h3 class="text-[28px] sm:text-[18px] font-bold text-[#2C2D2E] pb-[26px]">

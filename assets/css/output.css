@@ -5075,6 +5075,9 @@ footer {
 .btn-desc {
   width: 70%;
 }
+.left {
+  margin-left: 22px;
+}
 
 /* responsive */
 @media (max-width: 1439px) {

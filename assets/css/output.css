@@ -5063,8 +5063,12 @@ footer {
   flex-direction: column;
   gap: 40px;
 }
-
-
+.splide__pagination {
+  bottom: -2.5em !important;
+}
+.splide__pagination__page.is-active {
+  background: #E14CAB !important;
+}
 
 /* responsive */
 @media (max-width: 1439px) {

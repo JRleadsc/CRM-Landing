@@ -219,7 +219,7 @@ const options = ref({
 </style>
 <style scoped>
 .h-\[380px\] {
-    height: 520px;
+    height: 480px;
     /* overflow-y: scroll; */
 }
 .top-img {

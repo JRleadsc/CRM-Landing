@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <section class="first-section-index rounded-t-none xs:rounded-b-[130px] rounded-b-[100px]">
       <div class="container z-20 relative px-0">
         <div class="bg-white  sec-header z-20 relative xs:rounded-b-[130px] rounded-b-[100px]">
@@ -85,43 +85,12 @@
             <ClientOnly>
               <div class="player-container">
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
-                <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster.png" />
+                <!-- <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster.png" /> -->
+                <div class="flex justify-center">
+                  <span class="" /><iframe class="" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                </div>
               </div>
             </ClientOnly>
-
-            <!-- <div id="videoMainElement45" class="relative col_vido">
-              <video id="vid" class="w-100" poster="/images/poster2.png">
-                <source src="http://jrleads.ir/video/iranserver-vid.MP4" type="video/mp4">
-                <source src="http://jrleads.ir/video/iranserver-vid.MP4" type="video/ogg">
-              </video>
-              <div id="toggle" class="isr_content_29_col_play">
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.167" height="82.113" viewBox="0 0 71.167 82.113">
-                    <defs>
-                      <filter
-                        id="Path"
-                        x="0"
-                        y="0"
-                        width="71.167"
-                        height="82.113"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feOffset dy="3" input="SourceAlpha" />
-                        <feGaussianBlur stdDeviation="3" result="blur" />
-                        <feFlood flood-color="#201979" />
-                        <feComposite operator="in" in2="blur" />
-                        <feComposite in="SourceGraphic" />
-                      </filter>
-                    </defs>
-                    <g id="play_fill" data-name="play fill" transform="translate(9 6)">
-                      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path)">
-                        <path id="Path-2" data-name="Path" d="M0,2.752v58.61A2.75,2.75,0,0,0,4.191,63.7L51.858,34.4a2.746,2.746,0,0,0,0-4.68L4.191.412A2.75,2.75,0,0,0,0,2.752Z" transform="translate(9 6)" fill="#fff" />
-                      </g>
-                    </g>
-                  </svg>
-                </span>
-              </div>
-            </div> -->
           </div>
         </div>
         <div class="row d-lg-none d-block pt-4">
@@ -137,6 +106,7 @@
         </div>
       </div>
     </section>
+
     <section class="grid grid-cols-1 featurs-section xs:py-[50px] text-center bg-white">
       <div class="pb-[53px]">
         <div class="flex justify-center">

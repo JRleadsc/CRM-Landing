@@ -5658,6 +5658,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   /* .first-section-index .container {
@@ -6033,7 +6034,7 @@ footer {
     gap: 7px;
     border-radius: 0;
     background-color: transparent;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
   }
   .newsletter input {

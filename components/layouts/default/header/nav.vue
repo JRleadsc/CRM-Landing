@@ -25,7 +25,7 @@
           </span>
         </NuxtLink>
       </div>
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <div id="navbarSupportedContent" class="collapse navbar-collapse" :style="[useStoreResponsive().isMenuOpen?'display:block':'display:none']">
         <div class="h-100 d-flex justify-between flex-col">
           <ul class="navbar-nav me-0">
             <li class="nav-item">
@@ -279,6 +279,8 @@ import { useStoreResponsive } from '~/stores/responsive'
 const defaultIconClass = ref('open-icon')
 
 // const topMenuClass = ref('top-menu-opacity-off')
+//defaultIconClass
+
 
 const changeIcon = () => {
   if (defaultIconClass.value === 'open-icon') {
@@ -293,7 +295,16 @@ const changeIcon = () => {
     // topMenuClass.value = 'top-menu-opacity-off'
     useStoreResponsive().isMenuOpen = false
   }
-
   // console.log('changeIcon:' + changeIcon)
 }
+
+ const route = useRoute()
+ watch(() => route.fullPath,() => {
+   //console.log('from nav')
+    if (defaultIconClass.value === 'close-icon' && !useStoreResponsive().isMenuOpen) {
+    	defaultIconClass.value = 'open-icon'
+	}
+ }
+)
+
 </script>

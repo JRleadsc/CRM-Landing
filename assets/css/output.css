@@ -6020,7 +6020,7 @@ footer {
     left: 0;
 }
 }
-@media (max-width : 500px) {
+@media (max-width : 500px ) {
 
   .heading-contact {
     flex-direction: column;

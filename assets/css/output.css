@@ -4532,10 +4532,6 @@ article .note {
   color: #fff;
   opacity: 0.3;
 }
-.heading {
-  padding: 1rem 0;
-}
-
 .heading_h {
   font-size: 36px;
   font-weight: 600;
@@ -5207,7 +5203,10 @@ footer {
     flex: 0 0 288px;
 }
   .heading {
-    padding: 20px 0;
+    padding: 20px 15px;
+}
+.breadcrumb {
+  padding: 0 15px;
 }
   .news-list li {
     gap: 5px;
@@ -5892,6 +5891,9 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .heading_h {
+    font-size: 30px;
+  }
   .fs-titr {
     font-size: 14px;
   }
@@ -6018,7 +6020,7 @@ footer {
     left: 0;
 }
 }
-@media (max-width : 480px) {
+@media (max-width : 500px) {
 
   .heading-contact {
     flex-direction: column;

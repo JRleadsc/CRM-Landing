@@ -2,7 +2,7 @@
   <div class="mt-20">
     <div class="header-overlay" />
 
-    <section class="px-[93px]">
+    <section class="">
       <div class="container">
         <div class="row pt-[33px]">
           <div class="col-12">
@@ -25,7 +25,7 @@
       </div>
     </section>
 
-    <section class="Possibilities px-[93px]">
+    <section class="Possibilities">
       <div class="container">
         <div class="row">
           <div class="col-12">

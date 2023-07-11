@@ -33,7 +33,7 @@
               <h1 class="heading_h">
                 درباره ما
               </h1>
-              <p class="heading_p lh-lg text-justify">
+              <p class="heading_p lh-lg text-justify ">
                 در شرکت ما، با ارائه نرم‌افزار ارتباط با مشتری لینک جینیس، تلاش می‌کنیم تا به شما کمک کنیم تا ارتباط با مشتریان خود را بهبود بخشید و عملکرد کسب و کار خود را به سطح بالاتری برسانید.
 
                 تیم متخصص ما از توانایی‌های فنی و دانش بالایی در زمینه CRM برخوردار است و با بهره‌گیری از جدیدترین تکنولوژی‌ها و روش‌های توسعه، نرم‌افزارهایی را ارائه می‌دهد که به طور کامل نیازهای شما را در مدیریت ارتباط با مشتریان برطرف می‌کنند.
@@ -53,7 +53,8 @@
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
                 <!-- <vue3-video-player src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" /> -->
                 <div class="flex justify-center">
-                  <span class="" /><iframe class="" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                  <div class="aboutPage video-player"><iframe class="video-iframe" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                    </div>
                 </div>
               </div>
             </ClientOnly>
@@ -91,7 +92,7 @@
                 </span>
               </div>
             </div> -->
-            <div class="content justify-content-end">
+            <div class="content justify-content-end px-lg-0 px-2">
               <div>
                 <h2 class="text-sm-start text-center about-title-1">
                   چرا لینک جینیس؟

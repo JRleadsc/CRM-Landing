@@ -22,15 +22,16 @@
         </div>
       </div>
     </section>
-    <section class="bg_gradient title-faq-page flex items-center">
+
+    <section class="Possibilities">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="">
-              <h1 class="heading_h pe-5 me-3">
+            <div class="heading">
+              <h1 class="heading_h">
                 سوالات متداول
               </h1>
-              <p class="heading_p">
+              <p class="heading_p lh-lg">
                 در این صفحه، ما پاسخهای کوتاه و مختصری را برای سوالات رایج فراهم کرده ایم تا کاربران بتوانند به سرعت و با سهولت به اطلاعات مورد نیاز دسترسی پیدا کنند. شما میتوانید جواب‌ برخی از سوالات خود را در این صفحه پیدا کنید و توضیحات مربوط به سوالات دیگران را مشاهده کنید.
               </p>
             </div>
@@ -38,6 +39,7 @@
         </div>
       </div>
     </section>
+
     <section class="faq-page pb-5 mb-3 pt-4 mt-2">
       <div class="container">
         <div id="accordionPanelsStayOpenExample" class="accordion ">

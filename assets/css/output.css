@@ -6086,6 +6086,15 @@ footer {
   margin: 0;
 }
 }
+@media (max-width : 361px) {
+  .left,
+  .btn-header-a {
+    margin-left: 0;
+}
+.header-nav-col {
+  padding: 0 0 0 8px;
+}
+}
 @media (min-width: 1536px) {
   .\32xl\:w-\[38\%\] {
     width: 38%;

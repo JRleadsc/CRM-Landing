@@ -3,7 +3,7 @@
     <header class="relative h-[80px] flex items-center">
       <div class="container container-header">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 header-nav-col">
             <LayoutsDefaultHeaderNav />
           </div>
         </div>

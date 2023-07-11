@@ -79,19 +79,19 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت سرنخ های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارسال و دریافت SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت کمپین های تبلیغاتی
                     </span>
@@ -103,15 +103,27 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت افراد و شرکت‌ها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فرصت های فروش
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت چاپ و ارسال پیش فاکتورها
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت فاکتورهای مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -121,27 +133,15 @@
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
-                      مدیریت چاپ و ارسال پیش فاکتورها
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت فاکتورهای مشتریان
+                      مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       مدیریت قراردادهای فروش
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgTimes class="h-6 w-auto text-red-600" />
-                    <span class="w-10/12">
-                      مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -163,13 +163,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارائه سرویس به مشتریان و مدیریت مشکلات محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پورتال مشتریان برای سیستم تیکتینگ و پرداخت آنلاین (براساس تعداد مشتریان)
                     </span>
@@ -181,19 +181,19 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تماس ها، جلسات و وظایف
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       یادآوری انجام فعالیت‌ها در نرم افزار و از طریق SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فایل های مشتریان
                     </span>
@@ -201,13 +201,13 @@
                   <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
-                      مدیریت پروژه‌ها
+                      مدیریت تایم شیت کاربران
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
-                      مدیریت تایم شیت کاربران
+                      مدیریت پروژه‌ها
                     </span>
                   </li>
                 </ul>
@@ -235,25 +235,43 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       کارتابل کاربران با قابلیت اختصاصی سازی هر کاربر
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پشتیبانی از چند واحد پولی متفاوت
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Outlook
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Google Calendar
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Google Drive
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Dropbox
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گزارش های از پیش تعریف شده
                     </span>
@@ -262,6 +280,24 @@
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       گزارش ساز برای ایجاد گزارش های تکمیلی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgTimes class="h-6 w-auto text-red-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی منو های انتخابی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgTimes class="h-6 w-auto text-red-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی فرم های موجود
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgTimes class="h-6 w-auto text-red-600" />
+                    <span class="w-10/12">
+                      ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -285,36 +321,6 @@
                   <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
-                      اختصاصی سازی منو های انتخابی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgTimes class="h-6 w-auto text-red-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی فرم های موجود
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Google Calendar
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Google Drive
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Dropbox
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgTimes class="h-6 w-auto text-red-600" />
-                    <span class="w-10/12">
                       استفاده از API
                     </span>
                   </li>
@@ -322,12 +328,6 @@
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       فرایند دریافت تاییدیه (Approval)
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgTimes class="h-6 w-auto text-red-600" />
-                    <span class="w-10/12">
-                      ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -349,13 +349,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       دسترسی به ویدئوها و مستندات آموزشی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گفتگوی آنلاین با کارشناسان
                     </span>
@@ -393,19 +393,19 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت سرنخ های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارسال و دریافت SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت کمپین های تبلیغاتی
                     </span>
@@ -417,45 +417,45 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت افراد و شرکت‌ها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فرصت های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت محصولات در فرصت های فروش
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت چاپ و ارسال پیش فاکتورها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فاکتورهای مشتریان
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت محصولات در فرصت های فروش
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       مدیریت قراردادهای فروش
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -477,13 +477,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارائه سرویس به مشتریان و مدیریت مشکلات محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پورتال مشتریان برای سیستم تیکتینگ و پرداخت آنلاین (براساس تعداد مشتریان)
                     </span>
@@ -495,33 +495,33 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تماس ها، جلسات و وظایف
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       یادآوری انجام فعالیت‌ها در نرم افزار و از طریق SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فایل های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت پروژه‌ها
+                      مدیریت تایم شیت کاربران
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت تایم شیت کاربران
+                      مدیریت پروژه‌ها
                     </span>
                   </li>
                 </ul>
@@ -531,13 +531,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تامین کنندگان و سفارشات خرید
                     </span>
@@ -549,33 +549,69 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       کارتابل کاربران با قابلیت اختصاصی سازی هر کاربر
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پشتیبانی از چند واحد پولی متفاوت
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Outlook
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Google Calendar
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Google Drive
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با Dropbox
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گزارش های از پیش تعریف شده
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گزارش ساز برای ایجاد گزارش های تکمیلی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی منو های انتخابی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی فرم های موجود
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -597,36 +633,6 @@
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی منو های انتخابی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی فرم های موجود
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Google Calendar
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Google Drive
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با Dropbox
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       استفاده از API
@@ -636,12 +642,6 @@
                     <SvgTimes class="h-6 w-auto text-red-600" />
                     <span class="w-10/12">
                       فرایند دریافت تاییدیه (Approval)
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
@@ -663,13 +663,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       دسترسی به ویدئوها و مستندات آموزشی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گفتگوی آنلاین با کارشناسان
                     </span>
@@ -707,19 +707,19 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت سرنخ های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارسال و دریافت SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت کمپین های تبلیغاتی
                     </span>
@@ -731,55 +731,55 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت افراد و شرکت‌ها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فرصت های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت محصولات در فرصت های فروش
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت چاپ و ارسال پیش فاکتورها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فاکتورهای مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت قراردادهای فروش
+                      مدیریت محصولات در فرصت های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت قراردادهای فروش
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مسیر فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       روند فروش چندگانه
                     </span>
@@ -791,13 +791,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارائه سرویس به مشتریان و مدیریت مشکلات محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پورتال مشتریان برای سیستم تیکتینگ و پرداخت آنلاین (براساس تعداد مشتریان)
                     </span>
@@ -809,33 +809,33 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تماس ها، جلسات و وظایف
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       یادآوری انجام فعالیت‌ها در نرم افزار و از طریق SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فایل های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت پروژه‌ها
+                      مدیریت تایم شیت کاربران
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت تایم شیت کاربران
+                      مدیریت پروژه‌ها
                     </span>
                   </li>
                 </ul>
@@ -845,13 +845,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تامین کنندگان و سفارشات خرید
                     </span>
@@ -863,109 +863,109 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       کارتابل کاربران با قابلیت اختصاصی سازی هر کاربر
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پشتیبانی از چند واحد پولی متفاوت
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Outlook
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      گزارش های از پیش تعریف شده
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      گزارش ساز برای ایجاد گزارش های تکمیلی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      جریان کار (Workflow)
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      امکان تعریف و پایش اهداف در سطح هر کاربر و یا تیم
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت حق دسترسی به اطلاعات در گروه شرکت‌ها
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی منو های انتخابی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی فرم های موجود
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Google Calendar
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Google Drive
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Dropbox
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      استفاده از API
+                      گزارش های از پیش تعریف شده
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      فرایند دریافت تاییدیه (Approval)
+                      گزارش ساز برای ایجاد گزارش های تکمیلی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی منو های انتخابی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی فرم های موجود
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      جریان کار (Workflow)
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      امکان تعریف و پایش اهداف در سطح هر کاربر و یا تیم
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت حق دسترسی به اطلاعات در گروه شرکت‌ها
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      استفاده از API
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      فرایند دریافت تاییدیه (Approval)
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با نرم افزارهای دیگر سازمانی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ساخت فرم های جدید برای مدیریت فرایندها
                     </span>
@@ -977,13 +977,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       دسترسی به ویدئوها و مستندات آموزشی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گفتگوی آنلاین با کارشناسان
                     </span>
@@ -1021,19 +1021,19 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت سرنخ های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارسال و دریافت SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت کمپین های تبلیغاتی
                     </span>
@@ -1045,55 +1045,55 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت افراد و شرکت‌ها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فرصت های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت محصولات در فرصت های فروش
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت چاپ و ارسال پیش فاکتورها
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فاکتورهای مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت قراردادهای فروش
+                      مدیریت محصولات در فرصت های فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت پرداخت های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت قراردادهای فروش
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مسیر فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       روند فروش چندگانه
                     </span>
@@ -1105,13 +1105,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت ارائه سرویس به مشتریان و مدیریت مشکلات محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پورتال مشتریان برای سیستم تیکتینگ و پرداخت آنلاین (براساس تعداد مشتریان)
                     </span>
@@ -1123,33 +1123,33 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تماس ها، جلسات و وظایف
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       یادآوری انجام فعالیت‌ها در نرم افزار و از طریق SMS
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت فایل های مشتریان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت پروژه‌ها
+                      مدیریت تایم شیت کاربران
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      مدیریت تایم شیت کاربران
+                      مدیریت پروژه‌ها
                     </span>
                   </li>
                 </ul>
@@ -1159,13 +1159,13 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت محصولات
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیریت تامین کنندگان و سفارشات خرید
                     </span>
@@ -1177,109 +1177,109 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       کارتابل کاربران با قابلیت اختصاصی سازی هر کاربر
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       پشتیبانی از چند واحد پولی متفاوت
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Outlook
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      گزارش های از پیش تعریف شده
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      گزارش ساز برای ایجاد گزارش های تکمیلی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      جریان کار (Workflow)
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      امکان تعریف و پایش اهداف در سطح هر کاربر و یا تیم
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      مدیریت حق دسترسی به اطلاعات در گروه شرکت‌ها
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی منو های انتخابی
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
-                    <span class="w-10/12">
-                      اختصاصی سازی فرم های موجود
-                    </span>
-                  </li>
-                  <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Google Calendar
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Google Drive
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با Dropbox
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      استفاده از API
+                      گزارش های از پیش تعریف شده
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
-                      فرایند دریافت تاییدیه (Approval)
+                      گزارش ساز برای ایجاد گزارش های تکمیلی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی منو های انتخابی
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      اختصاصی سازی فرم های موجود
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با نرم افزارهای فروش
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      جریان کار (Workflow)
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      امکان تعریف و پایش اهداف در سطح هر کاربر و یا تیم
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      مدیریت حق دسترسی به اطلاعات در گروه شرکت‌ها
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      استفاده از API
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
+                    <span class="w-10/12">
+                      فرایند دریافت تاییدیه (Approval)
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-1">
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ارتباط با نرم افزارهای دیگر سازمانی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ساخت فرم های جدید برای مدیریت فرایندها
                     </span>
@@ -1291,25 +1291,25 @@
                 </div>
                 <ul class="text-[12px] flex flex-col gap-2.5 text-justify">
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       دسترسی به ویدئوها و مستندات آموزشی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       گفتگوی آنلاین با کارشناسان
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       مدیر مشتری اختصاصی
                     </span>
                   </li>
                   <li class="flex items-center gap-1">
-                    <SvgCheck class="h-7 w-auto text-green-600" />
+                    <SvgCheck class="h-6 w-auto text-green-600" />
                     <span class="w-10/12">
                       ممیزی نحوه استفاده از نرم افزار هر 3 ماه یکبار
                     </span>

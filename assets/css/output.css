@@ -5894,6 +5894,7 @@ footer {
 @media (max-width: 576px) {
   .heading_h {
     font-size: 30px;
+    padding-bottom: 15px;
   }
   .fs-titr {
     font-size: 14px;

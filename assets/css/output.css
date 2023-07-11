@@ -4186,7 +4186,7 @@ section.article ul li:before,
 .about-desc p,
 .about-desc ul li{
   color: #9A94E5;
-  font-size: 19px;
+  /* font-size: 19px; */
 }
 .about-desc ul li {
   line-height: 40px;

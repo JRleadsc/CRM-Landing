@@ -43,6 +43,25 @@
         <div id="accordionPanelsStayOpenExample" class="accordion ">
           <div class="row">
             <div class="col-lg-6 col-12">
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse1"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    نرم افزار شما چه قابلیتهایی دارد؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    نرم افزار ما قابلیتهای متعددی دارد که شامل مدیریت ارتباط با مشتریان، پیگیری تاریخچه تعاملات، برنامهریزی و پیشبینی فروش، سامانه تیکتینگ و پشتیبانی، تحلیل دادهها و گزارشگیری و بسیاری از امکانات دیگر است.
+                  </div>
+                </div>
+              </div>
               <div class="accordion-item">
                 <h2 id="panelsStayOpen-headingOne" class="accordion-header">
                   <button
@@ -62,22 +81,22 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 id="panelsStayOpen-headingThree" class="accordion-header">
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
                   <button
                     class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree"
+                    data-bs-target="#panelsStayOpen-collapse3"
                     aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree"
+                    aria-controls="panelsStayOpen-collapseTwo"
                   >
-                    آیا نرم افزار شما در تمام پلتفرمها قابل دسترسی است؟
+                    آیا امکان شخصی‌سازی نرم افزار وجود دارد؟
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
-                    بله، با توجه به پیاده سازی نرم افزار در بستر سرور های ابری، این نرم افزار بر روی اکثر پلتفرمهای رایج مانند ویندوز، مک، iOS و اندروید از طریق مرورگر وب قابل دسترسی است.
+                    بله، نرم افزار ما امکاناتی برای شخصیسازی فراهم میکند. شما میتوانید تنظیمات و پیکربندیهای مختلف را برای تطبیق نرم افزار با نیازهای خاص خود تعیین کنید. از جمله شخصیسازی فرمها، دسترسیها و مجوزها، قالببندی نمایش اطلاعات و بسیاری از جزئیات دیگر قابل تنظیم است. این امکانات به شما اجازه میدهند نرم افزار را به سبک و نیازهای کسب و کارتان وفق دهید.
                   </div>
                 </div>
               </div>
@@ -100,8 +119,84 @@
                   </div>
                 </div>
               </div>
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse2"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    آیا امکان ارتباط بین کاربران وجود دارد؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    بله، کاربران می‌توانند در بخش‌های مختلف از طریق یادداشت گذاری، با یکدیگر در ارتباط باشند و به آنها از طریق نوتیفیکیشن اطلاع رسانی کنند.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse8"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    برای سیستم فروش چه امکاناتی در نظر گرفته شده است؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    شما می‌توانید محصولات خود را با جزئیات در سیستم ثبت نمایید، برای آن‌ها لیست قیمت‌های مختلف تعریف کنید و برای فروش آن‌ها پیش‌فاکتور و فاکتور ارائه دهید.
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-lg-6 col-12">
+              <div class="accordion-item">
+                <h2 id="panelsStayOpen-headingThree" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    آیا نرم افزار شما در تمام پلتفرم‌ها قابل دسترسی است؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    بله، با توجه به پیاده سازی نرم افزار در بستر سرور های ابری، این نرم افزار بر روی اکثر پلتفرمهای رایج مانند ویندوز، مک، iOS و اندروید از طریق مرورگر وب قابل دسترسی است.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse4"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    آیا نرم افزار شما امکان اتصال به سایر سیستمها را دارد؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    بله، نرم افزار ما امکان اتصال و هماهنگی با سیستمهای دیگر را دارد. ما از استانداردهای رایج مانند API استفاده میکنیم تا به شما امکان اتصال به سایر سیستمها و انتقال دادهها را فراهم کنیم.
+                  </div>
+                </div>
+              </div>
               <div class="accordion-item ">
                 <h2 id="panelsStayOpen-headingTwo" class="accordion-header">
                   <button
@@ -137,6 +232,44 @@
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
                     بله، نرم افزار ما امکاناتی برای برگزاری مارکتینگ کمپینها در اختیار شما قرار میدهد. شما میتوانید اقدامات مختلفی را مانند ارسال ایمیلها، پیامکها، پیامهای اعلانی و اجتماعی، بهبود روابط با مشتریان و تبلیغ محصولات و خدمات خود انجام دهید. همچنین، میتوانید عملکردهای کمپینهای خود را پیگیری کنید و با تحلیل دادههای مربوطه، بهبودهای لازم را ایجاد کنید.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse5"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    برای برگزاری جلسات، نرم افزار شما چه امکاناتی دارد؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    در بخش جلسات امکان ثبت اطلاعات جلسه، محل برگزاری جلسه، ثبت شرکت کنندگان جلسه، ثبت فایل‌های مرتبط با جلسه و امکان ثبت یادآوری برای هر جلسه وجود دارد.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 id="" class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse6"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    امکانات بخش قراردادها، در نرم افزار شما چیست؟
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    شما می‌توانید در بخش قراردادها، یک قرارداد کامل را با جزئیات ثبت نمایید، از متن‌های آماده برای نوشتن قرارداد استفاده کنید و فایل‌های پیوست را به قرارداد اضافه نمایید. برای هر قرارداد متمم و الحاقیه تعریف نمایید و امضا کنندگان را مشخص کرده تا از طریق احراز هویت دیجیتال، قرارداد را امضا کنند.
                   </div>
                 </div>
               </div>

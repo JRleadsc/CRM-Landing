@@ -129,10 +129,15 @@
               </ul>
             </li> -->
             <li class="nav-item">
+              <NuxtLink class="nav-link" to="/faq">
+                سوالات متداول
+              </NuxtLink>
+            </li>
+            <!-- <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">
                 مشتریان ما
               </NuxtLink>
-            </li>
+            </li> -->
             <!-- <li class="nav-item dropdown">
               <a
                 id="navbarDropdown"

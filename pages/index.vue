@@ -64,12 +64,12 @@
           <div class="video_section">
             <div class="content">
               <div>
-                <h2 class="text-sm-start font-bold text-[24px] text-center">
+                <h2 class="text-lg-start font-bold text-[24px] text-center">
                   معرفی لینک جینیس
                 </h2>
-                <p class="text-justify">
+                <p class="intro-p px-sm-0 px-2">
                   نرم افزار CRM (مدیریت ارتباط با مشتری) لینک جینیس به شرکت‌ها کمک می‌کند تا با مشتری خود ارتباط بهتری برقرار کرده و فروش‌های بیشتری داشته باشند.
-                  <br>
+                  <!-- <br> -->
                   با استفاده از این نرم افزار میتوانید اطلاعات مشتریان خود را مدیریت کنید، فرصت‌های فروش را پیگیری کنید و سرویس دهی خود را بهبود ببخشید. تیم ما با تکیه بر تجربه و تخصص خود به شما راه‌ حل‌هایی ارائه می‌دهند و به کسب و کارتان کمک می‌کنند تا بازدهی و عملکرد خود را افزایش دهید.
                 </p>
               </div>
@@ -87,7 +87,8 @@
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
                 <!-- <vue3-video-player class="rounded-3xl" src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster.png" /> -->
                 <div class="flex justify-center">
-                  <span class="" /><iframe class="" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                  <div class="video-player"><iframe class="video-iframe" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                    </div>
                 </div>
               </div>
             </ClientOnly>

@@ -51,7 +51,10 @@
             <ClientOnly>
               <div class="player-container">
                 <!-- Docs = https://github.com/LarchLiu/vue3-video-player -->
-                <vue3-video-player src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" />
+                <!-- <vue3-video-player src="http://jrleads.ir/video/iranserver-vid.MP4" cover="/images/poster2.png" /> -->
+                <div class="flex justify-center">
+                  <span class="" /><iframe class="" src="https://www.aparat.com/video/video/embed/videohash/Vhqpl/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" />
+                </div>
               </div>
             </ClientOnly>
 

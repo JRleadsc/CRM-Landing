@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20">
-    <section class="px-[93px]">
+    <section class="">
       <div class="container">
         <div class="row pt-[33px]">
           <div class="col-12">
@@ -22,11 +22,11 @@
         </div>
       </div>
     </section>
-    <section class="Possibilities px-[93px]">
+    <section class="Possibilities ">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="">
+            <div class="heading">
               <h1 class="heading_h">
                 ویژگی‌ها
               </h1>

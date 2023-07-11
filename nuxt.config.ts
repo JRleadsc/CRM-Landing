@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   imports: {
     imports: [
       { name: 'useStoreSignup', from: '@/stores/signup' },
-	    { name: 'useStoreResponsive', from: '@/stores/responsive' },
+      { name: 'useStoreResponsive', from: '@/stores/responsive' },
       { name: 'useToast', from: 'vue-toastification' }
     ]
   },

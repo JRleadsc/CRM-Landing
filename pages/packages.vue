@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="">
+            <div class="heading">
               <h1 class="heading_h">
                 پکیج‌ها
               </h1>

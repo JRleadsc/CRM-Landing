@@ -249,7 +249,7 @@
         <div class="text-sm font-semibold text-gray-900 ml-[22px] support">
           پشتیبانی : 05137278982
         </div>
-        <NuxtLink to="/request-demo" class="text-sm font-semibold text-gray-900 ml-3">
+        <NuxtLink to="/request-demo" class="text-sm font-semibold text-gray-900 ml-3 btn-header-a">
           <button class="btn-header h-11 bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">
             درخواست دمو
           </button>

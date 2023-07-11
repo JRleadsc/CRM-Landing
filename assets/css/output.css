@@ -3706,8 +3706,11 @@ ul li.nav-item:not(:last-child) {
 .pricing_plan:hover .pricing_title,
 .pricing_plan:hover .pricing_content,
 .pricing_plan:hover .price, 
-.pricing_plan:hover li {
+.pricing_plan:hover li,
+.pricing_plan:hover span,
+.pricing_plan:hover div {
   color: #fff;
+  border-color: #fff;
 }
 .pricing_plan:hover button {
   background: #fff;

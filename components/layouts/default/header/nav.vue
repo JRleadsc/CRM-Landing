@@ -234,7 +234,7 @@
           </ul>
           <div class="flex flex-col pl-4 taggle-option">
             <div class="text-sm font-semibold text-gray-900  border-bottom pb-3">
-              پشتیبانی : 05137278982
+              پشتیبانی : 02188751622
             </div>
             <div class="flex items-center pt-3">
               <div class="ml-4 text-sm font-semibold text-gray-900  w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
@@ -252,7 +252,7 @@
 
       <div class="flex items-center md:flex-row left">
         <div class="text-sm font-semibold text-gray-900 ml-[22px] support">
-          پشتیبانی : 05137278982
+          پشتیبانی : 02188751622
         </div>
         <NuxtLink to="/request-demo" class="text-sm font-semibold text-gray-900 ml-3 btn-header-a">
           <button class="btn-header h-11 bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">

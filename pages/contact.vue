@@ -103,7 +103,7 @@
 
                 </span>
                 <p class="ltr">
-                  05137278982
+                  02188751622
                 </p>
               </div>
               <div class="flex items-center contact-details">

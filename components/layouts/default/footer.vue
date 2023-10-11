@@ -69,11 +69,11 @@
                         ویژگی‌ها
                       </NuxtLink>
                     </li>
-                    <li>
+                    <!-- <li>
                       <NuxtLink to="/client">
                         مشتریان ما
                       </NuxtLink>
-                    </li>
+                    </li> -->
                     <li>
                       <NuxtLink to="/packages">
                         پکیج‌ها

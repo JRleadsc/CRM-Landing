@@ -118,7 +118,7 @@
         </div>
       </div>
     </section>
-    <section class="py-5 mt-5">
+    <section class="py-5 mt-5 hidden">
       <div class="container pt-2">
         <div class="row">
           <div class="col-12">
@@ -233,7 +233,7 @@
       </div>
     </section>
 
-    <section class="sec-blue bg-[#3E369D] pb-5 relative">
+    <section class="sec-blue bg-[#3E369D] pb-5 relative hidden">
       <div class="title-heading text-center py-5">
         <h2 class="text-white">
           آخرین ویدیوها
@@ -357,7 +357,7 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                  فروش در CLV
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -369,7 +369,7 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  ارزش طول عمر مشتری یا CLV (Customer Lifetime Value) به معنای مقدار سودی است که یک مشتری در طول عمر خود برای یک شرکت ایجاد می‌کند. به‌عبارت دیگر
                 </p>
               </div>
             </div>
@@ -381,7 +381,7 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                  سیستم ارتباط مدیریت با مشتری
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -393,7 +393,7 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  سیستم مدیریت ارتباط با مشتری (CRM) به‌عنوان یک سیستم مدیریتی برای مدیریت روابط شرکت‌ها با مشتریان خود اغلب در صنعت استفاده می‌شود. با توجه به تحولات روزافزون فناوری 
                 </p>
               </div>
             </div>
@@ -405,7 +405,7 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                 مشتری چیست ؟ انواع مشتری کدام اند ؟ 
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -417,7 +417,7 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  مشتری بخش ضروری از دنیای کسب و کار است. اصل تجارت مشتری است و بدون آنها هیچ کسب و کاری نمی‌تواند باقی بماند. در واقع، مشتریان می‌توانند یکی از عوامل مهم و تعیین کننده در موفقیت یک شرکت باشند؛ محصولات و خدمات شما را 
                 </p>
               </div>
             </div>
@@ -429,7 +429,9 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                  نرم‌افزار CRM چگونه در اثربخشی کمپین‌های تبلیغاتی به شما کمک می‌کند؟
+
+
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -441,7 +443,7 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  CRM نرم‌افزاری که به شما در تحلیل و آماده‌سازی گزارش‌هایی آسان، کاربردی و جامع کمک زیادی می‌کند و زمان تجزیه تحلیل گزارش‌ها را به حداقل می‌رساند. اگر بخواهید در بازاریابی موفق شوید، قطعاً یکی از ضروریات فعالیت بازاریابی شما 
                 </p>
               </div>
             </div>
@@ -453,7 +455,7 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                  راهنمای انتخاب یک سیستم مدیریت ارتباط با مشتری موفق
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -465,7 +467,7 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  بهبود کارایی، افزایش ظرفیت‌ها، فروش و در پی آن سود بیشتر همواره اصلی‌ترین و بزرگترین هدف هر سازمان و کسب و کاری به‌شمار می‌رود. امروزه دیگر مدیریت سازمان 
                 </p>
               </div>
             </div>
@@ -477,7 +479,7 @@
             <div>
               <div class="tile-blog">
                 <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
-                  عجیب ترین تکنولوژی های آینده
+                  power BI چیست؟
                 </h5>
                 <div class="flex items-center">
                   <img src="/images/avatar-blog1.png" alt="avatar-image">
@@ -489,13 +491,85 @@
                   </p>
                 </div>
                 <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                  در دنیای امروزی، یکی از با ارزش ترین و بزرگترین دارایی هر انسانی، اطلاعاتی است که با خود به همراه دارد. در صورت استفاده درست 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center flex-lg-row flex-column">
+            <div class="image-blog flex justify-center">
+              <img src="/images/pic6.png" alt="image-blog">
+            </div>
+            <div>
+              <div class="tile-blog">
+                <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
+                  توضیح و اطلاعات کامل در مورد ERP
+                </h5>
+                <div class="flex items-center">
+                  <img src="/images/avatar-blog1.png" alt="avatar-image">
+                  <p class="text-sm text-[#6D728E] ms-4 ps-1">
+                    حامد گورابی -
+                    <span>
+                      ۲ ساعت پیش
+                    </span>
+                  </p>
+                </div>
+                <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
+                  اگر هم اکنون به سراغ مدیران موفق سازمان ها رفته و از آن ها در مورد عوامل اصلی تاثیرگذار در رشد سازمان و گسترش درآمدهای شرکت سوال بپرسید، بدون شک یکی از 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center flex-lg-row flex-column">
+            <div class="image-blog flex justify-center">
+              <img src="/images/pic6.png" alt="image-blog">
+            </div>
+            <div>
+              <div class="tile-blog">
+                <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
+                  همه چیز درباره نظر سنجی NPS
+                </h5>
+                <div class="flex items-center">
+                  <img src="/images/avatar-blog1.png" alt="avatar-image">
+                  <p class="text-sm text-[#6D728E] ms-4 ps-1">
+                    حامد گورابی -
+                    <span>
+                      ۲ ساعت پیش
+                    </span>
+                  </p>
+                </div>
+                <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
+                  معمولا هنگامی که بحث در مورد نظرسنجی از مشتریان و یا کاربران می شود، بسیاری از مدیران تصور می کنند که نظرسنجی صرفا یک برگه و چند سوال ساده است که شاید در برخی از اوقات بتواند به ما در بهبود وضعیت شرکت کمک کند.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center flex-lg-row flex-column">
+            <div class="image-blog flex justify-center">
+              <img src="/images/pic6.png" alt="image-blog">
+            </div>
+            <div>
+              <div class="tile-blog">
+                <h5 class="card-title text-[18px] text-[#2C2D2E] font-bold pb-1">
+                  قیف فروش یا sales funnel چیست؟
+                </h5>
+                <div class="flex items-center">
+                  <img src="/images/avatar-blog1.png" alt="avatar-image">
+                  <p class="text-sm text-[#6D728E] ms-4 ps-1">
+                    حامد گورابی -
+                    <span>
+                      ۲ ساعت پیش
+                    </span>
+                  </p>
+                </div>
+                <p class="card-text text-[17px] text-[#999EBF]  lh-lg pt-3 text-lg-start text-center">
+                  تصور کنید که در حال قدم زدن در بازاری شلوغ هستید که پر از فروشندگانی است که از هر طرف شما را صدا می کنند. همانطور که از کنار هر غرفه گذر می کنید، 
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row hidden">
           <div class="col-12">
             <div class="btn-blog">
               <button class="btn-md pink-btn">

@@ -222,6 +222,11 @@
               </ul>
             </li> -->
             <li class="nav-item">
+                  <NuxtLink to="/blog" class="nav-link">
+                        وبلاگ
+                  </NuxtLink>
+                </li>
+            <li class="nav-item">
               <NuxtLink to="/about" class="nav-link">
                 درباره ما
               </NuxtLink>

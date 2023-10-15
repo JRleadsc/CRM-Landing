@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg px-0" :class="useRoute().name !== 'index' ? 'px-0' : ''">
+  <nav
+    class="navbar navbar-expand-lg px-0"
+    :class="useRoute().name !== 'index' ? 'px-0' : ''"
+  >
     <div class="container-fluid p-0">
       <div class="flex items-center menu-toggle">
         <button
@@ -18,23 +21,37 @@
           </span>
         </button>
         <NuxtLink to="/" class="navbar-brand pt-0">
-          <img class="d-xxl-block d-none" src="/images/Logo.png" alt="logo">
+          <img class="d-xxl-block d-none" src="/images/Logo.png" alt="logo" />
 
           <span class="d-xxl-none d-block">
             <SvgLogo class="w-[157px] h-[40px]" />
           </span>
         </NuxtLink>
       </div>
-      <div id="navbarSupportedContent" class="collapse navbar-collapse" :style="[useStoreResponsive().isMenuOpen?'display:block':'display:none']">
+      <div
+        id="navbarSupportedContent"
+        class="collapse navbar-collapse"
+        :style="[
+          useStoreResponsive().isMenuOpen ? 'display:block' : 'display:none',
+        ]"
+      >
         <div class="h-100 d-flex justify-between flex-col">
           <ul class="navbar-nav me-0">
             <li class="nav-item">
-              <NuxtLink to="/packages" class="nav-link active" aria-current="page">
+              <NuxtLink
+                to="/packages"
+                class="nav-link active"
+                aria-current="page"
+              >
                 پکیج‌ها
               </NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink to="/features" class="nav-link active" aria-current="page">
+              <NuxtLink
+                to="/features"
+                class="nav-link active"
+                aria-current="page"
+              >
                 ویژگی‌ها
               </NuxtLink>
             </li>
@@ -129,9 +146,7 @@
               </ul>
             </li> -->
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="/faq">
-                سوالات متداول
-              </NuxtLink>
+              <NuxtLink class="nav-link" to="/faq"> سوالات متداول </NuxtLink>
             </li>
             <!-- <li class="nav-item">
               <NuxtLink class="nav-link" to="/client">
@@ -222,26 +237,27 @@
               </ul>
             </li> -->
             <li class="nav-item">
-              <NuxtLink to="/about" class="nav-link">
-                درباره ما
-              </NuxtLink>
+              <NuxtLink to="/about" class="nav-link"> درباره ما </NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="/contact">
-                تماس با ما
-              </NuxtLink>
+              <NuxtLink class="nav-link" to="/contact"> تماس با ما </NuxtLink>
             </li>
           </ul>
           <div class="flex flex-col pl-4 taggle-option">
-            <div class="text-sm font-semibold text-gray-900  border-bottom pb-3">
-              پشتیبانی : 02188751622
+            <div class="text-sm font-semibold text-gray-900 border-bottom pb-3">
+              پشتیبانی : 05137278982
             </div>
             <div class="flex items-center pt-3">
-              <div class="ml-4 text-sm font-semibold text-gray-900  w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
+              <div
+                class="ml-4 text-sm font-semibold text-gray-900 w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center"
+              >
                 <span>EN</span>
               </div>
               <div class="">
-                <NuxtLink to="/login" class="text-sm font-semibold text-[#2C2D2E] w-16 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
+                <NuxtLink
+                  to="/login"
+                  class="text-sm font-semibold text-[#2C2D2E] w-16 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center"
+                >
                   ورود
                 </NuxtLink>
               </div>
@@ -252,14 +268,21 @@
 
       <div class="flex items-center md:flex-row left">
         <div class="text-sm font-semibold text-gray-900 ml-[22px] support">
-          پشتیبانی : 02188751622
+          پشتیبانی : 05137278982
         </div>
-        <NuxtLink to="/request-demo" class="text-sm font-semibold text-gray-900 ml-3 btn-header-a">
-          <button class="btn-header h-11 bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full">
+        <NuxtLink
+          to="/request-demo"
+          class="text-sm font-semibold text-gray-900 ml-3 btn-header-a"
+        >
+          <button
+            class="btn-header h-11 bg-[#2E2E2E] text-white w-[150px] items-center justify-center rounded-full"
+          >
             درخواست دمو
           </button>
         </NuxtLink>
-        <div class="d-none d-xl-flex ml-4 text-sm font-semibold text-gray-900 w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center">
+        <div
+          class="d-none d-xl-flex ml-4 text-sm font-semibold text-gray-900 w-11 h-11 rounded-full border-2 border-solid border-[#D1D3DF] flex items-center justify-center"
+        >
           <span class="pt-[3px]">EN</span>
         </div>
         <div class="d-none d-xl-block">
@@ -273,38 +296,41 @@
 </template>
 
 <script setup>
-import { useStoreResponsive } from '~/stores/responsive'
+import { useStoreResponsive } from "~/stores/responsive";
 
 //
-const defaultIconClass = ref('open-icon')
+const defaultIconClass = ref("open-icon");
 
 // const topMenuClass = ref('top-menu-opacity-off')
 //defaultIconClass
 
-
 const changeIcon = () => {
-  if (defaultIconClass.value === 'open-icon') {
-    defaultIconClass.value = 'close-icon'
-    document.body.style.overflow = 'hidden'
-    useStoreResponsive().isMenuOpen = true
+  if (defaultIconClass.value === "open-icon") {
+    defaultIconClass.value = "close-icon";
+    document.body.style.overflow = "hidden";
+    useStoreResponsive().isMenuOpen = true;
 
     // topMenuClass.value = 'top-menu-opacity'
   } else {
-    defaultIconClass.value = 'open-icon'
-    document.body.style.overflow = 'auto'
+    defaultIconClass.value = "open-icon";
+    document.body.style.overflow = "auto";
     // topMenuClass.value = 'top-menu-opacity-off'
-    useStoreResponsive().isMenuOpen = false
+    useStoreResponsive().isMenuOpen = false;
   }
   // console.log('changeIcon:' + changeIcon)
-}
+};
 
- const route = useRoute()
- watch(() => route.fullPath,() => {
-   //console.log('from nav')
-    if (defaultIconClass.value === 'close-icon' && !useStoreResponsive().isMenuOpen) {
-    	defaultIconClass.value = 'open-icon'
-	}
- }
-)
-
+const route = useRoute();
+watch(
+  () => route.fullPath,
+  () => {
+    //console.log('from nav')
+    if (
+      defaultIconClass.value === "close-icon" &&
+      !useStoreResponsive().isMenuOpen
+    ) {
+      defaultIconClass.value = "open-icon";
+    }
+  }
+);
 </script>
